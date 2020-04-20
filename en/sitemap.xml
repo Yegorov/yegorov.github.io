@@ -4,6 +4,7 @@
   
   <url>
     <loc>https://yegorov.github.io/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -18,6 +19,7 @@
   
   <url>
     <loc>https://yegorov.github.io/categories/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -31,7 +33,33 @@
   </url>
   
   <url>
+    <loc>https://yegorov.github.io/series/getting-started/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/posts/setup-hugo/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/categories/how-to/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/tags/hugo/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/posts/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yegorov.github.io/series/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -46,6 +74,7 @@
   
   <url>
     <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2020-04-20T23:47:56+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
