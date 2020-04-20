@@ -128,6 +128,7 @@
 <p>Download hugo (hugo_extended_0.69.0_Linux-64bit.tar.gz) from <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a>
 and unpack to <code>~/.local/bin</code></p>
 <p><code>$ hugo new site personal-blog</code></p>
+<p>Output will be:</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Congratulations! Your new Hugo site is created in ~/personal-blog.
 
 Just a few more steps and you&#39;re ready to go:
@@ -145,7 +146,27 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 $ git init
 
 $ git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
-</code></pre></div><p>Edit <em>config.toml</em></p>
+</code></pre></div><p>Edit <em>config.toml</em>, for example <a href="https://github.com/luizdepra/hugo-coder/blob/master/exampleSite/config.toml">like here</a></p>
+<p>Next, follow <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages">this guide</a> for deploy to Github pages:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">echo &#39;public/&#39; &gt;&gt; .gitignore
+
+rm -rf public
+
+git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
+
+hugo
+
+cd public
+git add .
+git commit -m &#34;Rebuilding&#34;
+git push origin master
+</code></pre></div><p>This is it. Thanks for reading. Happy coding 🚀</p>
+<h3 id="some-related-links">Some related links</h3>
+<ul>
+<li><a href="https://dev.to/toyotarone/how-to-host-your-hugo-website-on-github-pages-4aa2">How to host your Hugo website on GitHub pages</a></li>
+<li><a href="https://dev.to/zaracooper/create-your-developer-portfolio-using-hugo-and-github-pages-35en">Create your developer portfolio using Hugo and Github Pages</a></li>
+<li><a href="https://medium.com/swlh/hosting-a-hugo-blog-on-github-pages-with-travis-ci-e74a1d686f10">Hosting a Hugo blog on GitHub Pages with Travis CI</a></li>
+</ul>
 
       </div>
 
