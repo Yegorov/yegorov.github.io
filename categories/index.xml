@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Artem Yegorov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2020 23:47:56 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 22:45:00 +0300</lastBuildDate>
     
 	<atom:link href="https://yegorov.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mail</title>
+      <link>https://yegorov.github.io/categories/mail/</link>
+      <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
+      
+      <guid>https://yegorov.github.io/categories/mail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://yegorov.github.io/categories/rails/</link>
+      <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
+      
+      <guid>https://yegorov.github.io/categories/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://yegorov.github.io/categories/ruby/</link>
+      <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
+      
+      <guid>https://yegorov.github.io/categories/ruby/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>how to</title>

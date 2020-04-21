@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Artem Yegorov</title>
-    <link>https://yegorov.github.io/posts/</link>
-    <description>Recent content in Posts on Artem Yegorov</description>
+    <title>mail on Artem Yegorov</title>
+    <link>https://yegorov.github.io/categories/mail/</link>
+    <description>Recent content in mail on Artem Yegorov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 21 Apr 2020 22:45:00 +0300</lastBuildDate>
     
-	<atom:link href="https://yegorov.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yegorov.github.io/categories/mail/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,18 +21,6 @@
 $ gem install mailcatcher $ mailcatcher The output to the terminal will be like this
 Starting MailCatcher ==&amp;gt; smtp://127.0.0.1:1025 /home/artem/.rvm/gems/ruby-2.6.0@mailcatcher/gems/thin-1.5.1/lib/thin/server.rb:104: warning: constant ::Fixnum is deprecated ==&amp;gt; http://127.0.0.1:1080 *** MailCatcher runs as a daemon by default. Go to the web interface to quit. Add this config to you environment file, for example: config/environments/staging.rb
 config.action_mailer.default_url_options = { host: &amp;#39;example.com&amp;#39; } config.action_mailer.delivery_method = :smtp config.</description>
-    </item>
-    
-    <item>
-      <title>How setup Hugo</title>
-      <link>https://yegorov.github.io/posts/setup-hugo/</link>
-      <pubDate>Mon, 20 Apr 2020 23:47:56 +0300</pubDate>
-      
-      <guid>https://yegorov.github.io/posts/setup-hugo/</guid>
-      <description>How setup Hugo Download hugo (hugo_extended_0.69.0_Linux-64bit.tar.gz) from https://github.com/gohugoio/hugo/releases and unpack to ~/.local/bin
-$ hugo new site personal-blog
-Output will be:
-Congratulations! Your new Hugo site is created in ~/personal-blog. Just a few more steps and you&amp;#39;re ready to go: 1. Download a theme into the same-named folder. Choose a theme from https://themes.gohugo.io/ or create your own with the &amp;#34;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;#34; command. 2. Perhaps you want to add some content.</description>
     </item>
     
   </channel>
