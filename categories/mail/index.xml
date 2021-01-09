@@ -6,11 +6,7 @@
     <description>Recent content in mail on Artem Yegorov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2020 22:45:00 +0300</lastBuildDate>
-    
-	<atom:link href="https://yegorov.github.io/categories/mail/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 21 Apr 2020 22:45:00 +0300</lastBuildDate><atom:link href="https://yegorov.github.io/categories/mail/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install and configure mailcatcher for Rails project</title>
       <link>https://yegorov.github.io/posts/mailcatcher/</link>

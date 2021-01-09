@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://yegorov.github.io/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-04-21T22:45:00+03:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://yegorov.github.io/ru/sitemap.xml</loc>
-		
-	</sitemap>
-	
+  
+  <sitemap>
+    <loc>https://yegorov.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2020-04-21T22:45:00+03:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://yegorov.github.io/ru/sitemap.xml</loc>
+    
+  </sitemap>
+  
 </sitemapindex>

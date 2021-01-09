@@ -6,11 +6,7 @@
     <description>Recent content in hugo on Artem Yegorov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2020 23:47:56 +0300</lastBuildDate>
-    
-	<atom:link href="https://yegorov.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 20 Apr 2020 23:47:56 +0300</lastBuildDate><atom:link href="https://yegorov.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How setup Hugo</title>
       <link>https://yegorov.github.io/posts/setup-hugo/</link>
