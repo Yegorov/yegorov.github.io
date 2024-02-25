@@ -7,28 +7,28 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Artem Yegorov">
-    <meta name="description" content="How install and setting mailcatcher in rails">
+    <meta name="description" content="How install vagrant from source with RVM">
     <meta name="keywords" content="ruby,rails,blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Install and configure mailcatcher for Rails project"/>
-<meta name="twitter:description" content="How install and setting mailcatcher in rails"/>
+<meta name="twitter:title" content="Install vagrant with RVM"/>
+<meta name="twitter:description" content="How install vagrant from source with RVM"/>
 
-    <meta property="og:title" content="Install and configure mailcatcher for Rails project" />
-<meta property="og:description" content="How install and setting mailcatcher in rails" />
+    <meta property="og:title" content="Install vagrant with RVM" />
+<meta property="og:description" content="How install vagrant from source with RVM" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://yegorov.github.io/posts/mailcatcher/" />
-<meta property="article:published_time" content="2020-04-21T22:45:00+03:00" />
-<meta property="article:modified_time" content="2020-04-21T22:45:00+03:00" />
+<meta property="og:url" content="https://yegorov.github.io/posts/install-vagrant-with-rvm/" />
+<meta property="article:published_time" content="2024-02-25T12:00:00+03:00" />
+<meta property="article:modified_time" content="2024-02-25T12:00:00+03:00" />
 
 
 
     <title>
-  Install and configure mailcatcher for Rails project · Artem Yegorov
+  Install vagrant with RVM · Artem Yegorov
 </title>
 
     
-      <link rel="canonical" href="https://yegorov.github.io/posts/mailcatcher/">
+      <link rel="canonical" href="https://yegorov.github.io/posts/install-vagrant-with-rvm/">
     
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -132,14 +132,14 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Install and configure mailcatcher for Rails project</h1>
+          <h1 class="title">Install vagrant with RVM</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='2020-04-21T22:45:00&#43;03:00'>
-                April 21, 2020
+              <time datetime='2024-02-25T12:00:00&#43;03:00'>
+                February 25, 2024
               </time>
             </span>
             <span class="reading-time">
@@ -152,54 +152,63 @@
   <i class="fa fa-folder" aria-hidden="true"></i>
     <a href="https://yegorov.github.io/categories/ruby/">ruby</a>
       <span class="separator">•</span>
-    <a href="https://yegorov.github.io/categories/rails/">rails</a>
-      <span class="separator">•</span>
-    <a href="https://yegorov.github.io/categories/mail/">mail</a></div>
+    <a href="https://yegorov.github.io/categories/vagrant/">vagrant</a></div>
 
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
     <a href="https://yegorov.github.io/tags/ruby/">ruby</a>
       <span class="separator">•</span>
-    <a href="https://yegorov.github.io/tags/rails/">rails</a>
+    <a href="https://yegorov.github.io/tags/vagrant/">vagrant</a>
       <span class="separator">•</span>
-    <a href="https://yegorov.github.io/tags/mailcatcher/">mailcatcher</a>
-      <span class="separator">•</span>
-    <a href="https://yegorov.github.io/tags/action_mailer/">action_mailer</a>
-      <span class="separator">•</span>
-    <a href="https://yegorov.github.io/tags/mail/">mail</a></div>
+    <a href="https://yegorov.github.io/tags/rvm/">rvm</a></div>
 
         </div>
       </header>
 
       <div>
         
-        <h2 id="install-and-start-mailcatcher">Install and start mailcatcher</h2>
-<p>Type in terminal next commands:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gem install mailcatcher
-</code></pre></div><div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mailcatcher
-</code></pre></div><p>The output to the terminal will be like this</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Starting MailCatcher
-==&gt; smtp://127.0.0.1:1025
-/home/artem/.rvm/gems/ruby-2.6.0@mailcatcher/gems/thin-1.5.1/lib/thin/server.rb:104: warning: constant ::Fixnum is deprecated
-==&gt; http://127.0.0.1:1080
-*** MailCatcher runs as a daemon by default. Go to the web interface to quit.
-</code></pre></div><p>Add this config to you environment file, for example: <code>config/environments/staging.rb</code></p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">config.action_mailer.default_url_options = { <span style="color:#0ff;font-weight:bold">host</span>: <span style="color:#0ff;font-weight:bold">&#39;example.com&#39;</span> }
-config.action_mailer.delivery_method = <span style="color:#0ff;font-weight:bold">:smtp</span>
-config.action_mailer.smtp_settings = { <span style="color:#0ff;font-weight:bold">address</span>: <span style="color:#0ff;font-weight:bold">&#39;127.0.0.1&#39;</span>, <span style="color:#0ff;font-weight:bold">port</span>: <span style="color:#ff0;font-weight:bold">1025</span> }
-</code></pre></div><p>One of the known problems: <strong>NOT USE</strong> <code>localhost</code> since it can be resolved on ipv6 address</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#007f7f"># config.action_mailer.smtp_settings = { address: &#39;localhost&#39;, port: 1025 }</span>
-<span style="color:#007f7f"># config.action_mailer.smtp_settings = { address: &#39;::1&#39;, port: 1025 }</span>
-</code></pre></div><h3 id="related-links">Related links</h3>
-<ul>
-<li><a href="https://mailcatcher.me/">MailCatcher</a></li>
-<li><a href="https://github.com/mailhog/MailHog">MailHog</a></li>
-<li><a href="https://github.com/soveran/mailcat">mailcat</a></li>
-<li><a href="https://github.com/maildev/maildev">MailDev</a></li>
-<li><a href="https://github.com/mailslurper/mailslurper">MailSlurper</a></li>
-<li><a href="https://mailtrap.io/">Mailtrap</a></li>
-</ul>
+        <h1 id="install-vagrant-with-rvm-and-ruby-330">Install vagrant with RVM and Ruby 3.3.0</h1>
+<p>First, open the terminal and type this commands:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd ~
+mkdir ~/opt
+cd ~/opt
+git clone https://github.com/hashicorp/vagrant.git
+rvm use 3.3.0
+cd vagrant
+direnv allow
+bundle install
+</code></pre></div><p>Next, create wrapper script in the folder that consists in <code>$PATH</code>, for example: <code>~/.local/bin</code></p>
+<p><em>vagrant</em></p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#0f0;font-weight:bold">#!/usr/bin/env bash
+</span><span style="color:#0f0;font-weight:bold"></span>
+<span style="color:#fff;font-weight:bold">if</span>
+  [[ -s <span style="color:#0ff;font-weight:bold">&#34;/home/artem/.rvm/gems/ruby-3.3.0/environment&#34;</span> ]]
+<span style="color:#fff;font-weight:bold">then</span>
+  <span style="color:#fff;font-weight:bold">source</span> <span style="color:#0ff;font-weight:bold">&#34;/home/artem/.rvm/gems/ruby-3.3.0/environment&#34;</span>
+  <span style="color:#fff;font-weight:bold">exec</span> /home/artem/opt/vagrant/exec/vagrant <span style="color:#0ff;font-weight:bold">&#34;</span>$@<span style="color:#0ff;font-weight:bold">&#34;</span>
+<span style="color:#fff;font-weight:bold">else</span>
+  <span style="color:#fff;font-weight:bold">echo</span> <span style="color:#0ff;font-weight:bold">&#34;ERROR: Missing RVM environment file: &#39;/home/artem/.rvm/gems/ruby-3.3.0/environment&#39;&#34;</span> &gt;&amp;<span style="color:#ff0;font-weight:bold">2</span>
+  <span style="color:#fff;font-weight:bold">exit</span> <span style="color:#ff0;font-weight:bold">1</span>
+<span style="color:#fff;font-weight:bold">fi</span>
 
+</code></pre></div><p>Make it executable: <code>chmod +x ~/.local/bin/vagrant</code></p>
+<p>Finally, create <code>Vagrantfile</code> with content:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(&#34;2&#34;) do |config|
+  config.vm.box = &#34;debian/bookworm64&#34;
+  config.vm.provider &#34;virtualbox&#34; do |v|
+    v.memory = 2048
+    v.cpus = 2
+  end
+  # config.vm.disk :disk, size: &#34;2GB&#34;, name: &#34;extra_storage&#34;
+end
+
+</code></pre></div><p>And run:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">vagrant up
+vagrant ssh
+</code></pre></div>
       </div>
 
 

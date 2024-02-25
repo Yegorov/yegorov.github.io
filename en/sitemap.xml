@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yegorov.github.io/tags/action_mailer/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -24,7 +19,7 @@
   
   <url>
     <loc>https://yegorov.github.io/categories/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -35,6 +30,81 @@
                 hreflang="en"
                 href="https://yegorov.github.io/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/posts/install-vagrant-with-rvm/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/posts/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/tags/ruby/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/categories/ruby/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/tags/rvm/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/series/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/series/tips/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/tags/vagrant/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/categories/vagrant/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yegorov.github.io/tags/action_mailer/</loc>
+    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
   </url>
   
   <url>
@@ -63,11 +133,6 @@
   </url>
   
   <url>
-    <loc>https://yegorov.github.io/posts/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yegorov.github.io/tags/rails/</loc>
     <lastmod>2020-04-21T22:45:00+03:00</lastmod>
   </url>
@@ -75,46 +140,6 @@
   <url>
     <loc>https://yegorov.github.io/categories/rails/</loc>
     <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yegorov.github.io/categories/ruby/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yegorov.github.io/series/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
   </url>
   
   <url>

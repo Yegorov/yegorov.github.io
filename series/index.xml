@@ -6,7 +6,16 @@
     <description>Recent content in Series on Artem Yegorov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2020 22:45:00 +0300</lastBuildDate><atom:link href="https://yegorov.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2024 12:00:00 +0300</lastBuildDate><atom:link href="https://yegorov.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tips</title>
+      <link>https://yegorov.github.io/series/tips/</link>
+      <pubDate>Sun, 25 Feb 2024 12:00:00 +0300</pubDate>
+      
+      <guid>https://yegorov.github.io/series/tips/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>mailcatcher</title>
       <link>https://yegorov.github.io/series/mailcatcher/</link>

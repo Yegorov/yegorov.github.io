@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2020 22:45:00 +0300</lastBuildDate><atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2024 12:00:00 +0300</lastBuildDate><atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Sun, 25 Feb 2024 12:00:00 +0300</pubDate>
+      
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rvm</title>
+      <link>https://yegorov.github.io/tags/rvm/</link>
+      <pubDate>Sun, 25 Feb 2024 12:00:00 +0300</pubDate>
+      
+      <guid>https://yegorov.github.io/tags/rvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vagrant</title>
+      <link>https://yegorov.github.io/tags/vagrant/</link>
+      <pubDate>Sun, 25 Feb 2024 12:00:00 +0300</pubDate>
+      
+      <guid>https://yegorov.github.io/tags/vagrant/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>action_mailer</title>
       <link>https://yegorov.github.io/tags/action_mailer/</link>
@@ -40,15 +67,6 @@
       <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
       
       <guid>https://yegorov.github.io/tags/rails/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
-      
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     
