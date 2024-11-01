@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://yegorov.github.io/ru/categories/</loc>
     <xhtml:link
@@ -14,9 +13,7 @@
                 hreflang="ru"
                 href="https://yegorov.github.io/ru/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yegorov.github.io/ru/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -28,9 +25,7 @@
                 hreflang="ru"
                 href="https://yegorov.github.io/ru/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yegorov.github.io/ru/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,9 +37,7 @@
                 hreflang="ru"
                 href="https://yegorov.github.io/ru/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yegorov.github.io/ru/</loc>
     <xhtml:link
                 rel="alternate"
@@ -57,5 +50,4 @@
                 href="https://yegorov.github.io/ru/"
                 />
   </url>
-  
 </urlset>
