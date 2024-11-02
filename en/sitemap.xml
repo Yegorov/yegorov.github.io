@@ -4,6 +4,16 @@
   <url>
     <loc>https://yegorov.github.io/about/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/about/"
+                />
   </url><url>
     <loc>https://yegorov.github.io/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
