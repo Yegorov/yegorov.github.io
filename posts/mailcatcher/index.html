@@ -241,21 +241,21 @@
   </a>
 </h2>
 <p>Type in terminal next commands:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ gem install mailcatcher
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ mailcatcher
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ gem install mailcatcher
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ mailcatcher
 </span></span></code></pre></div><p>The output to the terminal will be like this</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Starting MailCatcher
-</span></span><span style="display:flex;"><span>==&gt; smtp://127.0.0.1:1025
-</span></span><span style="display:flex;"><span>/home/artem/.rvm/gems/ruby-2.6.0@mailcatcher/gems/thin-1.5.1/lib/thin/server.rb:104: warning: constant ::Fixnum is deprecated
-</span></span><span style="display:flex;"><span>==&gt; http://127.0.0.1:1080
-</span></span><span style="display:flex;"><span>*** MailCatcher runs as a daemon by default. Go to the web interface to quit.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Starting <span class="nv">MailCatcher</span>
+</span></span><span class="line"><span class="cl"><span class="o">==</span>&gt; smtp://127.0.0.1:1025
+</span></span><span class="line"><span class="cl">/home/artem/.rvm/gems/ruby-2.6.0@mailcatcher/gems/thin-1.5.1/lib/thin/server.rb:104: warning: constant ::Fixnum is <span class="nv">deprecated</span>
+</span></span><span class="line"><span class="cl"><span class="o">==</span>&gt; http://127.0.0.1:1080
+</span></span><span class="line"><span class="cl">*** MailCatcher runs as a daemon by default. Go to the web interface to quit.
 </span></span></code></pre></div><p>Add this config to you environment file, for example: <code>config/environments/staging.rb</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>config.action_mailer.default_url_options = { <span style="color:#0ff;font-weight:bold">host</span>: <span style="color:#0ff;font-weight:bold">&#39;example.com&#39;</span> }
-</span></span><span style="display:flex;"><span>config.action_mailer.delivery_method = <span style="color:#0ff;font-weight:bold">:smtp</span>
-</span></span><span style="display:flex;"><span>config.action_mailer.smtp_settings = { <span style="color:#0ff;font-weight:bold">address</span>: <span style="color:#0ff;font-weight:bold">&#39;127.0.0.1&#39;</span>, <span style="color:#0ff;font-weight:bold">port</span>: <span style="color:#ff0;font-weight:bold">1025</span> }
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">config</span><span class="o">.</span><span class="n">action_mailer</span><span class="o">.</span><span class="n">default_url_options</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">host</span><span class="p">:</span> <span class="s1">&#39;example.com&#39;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">config</span><span class="o">.</span><span class="n">action_mailer</span><span class="o">.</span><span class="n">delivery_method</span> <span class="o">=</span> <span class="ss">:smtp</span>
+</span></span><span class="line"><span class="cl"><span class="n">config</span><span class="o">.</span><span class="n">action_mailer</span><span class="o">.</span><span class="n">smtp_settings</span> <span class="o">=</span> <span class="p">{</span> <span class="ss">address</span><span class="p">:</span> <span class="s1">&#39;127.0.0.1&#39;</span><span class="p">,</span> <span class="ss">port</span><span class="p">:</span> <span class="mi">1025</span> <span class="p">}</span>
 </span></span></code></pre></div><p>One of the known problems: <strong>NOT USE</strong> <code>localhost</code> since it can be resolved on ipv6 address</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#007f7f"># config.action_mailer.smtp_settings = { address: &#39;localhost&#39;, port: 1025 }</span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f"># config.action_mailer.smtp_settings = { address: &#39;::1&#39;, port: 1025 }</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="c1"># config.action_mailer.smtp_settings = { address: &#39;localhost&#39;, port: 1025 }</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># config.action_mailer.smtp_settings = { address: &#39;::1&#39;, port: 1025 }</span>
 </span></span></code></pre></div><h3 id="related-links">
   Related links
   <a class="heading-link" href="#related-links">

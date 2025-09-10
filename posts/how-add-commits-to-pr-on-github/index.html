@@ -3,7 +3,7 @@
 
 <head>
   <title>
-  Install vagrant with RVM · Artem Yegorov
+  How add commits to Pull Request on Github · Artem Yegorov
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,28 +13,28 @@
 
 
 <meta name="author" content="Artem Yegorov">
-<meta name="description" content="How install vagrant from source with RVM">
+<meta name="description" content="Example of how to make a commit to the submitted PR to you repository on Github">
 <meta name="keywords" content="ruby,rails,blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Install vagrant with RVM">
-  <meta name="twitter:description" content="How install vagrant from source with RVM">
+  <meta name="twitter:title" content="How add commits to Pull Request on Github">
+  <meta name="twitter:description" content="Example of how to make a commit to the submitted PR to you repository on Github">
 
-<meta property="og:url" content="https://yegorov.github.io/posts/install-vagrant-with-rvm/">
+<meta property="og:url" content="https://yegorov.github.io/posts/how-add-commits-to-pr-on-github/">
   <meta property="og:site_name" content="Artem Yegorov">
-  <meta property="og:title" content="Install vagrant with RVM">
-  <meta property="og:description" content="How install vagrant from source with RVM">
+  <meta property="og:title" content="How add commits to Pull Request on Github">
+  <meta property="og:description" content="Example of how to make a commit to the submitted PR to you repository on Github">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-02-25T12:00:00+03:00">
-    <meta property="article:modified_time" content="2024-02-25T12:00:00+03:00">
-    <meta property="article:tag" content="Ruby">
-    <meta property="article:tag" content="Vagrant">
-    <meta property="article:tag" content="Rvm">
-      <meta property="og:see_also" content="https://yegorov.github.io/posts/how-add-commits-to-pr-on-github/">
+    <meta property="article:published_time" content="2025-09-10T11:40:20+03:00">
+    <meta property="article:modified_time" content="2025-09-10T11:40:20+03:00">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Til">
+      <meta property="og:see_also" content="https://yegorov.github.io/posts/install-vagrant-with-rvm/">
 
 
 
@@ -57,7 +57,7 @@
 
 
 
-<link rel="canonical" href="https://yegorov.github.io/posts/install-vagrant-with-rvm/">
+<link rel="canonical" href="https://yegorov.github.io/posts/how-add-commits-to-pr-on-github/">
 
 
 <link rel="preload" href="https://yegorov.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -178,8 +178,8 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="https://yegorov.github.io/posts/install-vagrant-with-rvm/">
-              Install vagrant with RVM
+            <a class="title-link" href="https://yegorov.github.io/posts/how-add-commits-to-pr-on-github/">
+              How add commits to Pull Request on Github
             </a>
           </h1>
         </div>
@@ -187,8 +187,8 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa-solid fa-calendar" aria-hidden="true"></i>
-              <time datetime="2024-02-25T12:00:00&#43;03:00">
-                February 25, 2024
+              <time datetime="2025-09-10T11:40:20&#43;03:00">
+                September 10, 2025
               </time>
             </span>
             <span class="reading-time">
@@ -199,22 +199,22 @@
           
           <div class="categories">
   <i class="fa-solid fa-folder" aria-hidden="true"></i>
-    <a href="https://yegorov.github.io/categories/ruby/">Ruby</a>
+    <a href="https://yegorov.github.io/categories/git/">Git</a>
       <span class="separator">•</span>
-    <a href="https://yegorov.github.io/categories/vagrant/">Vagrant</a></div>
+    <a href="https://yegorov.github.io/categories/github/">Github</a></div>
 
           <div class="tags">
   <i class="fa-solid fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="https://yegorov.github.io/tags/ruby/">Ruby</a>
+      <a href="https://yegorov.github.io/tags/git/">Git</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="https://yegorov.github.io/tags/vagrant/">Vagrant</a>
+      <a href="https://yegorov.github.io/tags/github/">Github</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="https://yegorov.github.io/tags/rvm/">Rvm</a>
+      <a href="https://yegorov.github.io/tags/til/">Til</a>
     </span></div>
 
         </div>
@@ -222,51 +222,46 @@
 
       <div class="post-content">
         
-        <h1 id="install-vagrant-with-rvm-and-ruby-330">
-  Install vagrant with RVM and Ruby 3.3.0
-  <a class="heading-link" href="#install-vagrant-with-rvm-and-ruby-330">
+        <h1 id="how-add-commits-to-pull-request-on-github">
+  How add commits to Pull Request on Github
+  <a class="heading-link" href="#how-add-commits-to-pull-request-on-github">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<p>First, open the terminal and type this commands:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd ~
-</span></span><span class="line"><span class="cl">mkdir ~/opt
-</span></span><span class="line"><span class="cl">cd ~/opt
-</span></span><span class="line"><span class="cl">git clone https://github.com/hashicorp/vagrant.git
-</span></span><span class="line"><span class="cl">rvm use 3.3.0
-</span></span><span class="line"><span class="cl">cd vagrant
-</span></span><span class="line"><span class="cl">direnv allow
-</span></span><span class="line"><span class="cl">bundle install
-</span></span></code></pre></div><p>Next, create wrapper script in the folder that consists in <code>$PATH</code>, for example: <code>~/.local/bin</code></p>
-<p><em>vagrant</em></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/usr/bin/env bash
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
-</span></span><span class="line"><span class="cl"><span class="k">if</span>
-</span></span><span class="line"><span class="cl">  <span class="o">[[</span> -s <span class="s2">&#34;/home/artem/.rvm/gems/ruby-3.3.0/environment&#34;</span> <span class="o">]]</span>
-</span></span><span class="line"><span class="cl"><span class="k">then</span>
-</span></span><span class="line"><span class="cl">  <span class="nb">source</span> <span class="s2">&#34;/home/artem/.rvm/gems/ruby-3.3.0/environment&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nb">exec</span> /home/artem/opt/vagrant/exec/vagrant <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="k">else</span>
-</span></span><span class="line"><span class="cl">  <span class="nb">echo</span> <span class="s2">&#34;ERROR: Missing RVM environment file: &#39;/home/artem/.rvm/gems/ruby-3.3.0/environment&#39;&#34;</span> &gt;<span class="p">&amp;</span><span class="m">2</span>
-</span></span><span class="line"><span class="cl">  <span class="nb">exit</span> <span class="m">1</span>
-</span></span><span class="line"><span class="cl"><span class="k">fi</span>
-</span></span></code></pre></div><p>Make it executable: <code>chmod +x ~/.local/bin/vagrant</code></p>
-<p>Finally, create <code>Vagrantfile</code> with content:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># -*- mode: ruby -*-
-</span></span><span class="line"><span class="cl"># vi: set ft=ruby :
+<p>Sometimes there are situations when you need to add your commits to the PR that was sent to your repository.
+Follow these commands (taken from <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally"  class="external-link" target="_blank" rel="noopener">here</a>
+), but first of all, make sure that the PR author set checkbox &ldquo;Allow edits by maintainers&rdquo;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Update you main repository
+</span></span><span class="line"><span class="cl">git checkout master
+</span></span><span class="line"><span class="cl">git pull origin master
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Vagrant.configure(&#34;2&#34;) do |config|
-</span></span><span class="line"><span class="cl">  config.vm.box = &#34;debian/bookworm64&#34;
-</span></span><span class="line"><span class="cl">  config.vm.provider &#34;virtualbox&#34; do |v|
-</span></span><span class="line"><span class="cl">    v.memory = 2048
-</span></span><span class="line"><span class="cl">    v.cpus = 2
-</span></span><span class="line"><span class="cl">  end
-</span></span><span class="line"><span class="cl">  # config.vm.disk :disk, size: &#34;2GB&#34;, name: &#34;extra_storage&#34;
-</span></span><span class="line"><span class="cl">end
-</span></span></code></pre></div><p>And run:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vagrant up
-</span></span><span class="line"><span class="cl">vagrant ssh
+</span></span><span class="line"><span class="cl"># Fetch PR 19 to local branch 19
+</span></span><span class="line"><span class="cl">git fetch origin pull/19/head:19
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Move to PR branch
+</span></span><span class="line"><span class="cl">git checkout 19
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Make some change
+</span></span><span class="line"><span class="cl">git show HEAD
+</span></span><span class="line"><span class="cl">git commit -m &#34;Add some commit info&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Add remote fork repository
+</span></span><span class="line"><span class="cl">git remote -v
+</span></span><span class="line"><span class="cl">git remote add username git@github.com:username/reponame.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Push my local branch to branch in fork repository
+</span></span><span class="line"><span class="cl">git push username 19:patch-1
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Pull new commits
+</span></span><span class="line"><span class="cl">git checkout master
+</span></span><span class="line"><span class="cl">git pull origin master
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Delete local branch
+</span></span><span class="line"><span class="cl">git branch 19 -d
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Remove origin
+</span></span><span class="line"><span class="cl">git remote remove username
 </span></span></code></pre></div>
       </div>
 
@@ -291,11 +286,11 @@
         
         
           
-            <li>
-              <a href="https://yegorov.github.io/posts/how-add-commits-to-pr-on-github/">How add commits to Pull Request on Github</a>
-            </li>
-          
         
+          
+            <li>
+              <a href="https://yegorov.github.io/posts/install-vagrant-with-rvm/">Install vagrant with RVM</a>
+            </li>
           
         
         </ul>
