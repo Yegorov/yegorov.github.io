@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/categories/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -29,25 +29,28 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/tags/git/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/git/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/github/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/github/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/posts/how-add-commits-to-pr-on-github/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <loc>https://yegorov.github.io/series/github-how-to/</loc>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/posts/how-localy-merge-github-pull-request/</loc>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/posts/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/series/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -60,7 +63,7 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -73,9 +76,9 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/tags/til/</loc>
-    <lastmod>2025-09-10T11:40:20+03:00</lastmod>
+    <lastmod>2025-09-12T10:05:42+03:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/series/tips/</loc>
+    <loc>https://yegorov.github.io/posts/how-add-commits-to-pr-on-github/</loc>
     <lastmod>2025-09-10T11:40:20+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/about/</loc>
@@ -101,6 +104,9 @@
     <lastmod>2024-02-25T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/rvm/</loc>
+    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/series/rvm/</loc>
     <lastmod>2024-02-25T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/vagrant/</loc>
