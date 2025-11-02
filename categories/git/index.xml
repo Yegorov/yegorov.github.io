@@ -6,8 +6,15 @@
     <description>Recent content in Git on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Sep 2025 10:05:42 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 22:25:00 +0300</lastBuildDate>
     <atom:link href="https://yegorov.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to continue using a repository after cloning</title>
+      <link>https://yegorov.github.io/posts/how-continue-using-repo-after-cloning/</link>
+      <pubDate>Sun, 02 Nov 2025 22:25:00 +0300</pubDate>
+      <guid>https://yegorov.github.io/posts/how-continue-using-repo-after-cloning/</guid>
+      <description>&lt;p&gt;Sometimes you just clone a repository to experiment with the project&amp;rsquo;s code and don&amp;rsquo;t know in advance whether you&amp;rsquo;ll be sending pull requests.&#xA;You do:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone git@github.com:user/project.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd project&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# and try to compile or run code&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, at some point, when you find a bug or just want to add new functionality, you fork the repository on GitHub. And instead of cloning your newly created fork into a new folder and manually transferring your changes, you can run these commands and continue working in the same folder you cloned the original repository into:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How localy merge Github Pull Request</title>
       <link>https://yegorov.github.io/posts/how-localy-merge-github-pull-request/</link>
