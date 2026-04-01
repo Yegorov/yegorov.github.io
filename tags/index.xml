@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Nov 2025 22:25:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 13:00:32 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CI</title>
+      <link>https://yegorov.github.io/tags/ci/</link>
+      <pubDate>Wed, 10 Dec 2025 13:00:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails</title>
+      <link>https://yegorov.github.io/tags/rails/</link>
+      <pubDate>Wed, 10 Dec 2025 13:00:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Wed, 10 Dec 2025 13:00:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Git</title>
       <link>https://yegorov.github.io/tags/git/</link>
@@ -27,13 +48,6 @@
       <link>https://yegorov.github.io/tags/til/</link>
       <pubDate>Fri, 12 Sep 2025 10:05:42 +0300</pubDate>
       <guid>https://yegorov.github.io/tags/til/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Sun, 25 Feb 2024 12:00:00 +0300</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -69,13 +83,6 @@
       <link>https://yegorov.github.io/tags/mailcatcher/</link>
       <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
       <guid>https://yegorov.github.io/tags/mailcatcher/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rails</title>
-      <link>https://yegorov.github.io/tags/rails/</link>
-      <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
-      <guid>https://yegorov.github.io/tags/rails/</guid>
       <description></description>
     </item>
     <item>

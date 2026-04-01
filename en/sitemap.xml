@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2025-11-02T22:25:00+03:00</lastmod>
+    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -13,6 +13,34 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://yegorov.github.io/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/notes/check-internet-availability/</loc>
+    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ci/</loc>
+    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/</loc>
+    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rails/</loc>
+    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ruby/</loc>
+    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
                 />
   </url><url>
     <loc>https://yegorov.github.io/categories/</loc>
@@ -62,19 +90,6 @@
                 href="https://yegorov.github.io/series/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2025-11-02T22:25:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
-  </url><url>
     <loc>https://yegorov.github.io/posts/how-localy-merge-github-pull-request/</loc>
     <lastmod>2025-09-12T10:05:42+03:00</lastmod>
   </url><url>
@@ -98,9 +113,6 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/posts/install-vagrant-with-rvm/</loc>
-    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/ruby/</loc>
     <lastmod>2024-02-25T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/ruby/</loc>
@@ -134,9 +146,6 @@
     <lastmod>2020-04-21T22:45:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/series/mailcatcher/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/rails/</loc>
     <lastmod>2020-04-21T22:45:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/rails/</loc>

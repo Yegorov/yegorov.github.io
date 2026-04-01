@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/ci/</link>
+    <description>Recent content in CI on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Dec 2025 13:00:32 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/ci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check internet availability</title>
+      <link>https://yegorov.github.io/notes/check-internet-availability/</link>
+      <pubDate>Wed, 10 Dec 2025 13:00:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/check-internet-availability/</guid>
+      <description>&lt;p&gt;Do you know how to check if you have internet access on your CI server?&lt;/p&gt;&#xA;&lt;p&gt;You can simply make a get request to any page, for example &lt;a href=&#34;https://www.google.com&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;https://www.google.com&lt;/code&gt;&lt;/a&gt; but this will not be an effective solution, since you do not need the HTML code that will come in response.&#xA;The most correct way is to make a get request to &lt;a href=&#34;https://www.google.com/generate_204&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;https://www.google.com/generate_204&lt;/code&gt;&lt;/a&gt; since the response will only contain the header.&#xA;If you work with Ruby or Rails, I recommend using this wonderful gem &lt;a href=&#34;https://github.com/yegor256/online&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;online&lt;/code&gt;&lt;/a&gt;&#xA;It does exactly what is described above.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

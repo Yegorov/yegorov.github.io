@@ -6,8 +6,15 @@
     <description>Recent content on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Nov 2025 22:25:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 13:00:32 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check internet availability</title>
+      <link>https://yegorov.github.io/notes/check-internet-availability/</link>
+      <pubDate>Wed, 10 Dec 2025 13:00:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/check-internet-availability/</guid>
+      <description>&lt;p&gt;Do you know how to check if you have internet access on your CI server?&lt;/p&gt;&#xA;&lt;p&gt;You can simply make a get request to any page, for example &lt;a href=&#34;https://www.google.com&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;https://www.google.com&lt;/code&gt;&lt;/a&gt; but this will not be an effective solution, since you do not need the HTML code that will come in response.&#xA;The most correct way is to make a get request to &lt;a href=&#34;https://www.google.com/generate_204&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;https://www.google.com/generate_204&lt;/code&gt;&lt;/a&gt; since the response will only contain the header.&#xA;If you work with Ruby or Rails, I recommend using this wonderful gem &lt;a href=&#34;https://github.com/yegor256/online&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;online&lt;/code&gt;&lt;/a&gt;&#xA;It does exactly what is described above.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to continue using a repository after cloning</title>
       <link>https://yegorov.github.io/posts/how-continue-using-repo-after-cloning/</link>

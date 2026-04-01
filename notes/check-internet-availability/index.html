@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-  <title>Tag: Rvm · Artem Yegorov</title>
+  <title>
+  Check internet availability · Artem Yegorov
+</title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
@@ -11,21 +13,27 @@
 
 
 <meta name="author" content="Artem Yegorov">
-<meta name="description" content="Artem Yegorov&#39;s personal website">
+<meta name="description" content="How to check internet availability in you CI">
 <meta name="keywords" content="ruby,rails,blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Rvm">
-  <meta name="twitter:description" content="Artem Yegorov&#39;s personal website">
+  <meta name="twitter:title" content="Check internet availability">
+  <meta name="twitter:description" content="How to check internet availability in you CI">
 
-<meta property="og:url" content="https://yegorov.github.io/tags/rvm/">
+<meta property="og:url" content="https://yegorov.github.io/notes/check-internet-availability/">
   <meta property="og:site_name" content="Artem Yegorov">
-  <meta property="og:title" content="Rvm">
-  <meta property="og:description" content="Artem Yegorov&#39;s personal website">
+  <meta property="og:title" content="Check internet availability">
+  <meta property="og:description" content="How to check internet availability in you CI">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2025-12-10T13:00:32+00:00">
+    <meta property="article:modified_time" content="2025-12-10T13:00:32+00:00">
+    <meta property="article:tag" content="Ruby">
+    <meta property="article:tag" content="Rails">
+    <meta property="article:tag" content="CI">
 
 
 
@@ -48,7 +56,7 @@
 
 
 
-<link rel="canonical" href="https://yegorov.github.io/tags/rvm/">
+<link rel="canonical" href="https://yegorov.github.io/notes/check-internet-availability/">
 
 
 <link rel="preload" href="https://yegorov.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -95,7 +103,6 @@
 <link rel="mask-icon" href="https://yegorov.github.io/images/safari-pinned-tab.svg" color="#5bbad5">
 
 
-<link rel="alternate" type="application/rss+xml" href="https://yegorov.github.io/tags/rvm/index.xml" title="Artem Yegorov" />
 
 
 
@@ -171,30 +178,84 @@
 
     <div class="content">
       
-  <section class="container list">
-  <header>
-    <h1 class="title">
-      <a class="title-link" href="https://yegorov.github.io/tags/rvm/">Tag: Rvm</a>
-    </h1>
-  </header>
+  <section class="container post notes">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://yegorov.github.io/notes/check-internet-availability/">
+              Check internet availability
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-12-10T13:00:32Z">
+                December 10, 2025
+              </time>
+            </span>
+
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/ruby/">Ruby</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/rails/">Rails</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/ci/">CI</a>
+    </span></div>
+
+          <ul class="socials">
+            
+              <li>
+                <a class="linkedin" href="https://www.linkedin.com/posts/yegorov0725_github-yegor256online-ruby-function-to-activity-7404505300621557761-o5xR" target="_blank">
+                  <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Do you know how to check if you have internet access on your CI server?</p>
+<p>You can simply make a get request to any page, for example <a href="https://www.google.com"  class="external-link" target="_blank" rel="noopener"><code>https://www.google.com</code></a> but this will not be an effective solution, since you do not need the HTML code that will come in response.
+The most correct way is to make a get request to <a href="https://www.google.com/generate_204"  class="external-link" target="_blank" rel="noopener"><code>https://www.google.com/generate_204</code></a> since the response will only contain the header.
+If you work with Ruby or Rails, I recommend using this wonderful gem <a href="https://github.com/yegor256/online"  class="external-link" target="_blank" rel="noopener"><code>online</code></a>
+It does exactly what is described above.</p>
+
+      </div>
+
+    </article>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
   
-  <ul>
-    
-    <li>
-      <span class="date">February 25, 2024</span>
-      <a class="title" href="https://yegorov.github.io/posts/install-vagrant-with-rvm/">Install vagrant with RVM</a>
-    </li>
-    
-  </ul>
-  
-
-
-
-
-
-
-</section>
-
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+  </section>
 
     </div>
 
