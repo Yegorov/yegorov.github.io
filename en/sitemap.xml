@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -15,23 +15,32 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/notes/check-internet-availability/</loc>
-    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/bash/</loc>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/ci/</loc>
-    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/heredoc/</loc>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/rails/</loc>
-    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/rails-runner-export-tables-row-count/</loc>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/runner/</loc>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/sql/</loc>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -42,6 +51,48 @@
                 hreflang="en"
                 href="https://yegorov.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ci/</loc>
+    <lastmod>2026-01-21T14:04:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/git/</loc>
+    <lastmod>2026-01-21T14:04:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/push/</loc>
+    <lastmod>2026-01-21T14:04:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/start-ci-process/</loc>
+    <lastmod>2026-01-21T14:04:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/apidock/</loc>
+    <lastmod>2026-01-15T05:30:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/apidock/</loc>
+    <lastmod>2026-01-15T05:30:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/docs/</loc>
+    <lastmod>2026-01-15T05:30:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rspec/</loc>
+    <lastmod>2026-01-15T05:30:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/awesome/</loc>
+    <lastmod>2026-01-14T12:03:08+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/blogs/</loc>
+    <lastmod>2026-01-14T12:03:08+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/newsletter/</loc>
+    <lastmod>2026-01-14T12:03:08+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/ruby-newsletter/</loc>
+    <lastmod>2026-01-14T12:03:08+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/wait-until-some-condition-or-server-available/</loc>
+    <lastmod>2025-12-17T13:24:29+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/check-internet-availability/</loc>
+    <lastmod>2025-12-10T13:00:32+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/</loc>
     <lastmod>2025-11-02T22:25:00+03:00</lastmod>
@@ -55,9 +106,6 @@
                 hreflang="en"
                 href="https://yegorov.github.io/categories/"
                 />
-  </url><url>
-    <loc>https://yegorov.github.io/tags/git/</loc>
-    <lastmod>2025-11-02T22:25:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/git/</loc>
     <lastmod>2025-11-02T22:25:00+03:00</lastmod>

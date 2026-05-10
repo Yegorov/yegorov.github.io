@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Rails runner: export tables row count · Artem Yegorov
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Artem Yegorov">
+<meta name="description" content="Rails runner: export tables row count">
+<meta name="keywords" content="ruby,rails,blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Rails runner: export tables row count">
+  <meta name="twitter:description" content="Rails runner: export tables row count">
+
+<meta property="og:url" content="https://yegorov.github.io/notes/rails-runner-export-tables-row-count/">
+  <meta property="og:site_name" content="Artem Yegorov">
+  <meta property="og:title" content="Rails runner: export tables row count">
+  <meta property="og:description" content="Rails runner: export tables row count">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2026-01-28T05:15:01+00:00">
+    <meta property="article:modified_time" content="2026-01-28T05:15:01+00:00">
+    <meta property="article:tag" content="Ruby">
+    <meta property="article:tag" content="Rails">
+    <meta property="article:tag" content="SQL">
+    <meta property="article:tag" content="Runner">
+    <meta property="article:tag" content="Bash">
+    <meta property="article:tag" content="Heredoc">
+
+
+
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(103288843, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/103288843" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="5b83a64f-0460-4d25-9b6d-355e1eacd78c"></script>
+
+
+
+
+<link rel="canonical" href="https://yegorov.github.io/notes/rails-runner-export-tables-row-count/">
+
+
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="https://yegorov.github.io/css/coder.min.c8e4eea149ae1dc7c61ba9b0781793711a4e657f7e07a4413f9abc46d52dffc4.css" integrity="sha256-yOTuoUmuHcfGG6mweBeTcRpOZX9&#43;B6RBP5q8RtUt/8Q=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="https://yegorov.github.io/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+  
+  
+    
+    <link rel="stylesheet" href="https://yegorov.github.io/css/notes.min.706cea56257b2dfeb9d5c504f01fb31753ec2666b2c77d2ee64d2fb7425be38f.css" integrity="sha256-cGzqViV7Lf651cUE8B&#43;zF1PsJmayx30u5k0vt0Jb448=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+<link rel="icon" type="image/svg+xml" href="https://yegorov.github.io/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="https://yegorov.github.io/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://yegorov.github.io/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="https://yegorov.github.io/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://yegorov.github.io/images/apple-touch-icon.png">
+
+<link rel="manifest" href="https://yegorov.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://yegorov.github.io/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://yegorov.github.io/">
+      Artem Yegorov
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://yegorov.github.io/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://yegorov.github.io/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://yegorov.github.io/notes/">Notes</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="https://yegorov.github.io/ru/">Russian</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post notes">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://yegorov.github.io/notes/rails-runner-export-tables-row-count/">
+              Rails runner: export tables row count
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-01-28T05:15:01Z">
+                January 28, 2026
+              </time>
+            </span>
+
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/ruby/">Ruby</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/rails/">Rails</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/sql/">SQL</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/runner/">Runner</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/bash/">Bash</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/heredoc/">Heredoc</a>
+    </span></div>
+
+          <ul class="socials">
+            
+              <li>
+                <a class="linkedin" href="https://www.linkedin.com/posts/yegorov0725_ruby-rails-sql-activity-7422145152552509440-z4lF" target="_blank">
+                  <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+              </li>
+            
+            
+          </ul>
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://yegorov.github.io/images/notes/20260128_rails_runner.png" alt="Featured image"/>
+        
+        <p>Anyone who works with Rails has heard of and used the <a href="https://guides.rubyonrails.org/command_line.html#bin-rails-runner"  class="external-link" target="_blank" rel="noopener">runner command</a> with a single-line code argument that executes in the application context.
+While working on my application the other day, I needed to list all tables with their row counts.
+The code for listing the number of table rows on a single line looks rather ugly and unmaintainable.
+If you read the runner help (<code>bin/rails runner -h</code>), you&rsquo;ll see that runner can also read code from stdin.
+To pass multi-line code to runner, you can use a heredoc.
+To me, this looks absolutely stunning!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ bin/rails r - &lt;&lt; EOM &gt; ../tables_`date --iso-8601=seconds`.txt
+</span></span><span class="line"><span class="cl">  ApplicationRecord.connection_pool.with_connection do |c|
+</span></span><span class="line"><span class="cl">    c.tables.sort.each do |table|
+</span></span><span class="line"><span class="cl">      c.execute(&lt;&lt;~SQL).to_a.first.first.then do |count|
+</span></span><span class="line"><span class="cl">        SELECT COUNT(*) FROM #{c.quote_table_name(table)};
+</span></span><span class="line"><span class="cl">      SQL
+</span></span><span class="line"><span class="cl">        puts &#34;#{table}: #{count}&#34;
+</span></span><span class="line"><span class="cl">      end
+</span></span><span class="line"><span class="cl">    end
+</span></span><span class="line"><span class="cl">  end
+</span></span><span class="line"><span class="cl">EOM
+</span></span></code></pre></div>
+      </div>
+
+    </article>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2026
+     Artem Yegorov 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="https://yegorov.github.io/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1Y1DBTYTZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-S1Y1DBTYTZ');
+        }
+      </script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

@@ -6,8 +6,15 @@
     <description>Recent content in CI on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Dec 2025 13:00:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 14:04:24 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/ci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start CI process</title>
+      <link>https://yegorov.github.io/notes/start-ci-process/</link>
+      <pubDate>Wed, 21 Jan 2026 14:04:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/start-ci-process/</guid>
+      <description>&lt;p&gt;And again about CI.&#xA;Imagine you need to run a CI process, but you haven&amp;rsquo;t made any changes to the code and there&amp;rsquo;s no manual process launch option for this CI.&#xA;You have two options:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Rewrite the hash of the last commit and force push:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit --amend --no-edit --allow-empty&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -f&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Add a new empty commit and do a regular push:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit --allow-empty -m &amp;#39;Run CI&amp;#39;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Which option is more acceptable for you?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Check internet availability</title>
       <link>https://yegorov.github.io/notes/check-internet-availability/</link>

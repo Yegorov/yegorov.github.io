@@ -6,34 +6,111 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Dec 2025 13:00:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 05:15:01 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CI</title>
-      <link>https://yegorov.github.io/tags/ci/</link>
-      <pubDate>Wed, 10 Dec 2025 13:00:32 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ci/</guid>
+      <title>Bash</title>
+      <link>https://yegorov.github.io/tags/bash/</link>
+      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heredoc</title>
+      <link>https://yegorov.github.io/tags/heredoc/</link>
+      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/heredoc/</guid>
       <description></description>
     </item>
     <item>
       <title>Rails</title>
       <link>https://yegorov.github.io/tags/rails/</link>
-      <pubDate>Wed, 10 Dec 2025 13:00:32 +0000</pubDate>
+      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/rails/</guid>
       <description></description>
     </item>
     <item>
       <title>Ruby</title>
       <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Wed, 10 Dec 2025 13:00:32 +0000</pubDate>
+      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Runner</title>
+      <link>https://yegorov.github.io/tags/runner/</link>
+      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/runner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>https://yegorov.github.io/tags/sql/</link>
+      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI</title>
+      <link>https://yegorov.github.io/tags/ci/</link>
+      <pubDate>Wed, 21 Jan 2026 14:04:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ci/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
       <link>https://yegorov.github.io/tags/git/</link>
-      <pubDate>Sun, 02 Nov 2025 22:25:00 +0300</pubDate>
+      <pubDate>Wed, 21 Jan 2026 14:04:24 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Push</title>
+      <link>https://yegorov.github.io/tags/push/</link>
+      <pubDate>Wed, 21 Jan 2026 14:04:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/push/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apidock</title>
+      <link>https://yegorov.github.io/tags/apidock/</link>
+      <pubDate>Thu, 15 Jan 2026 05:30:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/apidock/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docs</title>
+      <link>https://yegorov.github.io/tags/docs/</link>
+      <pubDate>Thu, 15 Jan 2026 05:30:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/docs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RSpec</title>
+      <link>https://yegorov.github.io/tags/rspec/</link>
+      <pubDate>Thu, 15 Jan 2026 05:30:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rspec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Awesome</title>
+      <link>https://yegorov.github.io/tags/awesome/</link>
+      <pubDate>Wed, 14 Jan 2026 12:03:08 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/awesome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogs</title>
+      <link>https://yegorov.github.io/tags/blogs/</link>
+      <pubDate>Wed, 14 Jan 2026 12:03:08 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/blogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Newsletter</title>
+      <link>https://yegorov.github.io/tags/newsletter/</link>
+      <pubDate>Wed, 14 Jan 2026 12:03:08 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/newsletter/</guid>
       <description></description>
     </item>
     <item>

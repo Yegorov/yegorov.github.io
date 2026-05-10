@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heredoc on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/heredoc/</link>
+    <description>Recent content in Heredoc on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Jan 2026 05:15:01 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/heredoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rails runner: export tables row count</title>
+      <link>https://yegorov.github.io/notes/rails-runner-export-tables-row-count/</link>
+      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/rails-runner-export-tables-row-count/</guid>
+      <description>&lt;p&gt;Anyone who works with Rails has heard of and used the &lt;a href=&#34;https://guides.rubyonrails.org/command_line.html#bin-rails-runner&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;runner command&lt;/a&gt; with a single-line code argument that executes in the application context.&#xA;While working on my application the other day, I needed to list all tables with their row counts.&#xA;The code for listing the number of table rows on a single line looks rather ugly and unmaintainable.&#xA;If you read the runner help (&lt;code&gt;bin/rails runner -h&lt;/code&gt;), you&amp;rsquo;ll see that runner can also read code from stdin.&#xA;To pass multi-line code to runner, you can use a heredoc.&#xA;To me, this looks absolutely stunning!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

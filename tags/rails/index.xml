@@ -6,8 +6,36 @@
     <description>Recent content in Rails on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Dec 2025 13:00:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 05:15:01 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rails runner: export tables row count</title>
+      <link>https://yegorov.github.io/notes/rails-runner-export-tables-row-count/</link>
+      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/rails-runner-export-tables-row-count/</guid>
+      <description>&lt;p&gt;Anyone who works with Rails has heard of and used the &lt;a href=&#34;https://guides.rubyonrails.org/command_line.html#bin-rails-runner&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;runner command&lt;/a&gt; with a single-line code argument that executes in the application context.&#xA;While working on my application the other day, I needed to list all tables with their row counts.&#xA;The code for listing the number of table rows on a single line looks rather ugly and unmaintainable.&#xA;If you read the runner help (&lt;code&gt;bin/rails runner -h&lt;/code&gt;), you&amp;rsquo;ll see that runner can also read code from stdin.&#xA;To pass multi-line code to runner, you can use a heredoc.&#xA;To me, this looks absolutely stunning!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>APIdock</title>
+      <link>https://yegorov.github.io/notes/apidock/</link>
+      <pubDate>Thu, 15 Jan 2026 05:30:01 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/apidock/</guid>
+      <description>&lt;p&gt;Following the redesign of the &lt;a href=&#34;https://www.ruby-lang.org&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ruby website&lt;/a&gt;, &lt;a href=&#34;https://apidock.com&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APIdock&lt;/a&gt; has also been silently updated.&lt;/p&gt;&#xA;&lt;p&gt;This is amazing! 😎&lt;/p&gt;&#xA;&lt;p&gt;Just go and look.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ruby Newsletter</title>
+      <link>https://yegorov.github.io/notes/ruby-newsletter/</link>
+      <pubDate>Wed, 14 Jan 2026 12:03:08 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-newsletter/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ghinda.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lucian Ghinda&lt;/a&gt;, I want to thank you for searching news and articles, selecting information about Ruby. It&amp;rsquo;s a huge amount of work.&lt;/p&gt;&#xA;&lt;p&gt;Of all the Ruby newsletters, I only read three:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://newsletter.shortruby.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Short Ruby Newsletter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rubyweekly.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ruby Weekly&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ruby.libhunt.com/newsletter&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Awesome Ruby Newsletter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;I highly recommend subscribing to them!&#xA;If you&amp;rsquo;re looking for more about Ruby or Rails, you might want to check out this &lt;a href=&#34;https://github.com/Yegorov/awesome-ruby-blogs&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;awesome list of Ruby blogs&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wait until some condition is true or the server is available</title>
+      <link>https://yegorov.github.io/notes/wait-until-some-condition-or-server-available/</link>
+      <pubDate>Wed, 17 Dec 2025 13:24:29 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/wait-until-some-condition-or-server-available/</guid>
+      <description>&lt;p&gt;Sometimes you need to pause your code and wait until some condition is true, such as waiting for one of your other services to start.&#xA;Did you know that to check the availability of a server, you just need to establish a connection to it?&#xA;In Ruby, you can use the &lt;a href=&#34;https://github.com/rubytools/waitutil&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;waitutil&lt;/code&gt;&lt;/a&gt; gem for this.&#xA;Although it hasn&amp;rsquo;t been updated for a long time (the last commit was 11 years ago), it still remains a great tool for waiting for certain conditions.&#xA;The main advantage of this gem is that it does not use the &lt;code&gt;Timeout&lt;/code&gt; module.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Check internet availability</title>
       <link>https://yegorov.github.io/notes/check-internet-availability/</link>
