@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-  <title>Tag: Ruby · Artem Yegorov</title>
+  <title>
+  Webmock for test external HTTP API calls · Artem Yegorov
+</title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
@@ -11,21 +13,30 @@
 
 
 <meta name="author" content="Artem Yegorov">
-<meta name="description" content="Artem Yegorov&#39;s personal website">
+<meta name="description" content="Webmock for test external HTTP API calls">
 <meta name="keywords" content="ruby,rails,blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Ruby">
-  <meta name="twitter:description" content="Artem Yegorov&#39;s personal website">
+  <meta name="twitter:title" content="Webmock for test external HTTP API calls">
+  <meta name="twitter:description" content="Webmock for test external HTTP API calls">
 
-<meta property="og:url" content="https://yegorov.github.io/tags/ruby/">
+<meta property="og:url" content="https://yegorov.github.io/notes/webmock-test-external-http-api-calls/">
   <meta property="og:site_name" content="Artem Yegorov">
-  <meta property="og:title" content="Ruby">
-  <meta property="og:description" content="Artem Yegorov&#39;s personal website">
+  <meta property="og:title" content="Webmock for test external HTTP API calls">
+  <meta property="og:description" content="Webmock for test external HTTP API calls">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2026-01-07T11:16:20+00:00">
+    <meta property="article:modified_time" content="2026-01-07T11:16:20+00:00">
+    <meta property="article:tag" content="Ruby">
+    <meta property="article:tag" content="Rails">
+    <meta property="article:tag" content="Test">
+    <meta property="article:tag" content="API">
+    <meta property="article:tag" content="HTTP">
+    <meta property="article:tag" content="Request">
 
 
 
@@ -52,7 +63,7 @@
 
 
 
-<link rel="canonical" href="https://yegorov.github.io/tags/ruby/">
+<link rel="canonical" href="https://yegorov.github.io/notes/webmock-test-external-http-api-calls/">
 
 
 <link rel="preload" href="https://yegorov.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -99,7 +110,6 @@
 <link rel="mask-icon" href="https://yegorov.github.io/images/safari-pinned-tab.svg" color="#5bbad5">
 
 
-<link rel="alternate" type="application/rss+xml" href="https://yegorov.github.io/tags/ruby/index.xml" title="Artem Yegorov" />
 
 
 
@@ -179,65 +189,105 @@
 
     <div class="content">
       
-  <section class="container list">
-  <header>
-    <h1 class="title">
-      <a class="title-link" href="https://yegorov.github.io/tags/ruby/">Tag: Ruby</a>
-    </h1>
-  </header>
+  <section class="container post notes">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://yegorov.github.io/notes/webmock-test-external-http-api-calls/">
+              Webmock for test external HTTP API calls
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-01-07T11:16:20Z">
+                January 7, 2026
+              </time>
+            </span>
+
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/ruby/">Ruby</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/rails/">Rails</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/test/">Test</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/api/">API</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/http/">HTTP</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/request/">Request</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/stub/">Stub</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/mock/">Mock</a>
+    </span></div>
+
+          <ul class="socials">
+            
+              <li>
+                <a class="linkedin" href="https://www.linkedin.com/posts/yegorov0725_github-bblimkewebmock-library-for-stubbing-activity-7414625935410515968-u328" target="_blank">
+                  <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+              </li>
+            
+            
+          </ul>
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>One of my favorite libraries for testing external HTTP requests in Ruby is <a href="https://github.com/bblimke/webmock"  class="external-link" target="_blank" rel="noopener"><code>Webmock</code></a>.
+To use it, you just need to specify what you want to get for which URL.
+Of course, you can also stab the response from the HTTP client in tests (as is common in other languages) or even set up your own HTTP mock server, but in my opinion, for simple things, this seems too unreasonable.
+How do you test requests to external resources?
+Share your best practices for testing HTTP requests.</p>
+
+      </div>
+
+    </article>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
   
-  <ul>
-    
-    <li>
-      <span class="date">January 28, 2026</span>
-      <a class="title" href="https://yegorov.github.io/notes/rails-runner-export-tables-row-count/">Rails runner: export tables row count</a>
-    </li>
-    
-    <li>
-      <span class="date">January 15, 2026</span>
-      <a class="title" href="https://yegorov.github.io/notes/apidock/">APIdock</a>
-    </li>
-    
-    <li>
-      <span class="date">January 14, 2026</span>
-      <a class="title" href="https://yegorov.github.io/notes/ruby-newsletter/">Ruby Newsletter</a>
-    </li>
-    
-    <li>
-      <span class="date">January 7, 2026</span>
-      <a class="title" href="https://yegorov.github.io/notes/webmock-test-external-http-api-calls/">Webmock for test external HTTP API calls</a>
-    </li>
-    
-    <li>
-      <span class="date">December 17, 2025</span>
-      <a class="title" href="https://yegorov.github.io/notes/wait-until-some-condition-or-server-available/">Wait until some condition is true or the server is available</a>
-    </li>
-    
-    <li>
-      <span class="date">December 10, 2025</span>
-      <a class="title" href="https://yegorov.github.io/notes/check-internet-availability/">Check internet availability</a>
-    </li>
-    
-    <li>
-      <span class="date">February 25, 2024</span>
-      <a class="title" href="https://yegorov.github.io/posts/install-vagrant-with-rvm/">Install vagrant with RVM</a>
-    </li>
-    
-    <li>
-      <span class="date">April 21, 2020</span>
-      <a class="title" href="https://yegorov.github.io/posts/mailcatcher/">Install and configure mailcatcher for Rails project</a>
-    </li>
-    
-  </ul>
-  
-
-
-
-
-
-
-</section>
-
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+  </section>
 
     </div>
 

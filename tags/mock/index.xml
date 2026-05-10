@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mock on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/mock/</link>
+    <description>Recent content in Mock on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Jan 2026 11:16:20 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/mock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webmock for test external HTTP API calls</title>
+      <link>https://yegorov.github.io/notes/webmock-test-external-http-api-calls/</link>
+      <pubDate>Wed, 07 Jan 2026 11:16:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/webmock-test-external-http-api-calls/</guid>
+      <description>&lt;p&gt;One of my favorite libraries for testing external HTTP requests in Ruby is &lt;a href=&#34;https://github.com/bblimke/webmock&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Webmock&lt;/code&gt;&lt;/a&gt;.&#xA;To use it, you just need to specify what you want to get for which URL.&#xA;Of course, you can also stab the response from the HTTP client in tests (as is common in other languages) or even set up your own HTTP mock server, but in my opinion, for simple things, this seems too unreasonable.&#xA;How do you test requests to external resources?&#xA;Share your best practices for testing HTTP requests.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
