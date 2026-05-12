@@ -6,8 +6,15 @@
     <description>Recent content in Rvm on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Feb 2024 12:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 13:07:27 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/rvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Try to use RV</title>
+      <link>https://yegorov.github.io/notes/try-to-use-rv/</link>
+      <pubDate>Mon, 02 Mar 2026 13:07:27 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/try-to-use-rv/</guid>
+      <description>&lt;p&gt;When I started learning 2013 and working on Ruby 2018, I used &lt;a href=&#34;https://rvm.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;RVM&lt;/code&gt;&lt;/a&gt; on my workstation. On commercial projects, &lt;a href=&#34;https://rbenv.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;rbenv&lt;/code&gt;&lt;/a&gt; was very popular when setting up deployment (with Capistrano); to some extent, it was the unspoken standard on the server.&#xA;I like RVM because after installing it, it just works. One of the popular errors was when installing old versions of Ruby and &lt;a href=&#34;https://github.com/rbenv/ruby-build/issues/1353&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;incompatibility with OpenSSL&lt;/a&gt; and it works in RVM out of the box.&#xA;Nowadays, installing and running older versions is mostly done using Docker (as a bonus, you get an isolated environment).&#xA;I&amp;rsquo;m completely satisfied with RVM, but I&amp;rsquo;d like to have a more modern tool for working with Ruby versions. I think it will be an &lt;a href=&#34;https://github.com/spinel-coop/rv&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;RV&lt;/code&gt;&lt;/a&gt; in the near future. I highly recommend you to at least install it and try it out.&#xA;What tool do you use to switch Ruby versions?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Install vagrant with RVM</title>
       <link>https://yegorov.github.io/posts/install-vagrant-with-rvm/</link>

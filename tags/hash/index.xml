@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hash on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/hash/</link>
+    <description>Recent content in Hash on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 May 2026 07:38:19 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/hash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pass keyword arguments to a method in Ruby</title>
+      <link>https://yegorov.github.io/notes/pass-keyword-arguments-to-a-method-in-ruby/</link>
+      <pubDate>Tue, 05 May 2026 07:38:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/pass-keyword-arguments-to-a-method-in-ruby/</guid>
+      <description>&lt;p&gt;If you work with Ruby, you&amp;rsquo;ve often encountered a situation where a method takes multiple keyword arguments. And you need to pass a hash to it and also add another new argument.&#xA;In most cases, you do the following: create a new hash and pass it as an argument to the method using the double splat operator &lt;code&gt;**&lt;/code&gt;. But you can do this more concisely: instead of creating a new hash, pass the hash followed by another argument.&#xA;Furthermore, if you need a different order, you can pass the arguments in reverse order. If the argument keys are the same, the last argument will overwrite the first.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

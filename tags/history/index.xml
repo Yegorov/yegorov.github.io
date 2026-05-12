@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>History on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/history/</link>
+    <description>Recent content in History on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Mar 2026 07:39:28 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby evolution</title>
+      <link>https://yegorov.github.io/notes/ruby-evolution/</link>
+      <pubDate>Fri, 27 Mar 2026 07:39:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-evolution/</guid>
+      <description>&lt;p&gt;To better understand any technology, it is not enough to study the documentation, read books and articles for the current version. It is necessary to begin examining the technology from the origins of its creation and follow it chronologically to the latest version. It is important to understand when, what, and starting with which version a particular feature was added or removed.&#xA;Based on this principle, to better understand the Ruby language, I would recommend referring to the documentation, books, and articles for older versions. A starting point and a great helper in this regard is the &lt;a href=&#34;https://rubyreferences.github.io/rubychanges/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rubyreferences resource&lt;/a&gt;, which contains all the significant changes to the Ruby language since version 2.4.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

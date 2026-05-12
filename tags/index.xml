@@ -6,13 +6,769 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 05:15:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 07:14:38 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contribution</title>
+      <link>https://yegorov.github.io/tags/contribution/</link>
+      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/contribution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://yegorov.github.io/tags/github/</link>
+      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenSource</title>
+      <link>https://yegorov.github.io/tags/opensource/</link>
+      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/opensource/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSS</title>
+      <link>https://yegorov.github.io/tags/oss/</link>
+      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/oss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rake</title>
+      <link>https://yegorov.github.io/tags/rake/</link>
+      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DoubleSplat</title>
+      <link>https://yegorov.github.io/tags/doublesplat/</link>
+      <pubDate>Tue, 05 May 2026 07:38:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/doublesplat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Function</title>
+      <link>https://yegorov.github.io/tags/function/</link>
+      <pubDate>Tue, 05 May 2026 07:38:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hash</title>
+      <link>https://yegorov.github.io/tags/hash/</link>
+      <pubDate>Tue, 05 May 2026 07:38:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/hash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KeywordArguments</title>
+      <link>https://yegorov.github.io/tags/keywordarguments/</link>
+      <pubDate>Tue, 05 May 2026 07:38:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/keywordarguments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kwargs</title>
+      <link>https://yegorov.github.io/tags/kwargs/</link>
+      <pubDate>Tue, 05 May 2026 07:38:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/kwargs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Method</title>
+      <link>https://yegorov.github.io/tags/method/</link>
+      <pubDate>Tue, 05 May 2026 07:38:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/method/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Awesomewm</title>
+      <link>https://yegorov.github.io/tags/awesomewm/</link>
+      <pubDate>Wed, 29 Apr 2026 07:55:43 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/awesomewm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>I3wm</title>
+      <link>https://yegorov.github.io/tags/i3wm/</link>
+      <pubDate>Wed, 29 Apr 2026 07:55:43 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/i3wm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminal</title>
+      <link>https://yegorov.github.io/tags/terminal/</link>
+      <pubDate>Wed, 29 Apr 2026 07:55:43 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/terminal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tiling</title>
+      <link>https://yegorov.github.io/tags/tiling/</link>
+      <pubDate>Wed, 29 Apr 2026 07:55:43 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/tiling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tmux</title>
+      <link>https://yegorov.github.io/tags/tmux/</link>
+      <pubDate>Wed, 29 Apr 2026 07:55:43 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/tmux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WindowManagers</title>
+      <link>https://yegorov.github.io/tags/windowmanagers/</link>
+      <pubDate>Wed, 29 Apr 2026 07:55:43 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/windowmanagers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xfwm</title>
+      <link>https://yegorov.github.io/tags/xfwm/</link>
+      <pubDate>Wed, 29 Apr 2026 07:55:43 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/xfwm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Block</title>
+      <link>https://yegorov.github.io/tags/block/</link>
+      <pubDate>Thu, 23 Apr 2026 07:25:09 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/block/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Condition</title>
+      <link>https://yegorov.github.io/tags/condition/</link>
+      <pubDate>Thu, 23 Apr 2026 07:25:09 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/condition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ControlExpressions</title>
+      <link>https://yegorov.github.io/tags/controlexpressions/</link>
+      <pubDate>Thu, 23 Apr 2026 07:25:09 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/controlexpressions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>If</title>
+      <link>https://yegorov.github.io/tags/if/</link>
+      <pubDate>Thu, 23 Apr 2026 07:25:09 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/if/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VariableDefenition</title>
+      <link>https://yegorov.github.io/tags/variabledefenition/</link>
+      <pubDate>Thu, 23 Apr 2026 07:25:09 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/variabledefenition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VariableScope</title>
+      <link>https://yegorov.github.io/tags/variablescope/</link>
+      <pubDate>Thu, 23 Apr 2026 07:25:09 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/variablescope/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decorator</title>
+      <link>https://yegorov.github.io/tags/decorator/</link>
+      <pubDate>Wed, 15 Apr 2026 07:20:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/decorator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delegator</title>
+      <link>https://yegorov.github.io/tags/delegator/</link>
+      <pubDate>Wed, 15 Apr 2026 07:20:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/delegator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exception</title>
+      <link>https://yegorov.github.io/tags/exception/</link>
+      <pubDate>Wed, 15 Apr 2026 07:20:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/exception/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SimpleDelegator</title>
+      <link>https://yegorov.github.io/tags/simpledelegator/</link>
+      <pubDate>Wed, 15 Apr 2026 07:20:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/simpledelegator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Constellation</title>
+      <link>https://yegorov.github.io/tags/constellation/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/constellation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flipflop</title>
+      <link>https://yegorov.github.io/tags/flipflop/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/flipflop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hashrocket</title>
+      <link>https://yegorov.github.io/tags/hashrocket/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/hashrocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operators</title>
+      <link>https://yegorov.github.io/tags/operators/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/operators/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RubyLinks</title>
+      <link>https://yegorov.github.io/tags/rubylinks/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rubylinks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spaceship</title>
+      <link>https://yegorov.github.io/tags/spaceship/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/spaceship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Splat</title>
+      <link>https://yegorov.github.io/tags/splat/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/splat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Codeberg</title>
+      <link>https://yegorov.github.io/tags/codeberg/</link>
+      <pubDate>Mon, 30 Mar 2026 14:54:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/codeberg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://yegorov.github.io/tags/git/</link>
+      <pubDate>Mon, 30 Mar 2026 14:54:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitlab</title>
+      <link>https://yegorov.github.io/tags/gitlab/</link>
+      <pubDate>Mon, 30 Mar 2026 14:54:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/gitlab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repository</title>
+      <link>https://yegorov.github.io/tags/repository/</link>
+      <pubDate>Mon, 30 Mar 2026 14:54:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/repository/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VCS</title>
+      <link>https://yegorov.github.io/tags/vcs/</link>
+      <pubDate>Mon, 30 Mar 2026 14:54:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/vcs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Changes</title>
+      <link>https://yegorov.github.io/tags/changes/</link>
+      <pubDate>Fri, 27 Mar 2026 07:39:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/changes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evolution</title>
+      <link>https://yegorov.github.io/tags/evolution/</link>
+      <pubDate>Fri, 27 Mar 2026 07:39:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/evolution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>History</title>
+      <link>https://yegorov.github.io/tags/history/</link>
+      <pubDate>Fri, 27 Mar 2026 07:39:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>References</title>
+      <link>https://yegorov.github.io/tags/references/</link>
+      <pubDate>Fri, 27 Mar 2026 07:39:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/references/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI</title>
+      <link>https://yegorov.github.io/tags/ci/</link>
+      <pubDate>Mon, 23 Mar 2026 13:55:33 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://yegorov.github.io/tags/docker/</link>
+      <pubDate>Mon, 23 Mar 2026 13:55:33 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Donce</title>
+      <link>https://yegorov.github.io/tags/donce/</link>
+      <pubDate>Mon, 23 Mar 2026 13:55:33 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/donce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://yegorov.github.io/tags/test/</link>
+      <pubDate>Mon, 23 Mar 2026 13:55:33 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://yegorov.github.io/tags/go/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://yegorov.github.io/tags/java/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://yegorov.github.io/tags/javascript/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning</title>
+      <link>https://yegorov.github.io/tags/learning/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Perl</title>
+      <link>https://yegorov.github.io/tags/perl/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/perl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>https://yegorov.github.io/tags/php/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polyglot</title>
+      <link>https://yegorov.github.io/tags/polyglot/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/polyglot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://yegorov.github.io/tags/python/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://yegorov.github.io/tags/rust/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://yegorov.github.io/tags/api/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Curl</title>
+      <link>https://yegorov.github.io/tags/curl/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/curl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GET</title>
+      <link>https://yegorov.github.io/tags/get/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/get/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTTP</title>
+      <link>https://yegorov.github.io/tags/http/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/http/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTTPie</title>
+      <link>https://yegorov.github.io/tags/httpie/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/httpie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>POST</title>
+      <link>https://yegorov.github.io/tags/post/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REST</title>
+      <link>https://yegorov.github.io/tags/rest/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://yegorov.github.io/tags/web/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xh</title>
+      <link>https://yegorov.github.io/tags/xh/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/xh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cheatsheets</title>
+      <link>https://yegorov.github.io/tags/cheatsheets/</link>
+      <pubDate>Fri, 13 Mar 2026 06:41:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/cheatsheets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hints</title>
+      <link>https://yegorov.github.io/tags/hints/</link>
+      <pubDate>Fri, 13 Mar 2026 06:41:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/hints/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips</title>
+      <link>https://yegorov.github.io/tags/tips/</link>
+      <pubDate>Fri, 13 Mar 2026 06:41:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://yegorov.github.io/tags/ai/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elasticsearch</title>
+      <link>https://yegorov.github.io/tags/elasticsearch/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedding</title>
+      <link>https://yegorov.github.io/tags/embedding/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/embedding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FullTextSearch</title>
+      <link>https://yegorov.github.io/tags/fulltextsearch/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/fulltextsearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KNN</title>
+      <link>https://yegorov.github.io/tags/knn/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/knn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pgvector</title>
+      <link>https://yegorov.github.io/tags/pgvector/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/pgvector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://yegorov.github.io/tags/search/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SentenceTransformers</title>
+      <link>https://yegorov.github.io/tags/sentencetransformers/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/sentencetransformers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tsvector</title>
+      <link>https://yegorov.github.io/tags/tsvector/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/tsvector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VectorSearch</title>
+      <link>https://yegorov.github.io/tags/vectorsearch/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/vectorsearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EndOfLife</title>
+      <link>https://yegorov.github.io/tags/endoflife/</link>
+      <pubDate>Fri, 06 Mar 2026 08:03:02 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/endoflife/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EOL</title>
+      <link>https://yegorov.github.io/tags/eol/</link>
+      <pubDate>Fri, 06 Mar 2026 08:03:02 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/eol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maintainable</title>
+      <link>https://yegorov.github.io/tags/maintainable/</link>
+      <pubDate>Fri, 06 Mar 2026 08:03:02 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/maintainable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails</title>
+      <link>https://yegorov.github.io/tags/rails/</link>
+      <pubDate>Fri, 06 Mar 2026 08:03:02 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Timeline</title>
+      <link>https://yegorov.github.io/tags/timeline/</link>
+      <pubDate>Fri, 06 Mar 2026 08:03:02 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/timeline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Version</title>
+      <link>https://yegorov.github.io/tags/version/</link>
+      <pubDate>Fri, 06 Mar 2026 08:03:02 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/version/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rbenv</title>
+      <link>https://yegorov.github.io/tags/rbenv/</link>
+      <pubDate>Mon, 02 Mar 2026 13:07:27 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rbenv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RV</title>
+      <link>https://yegorov.github.io/tags/rv/</link>
+      <pubDate>Mon, 02 Mar 2026 13:07:27 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rvm</title>
+      <link>https://yegorov.github.io/tags/rvm/</link>
+      <pubDate>Mon, 02 Mar 2026 13:07:27 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VersionManager</title>
+      <link>https://yegorov.github.io/tags/versionmanager/</link>
+      <pubDate>Mon, 02 Mar 2026 13:07:27 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/versionmanager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ActiveRecord</title>
+      <link>https://yegorov.github.io/tags/activerecord/</link>
+      <pubDate>Tue, 24 Feb 2026 12:58:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/activerecord/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Empty</title>
+      <link>https://yegorov.github.io/tags/empty/</link>
+      <pubDate>Tue, 24 Feb 2026 12:58:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/empty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Normalization</title>
+      <link>https://yegorov.github.io/tags/normalization/</link>
+      <pubDate>Tue, 24 Feb 2026 12:58:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/normalization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NULL</title>
+      <link>https://yegorov.github.io/tags/null/</link>
+      <pubDate>Tue, 24 Feb 2026 12:58:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/null/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UNIQUE</title>
+      <link>https://yegorov.github.io/tags/unique/</link>
+      <pubDate>Tue, 24 Feb 2026 12:58:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/unique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>https://yegorov.github.io/tags/database/</link>
+      <pubDate>Mon, 16 Feb 2026 14:19:59 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MariaDB</title>
+      <link>https://yegorov.github.io/tags/mariadb/</link>
+      <pubDate>Mon, 16 Feb 2026 14:19:59 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/mariadb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MySQL</title>
+      <link>https://yegorov.github.io/tags/mysql/</link>
+      <pubDate>Mon, 16 Feb 2026 14:19:59 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://yegorov.github.io/tags/postgresql/</link>
+      <pubDate>Mon, 16 Feb 2026 14:19:59 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Size</title>
+      <link>https://yegorov.github.io/tags/size/</link>
+      <pubDate>Mon, 16 Feb 2026 14:19:59 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/size/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>https://yegorov.github.io/tags/sql/</link>
+      <pubDate>Mon, 16 Feb 2026 14:19:59 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQLite</title>
+      <link>https://yegorov.github.io/tags/sqlite/</link>
+      <pubDate>Mon, 16 Feb 2026 14:19:59 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/sqlite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Container</title>
+      <link>https://yegorov.github.io/tags/container/</link>
+      <pubDate>Wed, 11 Feb 2026 13:56:05 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/container/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IRB</title>
+      <link>https://yegorov.github.io/tags/irb/</link>
+      <pubDate>Wed, 11 Feb 2026 13:56:05 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/irb/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bash</title>
       <link>https://yegorov.github.io/tags/bash/</link>
-      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
+      <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exec</title>
+      <link>https://yegorov.github.io/tags/exec/</link>
+      <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/exec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://yegorov.github.io/tags/linux/</link>
+      <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell</title>
+      <link>https://yegorov.github.io/tags/shell/</link>
+      <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stdout</title>
+      <link>https://yegorov.github.io/tags/stdout/</link>
+      <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/stdout/</guid>
       <description></description>
     </item>
     <item>
@@ -23,45 +779,10 @@
       <description></description>
     </item>
     <item>
-      <title>Rails</title>
-      <link>https://yegorov.github.io/tags/rails/</link>
-      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/rails/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Runner</title>
       <link>https://yegorov.github.io/tags/runner/</link>
       <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/runner/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SQL</title>
-      <link>https://yegorov.github.io/tags/sql/</link>
-      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/sql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CI</title>
-      <link>https://yegorov.github.io/tags/ci/</link>
-      <pubDate>Wed, 21 Jan 2026 14:04:24 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ci/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Git</title>
-      <link>https://yegorov.github.io/tags/git/</link>
-      <pubDate>Wed, 21 Jan 2026 14:04:24 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/git/</guid>
       <description></description>
     </item>
     <item>
@@ -114,20 +835,6 @@
       <description></description>
     </item>
     <item>
-      <title>API</title>
-      <link>https://yegorov.github.io/tags/api/</link>
-      <pubDate>Wed, 07 Jan 2026 11:16:20 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/api/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTTP</title>
-      <link>https://yegorov.github.io/tags/http/</link>
-      <pubDate>Wed, 07 Jan 2026 11:16:20 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/http/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Mock</title>
       <link>https://yegorov.github.io/tags/mock/</link>
       <pubDate>Wed, 07 Jan 2026 11:16:20 +0000</pubDate>
@@ -149,31 +856,10 @@
       <description></description>
     </item>
     <item>
-      <title>Test</title>
-      <link>https://yegorov.github.io/tags/test/</link>
-      <pubDate>Wed, 07 Jan 2026 11:16:20 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/test/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Github</title>
-      <link>https://yegorov.github.io/tags/github/</link>
-      <pubDate>Sun, 02 Nov 2025 22:25:00 +0300</pubDate>
-      <guid>https://yegorov.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Til</title>
       <link>https://yegorov.github.io/tags/til/</link>
       <pubDate>Fri, 12 Sep 2025 10:05:42 +0300</pubDate>
       <guid>https://yegorov.github.io/tags/til/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rvm</title>
-      <link>https://yegorov.github.io/tags/rvm/</link>
-      <pubDate>Sun, 25 Feb 2024 12:00:00 +0300</pubDate>
-      <guid>https://yegorov.github.io/tags/rvm/</guid>
       <description></description>
     </item>
     <item>

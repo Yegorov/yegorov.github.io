@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maintainable on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/maintainable/</link>
+    <description>Recent content in Maintainable on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Mar 2026 08:03:02 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/maintainable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actual version of Ruby</title>
+      <link>https://yegorov.github.io/notes/actual-version-of-ruby/</link>
+      <pubDate>Fri, 06 Mar 2026 08:03:02 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/actual-version-of-ruby/</guid>
+      <description>&lt;p&gt;If you haven&amp;rsquo;t worked on Ruby or Rails projects for a long time, then you may forget what the current version of the language and framework is.&#xA;To keep up to date with current versions and support deadlines, I recommend checking out one of these sites periodically.&lt;/p&gt;&#xA;&lt;p&gt;Ruby:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ruby-lang.org/en/downloads/branches/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ruby-lang.org/en/downloads/branches/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rubies.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rubies.io/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://versionlog.com/ruby/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://versionlog.com/ruby/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://endoflife.date/ruby&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://endoflife.date/ruby&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Rails:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rubyonrails.org/maintenance&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rubyonrails.org/maintenance&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://endoflife.date/rails&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://endoflife.date/rails&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.fastruby.io/blog/ruby/rails/versions/compatibility-table.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.fastruby.io/blog/ruby/rails/versions/compatibility-table.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t forget to regularly monitor and update versions of your tools on time. Keep them up to date, it will save you headaches in the future.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

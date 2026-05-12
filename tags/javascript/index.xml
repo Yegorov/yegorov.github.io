@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/javascript/</link>
+    <description>Recent content in JavaScript on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Mar 2026 06:50:15 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparison with different languages</title>
+      <link>https://yegorov.github.io/notes/comparison-with-different-languages/</link>
+      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/comparison-with-different-languages/</guid>
+      <description>&lt;p&gt;Do you want to quickly learn a new programming language while still having a fairly good knowledge of another, such as Ruby?&#xA;After reading the official documentation and the book recommended by the community, I would advise you look at comparison lists of how something can be done in a language that you know and how it is done in another language that you are trying to learn.&#xA;These two resources provide a great foundation:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

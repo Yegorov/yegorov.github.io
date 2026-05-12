@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exec on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/exec/</link>
+    <description>Recent content in Exec on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Feb 2026 14:07:26 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/exec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Execute external bash command in Ruby</title>
+      <link>https://yegorov.github.io/notes/execute-external-bash-command-in-ruby/</link>
+      <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/execute-external-bash-command-in-ruby/</guid>
+      <description>&lt;p&gt;Most of the Ruby gems that you develop need to interact with the operating system or invoke external commands.&#xA;To do this, Ruby provides many built-in methods: &lt;code&gt;exec&lt;/code&gt;, &lt;code&gt;system&lt;/code&gt;, &lt;code&gt;spawn&lt;/code&gt;, ```, &lt;code&gt;%x[]&lt;/code&gt;, etc.&#xA;There are also many different libraries that encapsulate all the complexity of working with parameter escaping, input/output, passing environment variables, getting exit codes, etc.&#xA;One of my favorite gems is &lt;a href=&#34;https://rubygems.org/gems/qbash&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;qbash&lt;/code&gt;&lt;/a&gt;.&#xA;It is a simple and powerful wrapper over &lt;a href=&#34;https://github.com/ruby/open3&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;open3&lt;/code&gt;&lt;/a&gt;, which extends the &lt;code&gt;Kernel&lt;/code&gt; module with only one &lt;code&gt;qbash&lt;/code&gt; method.&#xA;The source code and usage examples can be found &lt;a href=&#34;https://github.com/yegor256/qbash&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&#xA;What gems do you use for these purposes?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

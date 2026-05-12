@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SimpleDelegator on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/simpledelegator/</link>
+    <description>Recent content in SimpleDelegator on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Apr 2026 07:20:24 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/simpledelegator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use SimpleDelegator for exceptions</title>
+      <link>https://yegorov.github.io/notes/use-simpledelegator-for-exceptions/</link>
+      <pubDate>Wed, 15 Apr 2026 07:20:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/use-simpledelegator-for-exceptions/</guid>
+      <description>&lt;p&gt;One of the coolest techniques for writing structured code is to use a decorator. Ruby has a &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Delegator.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Delegator class&lt;/a&gt;, a &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Object.html#method-i-DelegateClass&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DelegateClass method&lt;/a&gt; and a simple delegation implementation &lt;a href=&#34;https://docs.ruby-lang.org/en/master/SimpleDelegator.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SimpleDelegator&lt;/a&gt;. If you are really interested in their implementation, you can find the source code here (&lt;a href=&#34;https://github.com/ruby/delegate/blob/master/lib/delegate.rb%29&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ruby/delegate/blob/master/lib/delegate.rb)&lt;/a&gt;.&#xA;A few weeks ago I had the task of making the output of a long exception message more concise, namely, making the message that was printed to the console a little shorter. The logic for modifying the message was implemented in the decorator class. Also, in order for the decorated object to introduce itself as the original exception, it was necessary to remove the definition of the &lt;code&gt;class&lt;/code&gt;, &lt;code&gt;instance_of?&lt;/code&gt;, &lt;code&gt;kind_of?&lt;/code&gt; methods.&#xA;You can see a full example of the decorator and its use in the image.&#xA;How often do you use the delegate from the Ruby standard library?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

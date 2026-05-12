@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RubyLinks on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/rubylinks/</link>
+    <description>Recent content in RubyLinks on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Apr 2026 07:38:38 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/rubylinks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby operators</title>
+      <link>https://yegorov.github.io/notes/ruby-operators/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-operators/</guid>
+      <description>&lt;p&gt;Have you ever forgotten the name of an operator while working with Ruby?&#xA;If so, you&amp;rsquo;re not alone, I also forget their names from time to time.&#xA;And that&amp;rsquo;s why I have the following resources in my bookmarks:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/anildigital/ruby-operators/blob/master/public/operators.json&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/anildigital/ruby-operators/blob/master/public/operators.json&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.visualmode.dev/ruby-operators&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.visualmode.dev/ruby-operators&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kddnewton.com/2023/07/20/ruby-operators.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kddnewton.com/2023/07/20/ruby-operators.html&lt;/a&gt;&#xA;On these websites, you can find new operators (whose existence you never even knew existed) and alternative names for well-known operators. If you have some free time right now, be sure to check these resources out. You&amp;rsquo;ll find some fascinating reading.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Ruby evolution</title>
+      <link>https://yegorov.github.io/notes/ruby-evolution/</link>
+      <pubDate>Fri, 27 Mar 2026 07:39:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-evolution/</guid>
+      <description>&lt;p&gt;To better understand any technology, it is not enough to study the documentation, read books and articles for the current version. It is necessary to begin examining the technology from the origins of its creation and follow it chronologically to the latest version. It is important to understand when, what, and starting with which version a particular feature was added or removed.&#xA;Based on this principle, to better understand the Ruby language, I would recommend referring to the documentation, books, and articles for older versions. A starting point and a great helper in this regard is the &lt;a href=&#34;https://rubyreferences.github.io/rubychanges/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rubyreferences resource&lt;/a&gt;, which contains all the significant changes to the Ruby language since version 2.4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ruby cheatsheet</title>
+      <link>https://yegorov.github.io/notes/ruby-cheatsheet/</link>
+      <pubDate>Fri, 13 Mar 2026 06:41:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-cheatsheet/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re an experienced developer and want to brush up on your Ruby knowledge, check out the cheat sheets periodically.&#xA;Refer to the manuals only when you don&amp;rsquo;t understand something in them or you&amp;rsquo;ve forgotten it (or maybe you didn&amp;rsquo;t know it).&#xA;This way, you can quickly find gaps in your knowledge and fill them as quickly as possible.&#xA;Here&amp;rsquo;s a list of cheat sheet websites that I always keep in my browser bookmarks:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Actual version of Ruby</title>
+      <link>https://yegorov.github.io/notes/actual-version-of-ruby/</link>
+      <pubDate>Fri, 06 Mar 2026 08:03:02 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/actual-version-of-ruby/</guid>
+      <description>&lt;p&gt;If you haven&amp;rsquo;t worked on Ruby or Rails projects for a long time, then you may forget what the current version of the language and framework is.&#xA;To keep up to date with current versions and support deadlines, I recommend checking out one of these sites periodically.&lt;/p&gt;&#xA;&lt;p&gt;Ruby:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ruby-lang.org/en/downloads/branches/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ruby-lang.org/en/downloads/branches/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rubies.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rubies.io/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://versionlog.com/ruby/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://versionlog.com/ruby/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://endoflife.date/ruby&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://endoflife.date/ruby&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Rails:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rubyonrails.org/maintenance&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rubyonrails.org/maintenance&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://endoflife.date/rails&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://endoflife.date/rails&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.fastruby.io/blog/ruby/rails/versions/compatibility-table.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.fastruby.io/blog/ruby/rails/versions/compatibility-table.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t forget to regularly monitor and update versions of your tools on time. Keep them up to date, it will save you headaches in the future.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

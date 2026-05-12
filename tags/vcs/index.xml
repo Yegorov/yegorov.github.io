@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VCS on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/vcs/</link>
+    <description>Recent content in VCS on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Mar 2026 14:54:56 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/vcs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://yegorov.github.io/notes/git/</link>
+      <pubDate>Mon, 30 Mar 2026 14:54:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/git/</guid>
+      <description>&lt;p&gt;The first thing I do when starting a new project is initialize Git and create a repository on Github, Gitlab, or Codeberg.&#xA;No matter the size of your project, even if it&amp;rsquo;s just a couple of code files for an experiment and you&amp;rsquo;re the only one working on it, I recommend doing it in a version control system.&#xA;Git allows you to add new lines and remove old lines without worrying about losing anything valuable in your files. You can view the change history and revert to a previous version at any time.&#xA;If you haven&amp;rsquo;t used it yet, there&amp;rsquo;s a great &lt;a href=&#34;https://github.com/git-guides/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guide&lt;/a&gt; that will introduce you to the basic commands and get you up to speed on workflows. Every project of mine starts with these commands in the console:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

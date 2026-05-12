@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>POST on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/post/</link>
+    <description>Recent content in POST on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Mar 2026 13:19:24 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cURL</title>
+      <link>https://yegorov.github.io/notes/curl/</link>
+      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/curl/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://curl.se/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cURL&lt;/a&gt; is one of my favorite tools when working with REST APIs. The use of this tool is found in almost all scripts.&#xA;With it, you can test your HTTP handlers and even write example requests and responses in the service documentation. Of course, there are other tools, such as &lt;a href=&#34;https://httpie.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTTPie&lt;/a&gt;, &lt;a href=&#34;https://github.com/ducaale/xh&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xh&lt;/a&gt; and others.&#xA;But its popularity is due to the fact that in most cases it will already be installed in your environment.&#xA;So when someone has problems with a request to a service I&amp;rsquo;m responsible for, I always ask them to send me the curl request and its output, like this:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

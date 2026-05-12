@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -15,32 +15,32 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/bash/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/contribution/</loc>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/heredoc/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+    <loc>https://yegorov.github.io/notes/contribution-to-rake/</loc>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/github/</loc>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/rails/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/opensource/</loc>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/notes/rails-runner-export-tables-row-count/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/oss/</loc>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rake/</loc>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/runner/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/sql/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+    <lastmod>2026-05-08T07:14:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -52,11 +52,377 @@
                 href="https://yegorov.github.io/tags/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/ci/</loc>
-    <lastmod>2026-01-21T14:04:24+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/doublesplat/</loc>
+    <lastmod>2026-05-05T07:38:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/function/</loc>
+    <lastmod>2026-05-05T07:38:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/hash/</loc>
+    <lastmod>2026-05-05T07:38:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/keywordarguments/</loc>
+    <lastmod>2026-05-05T07:38:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/kwargs/</loc>
+    <lastmod>2026-05-05T07:38:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/method/</loc>
+    <lastmod>2026-05-05T07:38:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/pass-keyword-arguments-to-a-method-in-ruby/</loc>
+    <lastmod>2026-05-05T07:38:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/awesomewm/</loc>
+    <lastmod>2026-04-29T07:55:43+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/i3wm/</loc>
+    <lastmod>2026-04-29T07:55:43+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/terminal/</loc>
+    <lastmod>2026-04-29T07:55:43+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/tiling/</loc>
+    <lastmod>2026-04-29T07:55:43+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/tmux/</loc>
+    <lastmod>2026-04-29T07:55:43+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/tmux-instead-tiling-window-managers/</loc>
+    <lastmod>2026-04-29T07:55:43+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/windowmanagers/</loc>
+    <lastmod>2026-04-29T07:55:43+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/xfwm/</loc>
+    <lastmod>2026-04-29T07:55:43+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/block/</loc>
+    <lastmod>2026-04-23T07:25:09+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/condition/</loc>
+    <lastmod>2026-04-23T07:25:09+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/controlexpressions/</loc>
+    <lastmod>2026-04-23T07:25:09+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/if/</loc>
+    <lastmod>2026-04-23T07:25:09+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/ruby-variable-scope/</loc>
+    <lastmod>2026-04-23T07:25:09+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/variabledefenition/</loc>
+    <lastmod>2026-04-23T07:25:09+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/variablescope/</loc>
+    <lastmod>2026-04-23T07:25:09+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/decorator/</loc>
+    <lastmod>2026-04-15T07:20:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/delegator/</loc>
+    <lastmod>2026-04-15T07:20:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/exception/</loc>
+    <lastmod>2026-04-15T07:20:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/simpledelegator/</loc>
+    <lastmod>2026-04-15T07:20:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/use-simpledelegator-for-exceptions/</loc>
+    <lastmod>2026-04-15T07:20:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/constellation/</loc>
+    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/flipflop/</loc>
+    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/hashrocket/</loc>
+    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/operators/</loc>
+    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/ruby-operators/</loc>
+    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rubylinks/</loc>
+    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/spaceship/</loc>
+    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/splat/</loc>
+    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/codeberg/</loc>
+    <lastmod>2026-03-30T14:54:56+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/git/</loc>
-    <lastmod>2026-01-21T14:04:24+00:00</lastmod>
+    <lastmod>2026-03-30T14:54:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/git/</loc>
+    <lastmod>2026-03-30T14:54:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/gitlab/</loc>
+    <lastmod>2026-03-30T14:54:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/repository/</loc>
+    <lastmod>2026-03-30T14:54:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/vcs/</loc>
+    <lastmod>2026-03-30T14:54:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/changes/</loc>
+    <lastmod>2026-03-27T07:39:28+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/evolution/</loc>
+    <lastmod>2026-03-27T07:39:28+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/history/</loc>
+    <lastmod>2026-03-27T07:39:28+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/references/</loc>
+    <lastmod>2026-03-27T07:39:28+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/ruby-evolution/</loc>
+    <lastmod>2026-03-27T07:39:28+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ci/</loc>
+    <lastmod>2026-03-23T13:55:33+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/docker/</loc>
+    <lastmod>2026-03-23T13:55:33+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/donce/</loc>
+    <lastmod>2026-03-23T13:55:33+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/test/</loc>
+    <lastmod>2026-03-23T13:55:33+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/use-docker-in-ruby-with-donce-docker-once-gem/</loc>
+    <lastmod>2026-03-23T13:55:33+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/comparison-with-different-languages/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/go/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/java/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/javascript/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/learning/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/perl/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/php/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/polyglot/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/python/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rust/</loc>
+    <lastmod>2026-03-20T06:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/api/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/curl/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/curl/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/get/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/http/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/httpie/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/post/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rest/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/web/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/xh/</loc>
+    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/cheatsheets/</loc>
+    <lastmod>2026-03-13T06:41:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/hints/</loc>
+    <lastmod>2026-03-13T06:41:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/ruby-cheatsheet/</loc>
+    <lastmod>2026-03-13T06:41:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/tips/</loc>
+    <lastmod>2026-03-13T06:41:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ai/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/elasticsearch/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/embedding/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/fulltextsearch/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/knn/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/pgvector/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/search/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/sentencetransformers/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/tsvector/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/vector-search-in-elasticsearch/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/vectorsearch/</loc>
+    <lastmod>2026-03-10T06:27:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/actual-version-of-ruby/</loc>
+    <lastmod>2026-03-06T08:03:02+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/endoflife/</loc>
+    <lastmod>2026-03-06T08:03:02+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/eol/</loc>
+    <lastmod>2026-03-06T08:03:02+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/maintainable/</loc>
+    <lastmod>2026-03-06T08:03:02+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rails/</loc>
+    <lastmod>2026-03-06T08:03:02+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/timeline/</loc>
+    <lastmod>2026-03-06T08:03:02+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/version/</loc>
+    <lastmod>2026-03-06T08:03:02+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rbenv/</loc>
+    <lastmod>2026-03-02T13:07:27+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rv/</loc>
+    <lastmod>2026-03-02T13:07:27+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rvm/</loc>
+    <lastmod>2026-03-02T13:07:27+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/try-to-use-rv/</loc>
+    <lastmod>2026-03-02T13:07:27+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/versionmanager/</loc>
+    <lastmod>2026-03-02T13:07:27+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/activerecord/</loc>
+    <lastmod>2026-02-24T12:58:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/empty/</loc>
+    <lastmod>2026-02-24T12:58:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/normalization/</loc>
+    <lastmod>2026-02-24T12:58:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/null/</loc>
+    <lastmod>2026-02-24T12:58:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/unique/</loc>
+    <lastmod>2026-02-24T12:58:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/use-normalizes-insted-of-before-callbacks-in-rails/</loc>
+    <lastmod>2026-02-24T12:58:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/database/</loc>
+    <lastmod>2026-02-16T14:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/get-database-size/</loc>
+    <lastmod>2026-02-16T14:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/mariadb/</loc>
+    <lastmod>2026-02-16T14:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/mysql/</loc>
+    <lastmod>2026-02-16T14:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/postgresql/</loc>
+    <lastmod>2026-02-16T14:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/size/</loc>
+    <lastmod>2026-02-16T14:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/sql/</loc>
+    <lastmod>2026-02-16T14:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/sqlite/</loc>
+    <lastmod>2026-02-16T14:19:59+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/container/</loc>
+    <lastmod>2026-02-11T13:56:05+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/docker-run-1/</loc>
+    <lastmod>2026-02-11T13:56:05+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/irb/</loc>
+    <lastmod>2026-02-11T13:56:05+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/bash/</loc>
+    <lastmod>2026-02-03T14:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/exec/</loc>
+    <lastmod>2026-02-03T14:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/execute-external-bash-command-in-ruby/</loc>
+    <lastmod>2026-02-03T14:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/linux/</loc>
+    <lastmod>2026-02-03T14:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/shell/</loc>
+    <lastmod>2026-02-03T14:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/stdout/</loc>
+    <lastmod>2026-02-03T14:07:26+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/heredoc/</loc>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/rails-runner-export-tables-row-count/</loc>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/runner/</loc>
+    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/push/</loc>
     <lastmod>2026-01-21T14:04:24+00:00</lastmod>
@@ -88,12 +454,6 @@
     <loc>https://yegorov.github.io/notes/ruby-newsletter/</loc>
     <lastmod>2026-01-14T12:03:08+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/api/</loc>
-    <lastmod>2026-01-07T11:16:20+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/http/</loc>
-    <lastmod>2026-01-07T11:16:20+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/tags/mock/</loc>
     <lastmod>2026-01-07T11:16:20+00:00</lastmod>
   </url><url>
@@ -101,9 +461,6 @@
     <lastmod>2026-01-07T11:16:20+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/stub/</loc>
-    <lastmod>2026-01-07T11:16:20+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/test/</loc>
     <lastmod>2026-01-07T11:16:20+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/webmock-test-external-http-api-calls/</loc>
@@ -129,9 +486,6 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/categories/git/</loc>
-    <lastmod>2025-11-02T22:25:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/github/</loc>
     <lastmod>2025-11-02T22:25:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/github/</loc>
@@ -185,9 +539,6 @@
     <lastmod>2024-02-25T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/ruby/</loc>
-    <lastmod>2024-02-25T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/rvm/</loc>
     <lastmod>2024-02-25T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/series/rvm/</loc>

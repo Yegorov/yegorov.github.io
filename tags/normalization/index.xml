@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Normalization on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/normalization/</link>
+    <description>Recent content in Normalization on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Feb 2026 12:58:57 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/normalization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use normalizes insted of before_* callbacks in Rails</title>
+      <link>https://yegorov.github.io/notes/use-normalizes-insted-of-before-callbacks-in-rails/</link>
+      <pubDate>Tue, 24 Feb 2026 12:58:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/use-normalizes-insted-of-before-callbacks-in-rails/</guid>
+      <description>&lt;p&gt;It happens you need some field in the database to not contain an empty string, but to be NULL. For example, a unique index has been added to this field, meaning there can only be one record with an empty string. However, if the field has a NULL value, it is unique and there can be multiple such records.&#xA;If you work with Ruby on Rails, I recommend using the &lt;a href=&#34;https://api.rubyonrails.org/classes/ActiveModel/Attributes/Normalization/ClassMethods.html#method-i-normalizes&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;normalizes&lt;/code&gt;&lt;/a&gt; method added &lt;a href=&#34;https://blog.saeloun.com/2023/11/02/rails-7-1-introduces-active-record-base-normalization/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;in version 7.1&lt;/a&gt; for this purpose.&#xA;You might think the same result could be achieved using the &lt;code&gt;before_validation&lt;/code&gt; or &lt;code&gt;before_save&lt;/code&gt; callbacks, but this isn&amp;rsquo;t the case.&#xA;Unfortunately, the callbacks won&amp;rsquo;t be triggered when calling the &lt;code&gt;update_column&lt;/code&gt;, &lt;code&gt;update_columns&lt;/code&gt; or &lt;code&gt;update_all&lt;/code&gt; methods, and therefore the field won&amp;rsquo;t be normalized.&#xA;Don&amp;rsquo;t be afraid to populate fields with NULL values; otherwise, you&amp;rsquo;ll fill them with junk data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

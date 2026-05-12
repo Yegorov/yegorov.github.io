@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xfwm on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/xfwm/</link>
+    <description>Recent content in Xfwm on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Apr 2026 07:55:43 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/xfwm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tmux instead tiling window managers</title>
+      <link>https://yegorov.github.io/notes/tmux-instead-tiling-window-managers/</link>
+      <pubDate>Wed, 29 Apr 2026 07:55:43 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/tmux-instead-tiling-window-managers/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve never used tiling window managers like &lt;a href=&#34;https://i3wm.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;i3&lt;/code&gt;&lt;/a&gt; or &lt;a href=&#34;https://awesomewm.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;awesome&lt;/code&gt;&lt;/a&gt; on my workstations. Perhaps I&amp;rsquo;m wrong, and I should definitely give them a try and always use them in the future. But for several years now, I&amp;rsquo;ve been using a different compromise: instead of tiling the entire screen, I tile the space only in the terminal using tmux and &lt;a href=&#34;https://github.com/gpakosz/.tmux&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this config&lt;/a&gt;.&#xA;From the outside, it looks just as cool as using a tiling window manager, but I don&amp;rsquo;t have to worry about forgetting a hotkey combination and having my work grind to a halt for the entire day.&#xA;Admit it, you, too, in emergency situations, when something goes wrong, are the first thing you reach for your mouse?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

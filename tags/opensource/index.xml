@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenSource on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/opensource/</link>
+    <description>Recent content in OpenSource on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 May 2026 07:14:38 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contribution to Rake</title>
+      <link>https://yegorov.github.io/notes/contribution-to-rake/</link>
+      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/contribution-to-rake/</guid>
+      <description>&lt;p&gt;About a month ago, I made my first PR to the Ruby programming language ecosystem, specifically the &lt;a href=&#34;https://ruby.github.io/rake/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Rake&lt;/code&gt; project&lt;/a&gt;.&#xA;A few weeks ago, &lt;a href=&#34;https://github.com/ruby/rake/pull/712&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my PR&lt;/a&gt; was merged into the main branch, and they even released a &lt;a href=&#34;https://github.com/ruby/rake/releases/tag/v13.4.0&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;release&lt;/a&gt; with this fix. This fix allows you to pass multiple test files in the &lt;code&gt;TEST&lt;/code&gt; environment variable, which should be run when running the &lt;code&gt;bundle exec rake test&lt;/code&gt; command. For example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Specific files&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;TEST=test/unit/test_some.rb,test/integration/test_other.rb bundle exec rake test&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# All files in specified folders and subfolders&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;TEST=test/unit/**/*.rb,test/integration/**/*.rb bundle exec rake test&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To take advantage of this feature, make sure you are using rake version 13.4.0 or later and have tests configured to run via &lt;code&gt;Rake::TestTask&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

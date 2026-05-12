@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donce on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/donce/</link>
+    <description>Recent content in Donce on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Mar 2026 13:55:33 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/donce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Docker in Ruby with donce (docker once) gem</title>
+      <link>https://yegorov.github.io/notes/use-docker-in-ruby-with-donce-docker-once-gem/</link>
+      <pubDate>Mon, 23 Mar 2026 13:55:33 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/use-docker-in-ruby-with-donce-docker-once-gem/</guid>
+      <description>&lt;p&gt;Do you work with Ruby and like Docker? I advise you to pay attention to &lt;a href=&#34;https://github.com/yegor256/donce&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;donce&lt;/code&gt;&lt;/a&gt; gem.&#xA;This is a simple but effective wrapper around the docker run command that allows you to run one-off containers of an image you specify. One of the main features is that you can run a container by passing the contents of the Dockerfile as a string. This is a very useful tool that allows you to run various tools in your tests or CI scripts without installing them as a dependency on your system.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

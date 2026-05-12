@@ -6,8 +6,22 @@
     <description>Recent content in Github on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Nov 2025 22:25:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 07:14:38 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contribution to Rake</title>
+      <link>https://yegorov.github.io/notes/contribution-to-rake/</link>
+      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/contribution-to-rake/</guid>
+      <description>&lt;p&gt;About a month ago, I made my first PR to the Ruby programming language ecosystem, specifically the &lt;a href=&#34;https://ruby.github.io/rake/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Rake&lt;/code&gt; project&lt;/a&gt;.&#xA;A few weeks ago, &lt;a href=&#34;https://github.com/ruby/rake/pull/712&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my PR&lt;/a&gt; was merged into the main branch, and they even released a &lt;a href=&#34;https://github.com/ruby/rake/releases/tag/v13.4.0&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;release&lt;/a&gt; with this fix. This fix allows you to pass multiple test files in the &lt;code&gt;TEST&lt;/code&gt; environment variable, which should be run when running the &lt;code&gt;bundle exec rake test&lt;/code&gt; command. For example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Specific files&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;TEST=test/unit/test_some.rb,test/integration/test_other.rb bundle exec rake test&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# All files in specified folders and subfolders&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;TEST=test/unit/**/*.rb,test/integration/**/*.rb bundle exec rake test&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To take advantage of this feature, make sure you are using rake version 13.4.0 or later and have tests configured to run via &lt;code&gt;Rake::TestTask&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://yegorov.github.io/notes/git/</link>
+      <pubDate>Mon, 30 Mar 2026 14:54:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/git/</guid>
+      <description>&lt;p&gt;The first thing I do when starting a new project is initialize Git and create a repository on Github, Gitlab, or Codeberg.&#xA;No matter the size of your project, even if it&amp;rsquo;s just a couple of code files for an experiment and you&amp;rsquo;re the only one working on it, I recommend doing it in a version control system.&#xA;Git allows you to add new lines and remove old lines without worrying about losing anything valuable in your files. You can view the change history and revert to a previous version at any time.&#xA;If you haven&amp;rsquo;t used it yet, there&amp;rsquo;s a great &lt;a href=&#34;https://github.com/git-guides/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;guide&lt;/a&gt; that will introduce you to the basic commands and get you up to speed on workflows. Every project of mine starts with these commands in the console:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to continue using a repository after cloning</title>
       <link>https://yegorov.github.io/posts/how-continue-using-repo-after-cloning/</link>

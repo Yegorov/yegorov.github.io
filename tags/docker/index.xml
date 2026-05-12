@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/docker/</link>
+    <description>Recent content in Docker on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Mar 2026 13:55:33 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Docker in Ruby with donce (docker once) gem</title>
+      <link>https://yegorov.github.io/notes/use-docker-in-ruby-with-donce-docker-once-gem/</link>
+      <pubDate>Mon, 23 Mar 2026 13:55:33 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/use-docker-in-ruby-with-donce-docker-once-gem/</guid>
+      <description>&lt;p&gt;Do you work with Ruby and like Docker? I advise you to pay attention to &lt;a href=&#34;https://github.com/yegor256/donce&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;donce&lt;/code&gt;&lt;/a&gt; gem.&#xA;This is a simple but effective wrapper around the docker run command that allows you to run one-off containers of an image you specify. One of the main features is that you can run a container by passing the contents of the Dockerfile as a string. This is a very useful tool that allows you to run various tools in your tests or CI scripts without installing them as a dependency on your system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Docker run</title>
+      <link>https://yegorov.github.io/notes/docker-run-1/</link>
+      <pubDate>Wed, 11 Feb 2026 13:56:05 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/docker-run-1/</guid>
+      <description>&lt;p&gt;Over the past few years, one of the most popular commands in my terminal has been &lt;a href=&#34;https://docs.docker.com/reference/cli/docker/container/run/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;docker run&lt;/code&gt;&lt;/a&gt;. With this command, you can get almost any service up and running locally in a matter of seconds.&#xA;For example, you can run the latest version of Postgresql with just one command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;run&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rm&lt;/span&gt; \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;postgres18&lt;/span&gt; \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;postgres&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;lib&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;postgresql&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;docker&lt;/span&gt; \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5432&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5432&lt;/span&gt; \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;POSTGRES_PASSWORD&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;postgres&lt;/span&gt; \&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;postgres&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;18.1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can try out the new features of the Ruby language by launching its interactive console like this:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

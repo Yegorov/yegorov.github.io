@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elasticsearch on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/elasticsearch/</link>
+    <description>Recent content in Elasticsearch on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 06:27:19 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vector search in Elasticsearch</title>
+      <link>https://yegorov.github.io/notes/vector-search-in-elasticsearch/</link>
+      <pubDate>Tue, 10 Mar 2026 06:27:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/vector-search-in-elasticsearch/</guid>
+      <description>&lt;p&gt;If you are building an application that requires search, I recommend using Elasticsearch early on. In addition to the usual &lt;a href=&#34;https://www.elastic.co/docs/solutions/search/full-text&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full-text search&lt;/a&gt;, Elasticsearch allows you to perform a hybrid search: combine the results of text and &lt;a href=&#34;https://www.elastic.co/docs/solutions/search/vector/knn&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vector search&lt;/a&gt;. Of course, for small amounts of data, you can use PostgreSQL &lt;a href=&#34;https://www.postgresql.org/docs/current/datatype-textsearch.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tsvector&lt;/a&gt; with the &lt;a href=&#34;https://github.com/pgvector/pgvector&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pgvector extension&lt;/a&gt;, but in the long term, Elasticsearch will provide good performance.&#xA;I&amp;rsquo;d also like to remind you that vector embeddings can be extracted not only from text but also from images or audio files (for example, using &lt;a href=&#34;https://huggingface.co/sentence-transformers/models&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sentence Transformers models&lt;/a&gt;). This will allow users to combine different types of input data for search, while achieving maximum accuracy.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

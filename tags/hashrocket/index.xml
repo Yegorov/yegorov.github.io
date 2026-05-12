@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hashrocket on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/hashrocket/</link>
+    <description>Recent content in Hashrocket on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Apr 2026 07:38:38 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/hashrocket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby operators</title>
+      <link>https://yegorov.github.io/notes/ruby-operators/</link>
+      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-operators/</guid>
+      <description>&lt;p&gt;Have you ever forgotten the name of an operator while working with Ruby?&#xA;If so, you&amp;rsquo;re not alone, I also forget their names from time to time.&#xA;And that&amp;rsquo;s why I have the following resources in my bookmarks:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/anildigital/ruby-operators/blob/master/public/operators.json&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/anildigital/ruby-operators/blob/master/public/operators.json&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.visualmode.dev/ruby-operators&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.visualmode.dev/ruby-operators&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kddnewton.com/2023/07/20/ruby-operators.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kddnewton.com/2023/07/20/ruby-operators.html&lt;/a&gt;&#xA;On these websites, you can find new operators (whose existence you never even knew existed) and alternative names for well-known operators. If you have some free time right now, be sure to check these resources out. You&amp;rsquo;ll find some fascinating reading.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

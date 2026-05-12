@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>If on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/if/</link>
+    <description>Recent content in If on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Apr 2026 07:25:09 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/if/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby variable scope</title>
+      <link>https://yegorov.github.io/notes/ruby-variable-scope/</link>
+      <pubDate>Thu, 23 Apr 2026 07:25:09 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-variable-scope/</guid>
+      <description>&lt;p&gt;Ruby has a peculiarity: when you define a variable in a conditional expression (&lt;code&gt;if&lt;/code&gt; / &lt;code&gt;unless&lt;/code&gt; / &lt;code&gt;case&lt;/code&gt; / &lt;code&gt;:?&lt;/code&gt; (ternary if)), it becomes visible from then on.&#xA;It&amp;rsquo;s as if it was assigned nil before the conditional expression, and you don&amp;rsquo;t need to explicitly declare it:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;nil&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# in this case it is unnecessary&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;puts&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;inspect&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# 42&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;But if you define a variable in a block, it is defined in the local scope and is no longer visible outside the block, for example:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
