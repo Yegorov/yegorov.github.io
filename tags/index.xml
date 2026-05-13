@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 07:14:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 07:58:47 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facet</title>
+      <link>https://yegorov.github.io/tags/facet/</link>
+      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/facet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OneLiners</title>
+      <link>https://yegorov.github.io/tags/oneliners/</link>
+      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/oneliners/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Routine</title>
+      <link>https://yegorov.github.io/tags/routine/</link>
+      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/routine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RubyLinks</title>
+      <link>https://yegorov.github.io/tags/rubylinks/</link>
+      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rubylinks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Script</title>
+      <link>https://yegorov.github.io/tags/script/</link>
+      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/script/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Task</title>
+      <link>https://yegorov.github.io/tags/task/</link>
+      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/task/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Contribution</title>
       <link>https://yegorov.github.io/tags/contribution/</link>
@@ -41,13 +90,6 @@
       <link>https://yegorov.github.io/tags/rake/</link>
       <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/rake/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -237,13 +279,6 @@
       <link>https://yegorov.github.io/tags/operators/</link>
       <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/operators/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RubyLinks</title>
-      <link>https://yegorov.github.io/tags/rubylinks/</link>
-      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/rubylinks/</guid>
       <description></description>
     </item>
     <item>

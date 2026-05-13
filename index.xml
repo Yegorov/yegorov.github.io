@@ -6,8 +6,15 @@
     <description>Recent content on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 07:14:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 07:58:47 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby One-Liners</title>
+      <link>https://yegorov.github.io/notes/ruby-one-liners/</link>
+      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-one-liners/</guid>
+      <description>&lt;p&gt;One of the coolest things about Ruby is that you can write clear yet concise code.&#xA;This is especially useful when you want to automate repetitive tasks using scripts.&#xA;To understand how to use Ruby in your scripts, in most cases you can simply look at the standard help for the &lt;code&gt;ruby&lt;/code&gt; command, such as &lt;code&gt;ruby -h&lt;/code&gt; or &lt;code&gt;man ruby&lt;/code&gt;. You can also pass arbitrary code using the &lt;code&gt;-e&lt;/code&gt; option, for example:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Contribution to Rake</title>
       <link>https://yegorov.github.io/notes/contribution-to-rake/</link>
