@@ -6,20 +6,48 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 May 2026 09:01:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 08:05:28 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arguments</title>
       <link>https://yegorov.github.io/tags/arguments/</link>
-      <pubDate>Mon, 18 May 2026 09:01:06 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 08:05:28 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/arguments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BeginEnd</title>
+      <link>https://yegorov.github.io/tags/beginend/</link>
+      <pubDate>Fri, 22 May 2026 08:05:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/beginend/</guid>
       <description></description>
     </item>
     <item>
       <title>Default</title>
       <link>https://yegorov.github.io/tags/default/</link>
-      <pubDate>Mon, 18 May 2026 09:01:06 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 08:05:28 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/default/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KeywordArguments</title>
+      <link>https://yegorov.github.io/tags/keywordarguments/</link>
+      <pubDate>Fri, 22 May 2026 08:05:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/keywordarguments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Method</title>
+      <link>https://yegorov.github.io/tags/method/</link>
+      <pubDate>Fri, 22 May 2026 08:05:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/method/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Fri, 22 May 2026 08:05:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -27,27 +55,6 @@
       <link>https://yegorov.github.io/tags/instancevariable/</link>
       <pubDate>Mon, 18 May 2026 09:01:06 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/instancevariable/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>KeywordArguments</title>
-      <link>https://yegorov.github.io/tags/keywordarguments/</link>
-      <pubDate>Mon, 18 May 2026 09:01:06 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/keywordarguments/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Method</title>
-      <link>https://yegorov.github.io/tags/method/</link>
-      <pubDate>Mon, 18 May 2026 09:01:06 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/method/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Mon, 18 May 2026 09:01:06 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>

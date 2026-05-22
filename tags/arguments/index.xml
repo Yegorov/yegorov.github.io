@@ -6,8 +6,15 @@
     <description>Recent content in Arguments on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 May 2026 09:01:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 08:05:28 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/arguments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Block of code inside default arguments in Ruby methods</title>
+      <link>https://yegorov.github.io/notes/ruby-block-of-code-in-default-arguments/</link>
+      <pubDate>Fri, 22 May 2026 08:05:28 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/ruby-block-of-code-in-default-arguments/</guid>
+      <description>&lt;p&gt;Following up on my previous &lt;a href=&#34;https://yegorov.github.io/notes/ruby-default-arguments/&#34; &gt;post&lt;/a&gt; (where I showed how to set default values in Ruby methods), it turns out you can write not just a single expression on the right side, but an entire block of code inside a begin-end construct.&#xA;Of course, I&amp;rsquo;m not sure if you should use this in production, as it might cause some unpredictable side effects.&#xA;Still, this is valid Ruby syntax. And if you want to become a experienced developer, knowing these nuances is definitely worth it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Default arguments in Ruby methods</title>
       <link>https://yegorov.github.io/notes/ruby-default-arguments/</link>
