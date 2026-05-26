@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web on Artem Yegorov</title>
-    <link>https://yegorov.github.io/tags/web/</link>
-    <description>Recent content in Web on Artem Yegorov</description>
+    <title>Session on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/session/</link>
+    <description>Recent content in Session on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 May 2026 08:31:18 +0000</lastBuildDate>
-    <atom:link href="https://yegorov.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yegorov.github.io/tags/session/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fast way logout all users in you site</title>
       <link>https://yegorov.github.io/notes/fast-way-logout-all-users-in-you-site/</link>
       <pubDate>Tue, 26 May 2026 08:31:18 +0000</pubDate>
       <guid>https://yegorov.github.io/notes/fast-way-logout-all-users-in-you-site/</guid>
       <description>&lt;p&gt;If you are using your own authentication implementation, the fastest and easiest way to log out all users of your Rails application is to change the &lt;a href=&#34;https://api.rubyonrails.org/classes/Rails/Application.html#method-i-secret_key_base&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;secret&lt;/code&gt;&lt;/a&gt; or change the name of the &lt;a href=&#34;https://api.rubyonrails.org/classes/Rails/Application/Configuration.html#method-i-session_store&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;session cookie&lt;/a&gt;.&#xA;If you&amp;rsquo;re wondering &amp;ldquo;Why?&amp;rdquo;, my answer is this:&#xA;When you purge users from your database, some of these users may be logged in to your site.&#xA;And if you delete them without logging them out, the next time they log in to your site, they&amp;rsquo;ll see a 500 error (since they simply won&amp;rsquo;t be found in your database).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>cURL</title>
-      <link>https://yegorov.github.io/notes/curl/</link>
-      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
-      <guid>https://yegorov.github.io/notes/curl/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://curl.se/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cURL&lt;/a&gt; is one of my favorite tools when working with REST APIs. The use of this tool is found in almost all scripts.&#xA;With it, you can test your HTTP handlers and even write example requests and responses in the service documentation. Of course, there are other tools, such as &lt;a href=&#34;https://httpie.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTTPie&lt;/a&gt;, &lt;a href=&#34;https://github.com/ducaale/xh&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xh&lt;/a&gt; and others.&#xA;But its popularity is due to the fact that in most cases it will already be installed in your environment.&#xA;So when someone has problems with a request to a service I&amp;rsquo;m responsible for, I always ask them to send me the curl request and its output, like this:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,15 @@
     <description>Recent content in Ruby on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 08:05:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 08:31:18 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fast way logout all users in you site</title>
+      <link>https://yegorov.github.io/notes/fast-way-logout-all-users-in-you-site/</link>
+      <pubDate>Tue, 26 May 2026 08:31:18 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/fast-way-logout-all-users-in-you-site/</guid>
+      <description>&lt;p&gt;If you are using your own authentication implementation, the fastest and easiest way to log out all users of your Rails application is to change the &lt;a href=&#34;https://api.rubyonrails.org/classes/Rails/Application.html#method-i-secret_key_base&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;secret&lt;/code&gt;&lt;/a&gt; or change the name of the &lt;a href=&#34;https://api.rubyonrails.org/classes/Rails/Application/Configuration.html#method-i-session_store&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;session cookie&lt;/a&gt;.&#xA;If you&amp;rsquo;re wondering &amp;ldquo;Why?&amp;rdquo;, my answer is this:&#xA;When you purge users from your database, some of these users may be logged in to your site.&#xA;And if you delete them without logging them out, the next time they log in to your site, they&amp;rsquo;ll see a 500 error (since they simply won&amp;rsquo;t be found in your database).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Block of code inside default arguments in Ruby methods</title>
       <link>https://yegorov.github.io/notes/ruby-block-of-code-in-default-arguments/</link>

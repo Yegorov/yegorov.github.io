@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yegorov.github.io/tags/arguments/</loc>
-    <lastmod>2026-05-22T08:05:28+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-05-22T08:05:28+00:00</lastmod>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -17,6 +14,46 @@
                 hreflang="en"
                 href="https://yegorov.github.io/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/cookie/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/fast-way-logout-all-users-in-you-site/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/logout/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rails/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ruby/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/session/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/web/</loc>
+    <lastmod>2026-05-26T08:31:18+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/arguments/</loc>
+    <lastmod>2026-05-22T08:05:28+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/beginend/</loc>
     <lastmod>2026-05-22T08:05:28+00:00</lastmod>
@@ -32,25 +69,6 @@
   </url><url>
     <loc>https://yegorov.github.io/tags/method/</loc>
     <lastmod>2026-05-22T08:05:28+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-05-22T08:05:28+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-05-22T08:05:28+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-05-22T08:05:28+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
   </url><url>
     <loc>https://yegorov.github.io/cv/</loc>
     <lastmod>2026-05-21T00:00:00+00:00</lastmod>
@@ -301,9 +319,6 @@
     <loc>https://yegorov.github.io/tags/rest/</loc>
     <lastmod>2026-03-16T13:19:24+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/web/</loc>
-    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/tags/xh/</loc>
     <lastmod>2026-03-16T13:19:24+00:00</lastmod>
   </url><url>
@@ -362,9 +377,6 @@
     <lastmod>2026-03-06T08:03:02+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/maintainable/</loc>
-    <lastmod>2026-03-06T08:03:02+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/rails/</loc>
     <lastmod>2026-03-06T08:03:02+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/timeline/</loc>
