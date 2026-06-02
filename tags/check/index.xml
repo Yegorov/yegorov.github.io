@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Task on Artem Yegorov</title>
-    <link>https://yegorov.github.io/tags/task/</link>
-    <description>Recent content in Task on Artem Yegorov</description>
+    <title>Check on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/check/</link>
+    <description>Recent content in Check on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Jun 2026 06:58:50 +0000</lastBuildDate>
-    <atom:link href="https://yegorov.github.io/tags/task/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yegorov.github.io/tags/check/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Checking background tasks</title>
       <link>https://yegorov.github.io/notes/checking-background-tasks/</link>
       <pubDate>Tue, 02 Jun 2026 06:58:50 +0000</pubDate>
       <guid>https://yegorov.github.io/notes/checking-background-tasks/</guid>
       <description>&lt;p&gt;One common problem when working with background tasks in Rails is ensuring that the task queue itself is configured and functioning correctly.&#xA;For this purpose, I always create a test job that simply writes a test message to the log:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;CheckJob&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;ApplicationJob&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;queue_as&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:default&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;perform&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;logger&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;Logger&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;new&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;Rails&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;root&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;log&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;check.log&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;level&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;logger&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;OK&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, I run it in the console, for example like this:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bin/rails r &lt;span class=&#34;s1&#34;&gt;&amp;#39;CheckJob.perform_later&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This check can also be extended by adding execution of this task to the cron using the &lt;a href=&#34;https://github.com/javan/whenever&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;whenever&lt;/code&gt;&lt;/a&gt; gem:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ruby One-Liners</title>
-      <link>https://yegorov.github.io/notes/ruby-one-liners/</link>
-      <pubDate>Wed, 13 May 2026 07:58:47 +0000</pubDate>
-      <guid>https://yegorov.github.io/notes/ruby-one-liners/</guid>
-      <description>&lt;p&gt;One of the coolest things about Ruby is that you can write clear yet concise code.&#xA;This is especially useful when you want to automate repetitive tasks using scripts.&#xA;To understand how to use Ruby in your scripts, in most cases you can simply look at the standard help for the &lt;code&gt;ruby&lt;/code&gt; command, such as &lt;code&gt;ruby -h&lt;/code&gt; or &lt;code&gt;man ruby&lt;/code&gt;. You can also pass arbitrary code using the &lt;code&gt;-e&lt;/code&gt; option, for example:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
