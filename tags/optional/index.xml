@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go on Artem Yegorov</title>
-    <link>https://yegorov.github.io/tags/go/</link>
-    <description>Recent content in Go on Artem Yegorov</description>
+    <title>Optional on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/optional/</link>
+    <description>Recent content in Optional on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Jun 2026 08:26:19 +0000</lastBuildDate>
-    <atom:link href="https://yegorov.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yegorov.github.io/tags/optional/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optional string in Go</title>
       <link>https://yegorov.github.io/notes/optional-string-in-go/</link>
       <pubDate>Thu, 04 Jun 2026 08:26:19 +0000</pubDate>
       <guid>https://yegorov.github.io/notes/optional-string-in-go/</guid>
       <description>&lt;p&gt;Whenever I return to programming in Golang, I always encounter the lack of a standard solution for obtaining the address of a string literal. This is especially necessary when initializing a pointer to a string in a structure, for example, when it contains an optional string field.&#xA;But I&amp;rsquo;m not alone in this problem, as this issue, which proposed adding a method for obtaining the address of a literal to the standard library, &lt;a href=&#34;https://github.com/golang/go/issues/38298&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;was discussed&lt;/a&gt; back in 2020.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Comparison with different languages</title>
-      <link>https://yegorov.github.io/notes/comparison-with-different-languages/</link>
-      <pubDate>Fri, 20 Mar 2026 06:50:15 +0000</pubDate>
-      <guid>https://yegorov.github.io/notes/comparison-with-different-languages/</guid>
-      <description>&lt;p&gt;Do you want to quickly learn a new programming language while still having a fairly good knowledge of another, such as Ruby?&#xA;After reading the official documentation and the book recommended by the community, I would advise you look at comparison lists of how something can be done in a language that you know and how it is done in another language that you are trying to learn.&#xA;These two resources provide a great foundation:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
