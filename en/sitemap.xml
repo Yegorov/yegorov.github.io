@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -16,31 +16,31 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/tags/go/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/gox/</loc>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/new/</loc>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/nil/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/null/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/nulltype/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/optional/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/notes/optional-string-in-go/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+    <loc>https://yegorov.github.io/notes/optional-string-in-go-1-26-and-above/</loc>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/string/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -51,6 +51,15 @@
                 hreflang="en"
                 href="https://yegorov.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/nulltype/</loc>
+    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/optional/</loc>
+    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/optional-string-in-go/</loc>
+    <lastmod>2026-06-04T08:26:19+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/applicationjob/</loc>
     <lastmod>2026-06-02T06:58:50+00:00</lastmod>

@@ -6,27 +6,48 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 08:26:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 12:38:30 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go</title>
       <link>https://yegorov.github.io/tags/go/</link>
-      <pubDate>Thu, 04 Jun 2026 08:26:19 +0000</pubDate>
+      <pubDate>Fri, 05 Jun 2026 12:38:30 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gox</title>
+      <link>https://yegorov.github.io/tags/gox/</link>
+      <pubDate>Fri, 05 Jun 2026 12:38:30 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/gox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New</title>
+      <link>https://yegorov.github.io/tags/new/</link>
+      <pubDate>Fri, 05 Jun 2026 12:38:30 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>Nil</title>
       <link>https://yegorov.github.io/tags/nil/</link>
-      <pubDate>Thu, 04 Jun 2026 08:26:19 +0000</pubDate>
+      <pubDate>Fri, 05 Jun 2026 12:38:30 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/nil/</guid>
       <description></description>
     </item>
     <item>
       <title>Null</title>
       <link>https://yegorov.github.io/tags/null/</link>
-      <pubDate>Thu, 04 Jun 2026 08:26:19 +0000</pubDate>
+      <pubDate>Fri, 05 Jun 2026 12:38:30 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/null/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://yegorov.github.io/tags/string/</link>
+      <pubDate>Fri, 05 Jun 2026 12:38:30 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/string/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +62,6 @@
       <link>https://yegorov.github.io/tags/optional/</link>
       <pubDate>Thu, 04 Jun 2026 08:26:19 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/optional/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>https://yegorov.github.io/tags/string/</link>
-      <pubDate>Thu, 04 Jun 2026 08:26:19 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/string/</guid>
       <description></description>
     </item>
     <item>
