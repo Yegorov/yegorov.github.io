@@ -6,8 +6,15 @@
     <description>Recent content in Notes on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 12:38:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 09:43:23 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use &#34;ensure&#34; for cleanup actions in your Ruby methods</title>
+      <link>https://yegorov.github.io/notes/use-ensure-for-cleanup-actions-in-your-ruby-methods/</link>
+      <pubDate>Wed, 10 Jun 2026 09:43:23 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/use-ensure-for-cleanup-actions-in-your-ruby-methods/</guid>
+      <description>&lt;p&gt;When developing instance methods in Ruby, one common problem is correctly restoring the object&amp;rsquo;s state upon method completion.&lt;/p&gt;&#xA;&lt;p&gt;For example, you need to modify instance variables for only one method call and then return them to their initial state. You could use a simple and obvious solution: save the original value in a temporary variable and then restore it at the end of the method.&lt;/p&gt;&#xA;&lt;p&gt;However, this will only work until an exception is thrown. Since the variable is not restored at the end of the method, the object&amp;rsquo;s state will be corrupted. To prevent this, move the variable restoration code to the &lt;code&gt;ensure&lt;/code&gt; block, as the code in it is always executed.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Optional string in Go (1.26 and above)</title>
       <link>https://yegorov.github.io/notes/optional-string-in-go-1-26-and-above/</link>
