@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yegorov.github.io/tags/activesupport/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+  </url><url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -15,23 +18,23 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/cleanupactions/</loc>
-    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/date/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/ensure/</loc>
-    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/method/</loc>
-    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/duration/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rails/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -42,6 +45,21 @@
                 hreflang="en"
                 href="https://yegorov.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/time/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/time-arithmetic-with-date-and-time-in-ruby/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/cleanupactions/</loc>
+    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ensure/</loc>
+    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/method/</loc>
+    <lastmod>2026-06-10T09:43:23+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/tips/</loc>
     <lastmod>2026-06-10T09:43:23+00:00</lastmod>
@@ -95,9 +113,6 @@
     <lastmod>2026-06-02T06:58:50+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/job/</loc>
-    <lastmod>2026-06-02T06:58:50+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/rails/</loc>
     <lastmod>2026-06-02T06:58:50+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/task/</loc>

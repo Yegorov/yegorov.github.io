@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2026 09:43:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 08:06:24 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ActiveSupport</title>
+      <link>https://yegorov.github.io/tags/activesupport/</link>
+      <pubDate>Tue, 16 Jun 2026 08:06:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/activesupport/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Date</title>
+      <link>https://yegorov.github.io/tags/date/</link>
+      <pubDate>Tue, 16 Jun 2026 08:06:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/date/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Duration</title>
+      <link>https://yegorov.github.io/tags/duration/</link>
+      <pubDate>Tue, 16 Jun 2026 08:06:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/duration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails</title>
+      <link>https://yegorov.github.io/tags/rails/</link>
+      <pubDate>Tue, 16 Jun 2026 08:06:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Tue, 16 Jun 2026 08:06:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time</title>
+      <link>https://yegorov.github.io/tags/time/</link>
+      <pubDate>Tue, 16 Jun 2026 08:06:24 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/time/</guid>
+      <description></description>
+    </item>
     <item>
       <title>CleanupActions</title>
       <link>https://yegorov.github.io/tags/cleanupactions/</link>
@@ -27,13 +69,6 @@
       <link>https://yegorov.github.io/tags/method/</link>
       <pubDate>Wed, 10 Jun 2026 09:43:23 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/method/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Wed, 10 Jun 2026 09:43:23 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -132,13 +167,6 @@
       <link>https://yegorov.github.io/tags/job/</link>
       <pubDate>Tue, 02 Jun 2026 06:58:50 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/job/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rails</title>
-      <link>https://yegorov.github.io/tags/rails/</link>
-      <pubDate>Tue, 02 Jun 2026 06:58:50 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/rails/</guid>
       <description></description>
     </item>
     <item>
