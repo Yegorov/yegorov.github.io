@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yegorov.github.io/tags/activesupport/</loc>
-    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -18,23 +15,38 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/date/</loc>
-    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/gem/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/duration/</loc>
-    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/linux/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/macos/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/rails/</loc>
-    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/os/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/os-detection-in-ruby/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/platform/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rbconfig/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/script/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -45,6 +57,27 @@
                 hreflang="en"
                 href="https://yegorov.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/uname/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/unix/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/windows/</loc>
+    <lastmod>2026-06-25T08:17:14+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/activesupport/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/date/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/duration/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/rails/</loc>
+    <lastmod>2026-06-16T08:06:24+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/time/</loc>
     <lastmod>2026-06-16T08:06:24+00:00</lastmod>
@@ -176,9 +209,6 @@
     <lastmod>2026-05-13T07:58:47+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/rubylinks/</loc>
-    <lastmod>2026-05-13T07:58:47+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/script/</loc>
     <lastmod>2026-05-13T07:58:47+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/contribution/</loc>
@@ -527,9 +557,6 @@
     <lastmod>2026-02-03T14:07:26+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/execute-external-bash-command-in-ruby/</loc>
-    <lastmod>2026-02-03T14:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/linux/</loc>
     <lastmod>2026-02-03T14:07:26+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/shell/</loc>
