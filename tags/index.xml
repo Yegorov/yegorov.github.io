@@ -6,8 +6,64 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 08:17:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 08:33:20 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arguments</title>
+      <link>https://yegorov.github.io/tags/arguments/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/arguments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IO</title>
+      <link>https://yegorov.github.io/tags/io/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/io/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Method</title>
+      <link>https://yegorov.github.io/tags/method/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/method/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PassBySharing</title>
+      <link>https://yegorov.github.io/tags/passbysharing/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/passbysharing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reassign</title>
+      <link>https://yegorov.github.io/tags/reassign/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/reassign/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reference</title>
+      <link>https://yegorov.github.io/tags/reference/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/reference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>StringIO</title>
+      <link>https://yegorov.github.io/tags/stringio/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/stringio/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Gem</title>
       <link>https://yegorov.github.io/tags/gem/</link>
@@ -48,13 +104,6 @@
       <link>https://yegorov.github.io/tags/rbconfig/</link>
       <pubDate>Thu, 25 Jun 2026 08:17:14 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/rbconfig/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 25 Jun 2026 08:17:14 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -132,13 +181,6 @@
       <link>https://yegorov.github.io/tags/ensure/</link>
       <pubDate>Wed, 10 Jun 2026 09:43:23 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/ensure/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Method</title>
-      <link>https://yegorov.github.io/tags/method/</link>
-      <pubDate>Wed, 10 Jun 2026 09:43:23 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/method/</guid>
       <description></description>
     </item>
     <item>
@@ -279,13 +321,6 @@
       <link>https://yegorov.github.io/tags/web/</link>
       <pubDate>Tue, 26 May 2026 08:31:18 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Arguments</title>
-      <link>https://yegorov.github.io/tags/arguments/</link>
-      <pubDate>Fri, 22 May 2026 08:05:28 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/arguments/</guid>
       <description></description>
     </item>
     <item>

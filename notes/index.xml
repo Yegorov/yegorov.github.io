@@ -6,8 +6,15 @@
     <description>Recent content in Notes on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 08:17:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 08:33:20 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modifying argument in a Ruby method</title>
+      <link>https://yegorov.github.io/notes/modifying-argument-in-a-ruby-method/</link>
+      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/modifying-argument-in-a-ruby-method/</guid>
+      <description>&lt;p&gt;If you’ve been working with Ruby for a while, you probably know that arguments are passed into methods by reference to the object (more specifically, pass-by-sharing). Because of this, you cannot simply reassign a new value to an argument inside a method and expect it to change outside. Technically, you can assign it, but once the method finishes execution, the outer variable will still hold its original value.&#xA;For example:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>OS detection in Ruby</title>
       <link>https://yegorov.github.io/notes/os-detection-in-ruby/</link>
