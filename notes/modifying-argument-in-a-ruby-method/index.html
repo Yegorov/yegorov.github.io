@@ -288,7 +288,7 @@
         
           <img src="https://yegorov.github.io/images/notes/20260701_modifying_argument_in_ruby_method.png" alt="Featured image"/>
         
-        <p>If you’ve been working with Ruby for a while, you probably know that arguments are passed into methods by reference to the object (more specifically, pass-by-sharing). Because of this, you cannot simply reassign a new value to an argument inside a method and expect it to change outside. Technically, you can assign it, but once the method finishes execution, the outer variable will still hold its original value.
+        <p>If you’ve been working with Ruby for a while, you probably know that arguments are passed into methods by reference to the object (more specifically, <a href="https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_sharing"  class="external-link" target="_blank" rel="noopener">pass-by-sharing</a>). Because of this, you cannot simply reassign a new value to an argument inside a method and expect it to change outside. Technically, you can assign it, but once the method finishes execution, the outer variable will still hold its original value.
 For example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">change</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">  <span class="n">a</span> <span class="o">=</span> <span class="s1">&#39;other string&#39;</span>
@@ -326,7 +326,7 @@ For example:</p>
 </span></span><span class="line"><span class="cl"><span class="n">change</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">s</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">get</span>
 </span></span><span class="line"><span class="cl"><span class="nb">puts</span> <span class="n">s</span> <span class="c1"># other string</span>
-</span></span></code></pre></div><p>However, just a few days ago, while browsing the I/O streams documentation (IO#read), I accidentally stumbled upon another way to mutate an incoming parameter&rsquo;s value directly:</p>
+</span></span></code></pre></div><p>However, just a few days ago, while browsing the I/O streams documentation (<a href="https://docs.ruby-lang.org/en/master/IO.html#method-i-read"  class="external-link" target="_blank" rel="noopener">IO#read</a>), I accidentally stumbled upon another way to mutate an incoming parameter&rsquo;s value directly:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="nb">require</span> <span class="s1">&#39;stringio&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">change</span><span class="p">(</span><span class="n">str</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">  <span class="no">StringIO</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s1">&#39;other string&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="kp">nil</span><span class="p">,</span> <span class="n">str</span><span class="p">)</span>
