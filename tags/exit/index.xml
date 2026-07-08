@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exit on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/exit/</link>
+    <description>Recent content in Exit on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Jul 2026 08:28:51 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/exit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exiting a Block in Ruby</title>
+      <link>https://yegorov.github.io/notes/exiting-block-in-ruby/</link>
+      <pubDate>Wed, 08 Jul 2026 08:28:51 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/exiting-block-in-ruby/</guid>
+      <description>&lt;p&gt;When you use blocks in your Ruby code, one of the crucial issues is ensuring a correct exit from them based on a specific condition.&#xA;To achieve this, developers typically use the following keywords: &lt;code&gt;next&lt;/code&gt;, &lt;code&gt;break&lt;/code&gt;, &lt;code&gt;return&lt;/code&gt;, and the &lt;code&gt;catch/throw&lt;/code&gt; construct.&#xA;In most cases, to exit the current iteration or the block itself, you should use &lt;code&gt;break&lt;/code&gt;. For nested blocks, &lt;code&gt;catch/throw&lt;/code&gt; is the way to go. These options will immediately interrupt execution and pass control to the code following the calling method or the &lt;code&gt;catch&lt;/code&gt; block.&#xA;When using the &lt;code&gt;next&lt;/code&gt; keyword, you will move to the next iteration of the block. However, if there are no more iterations, the execution will yield to the code following &lt;code&gt;yield&lt;/code&gt; or &lt;code&gt;block.call&lt;/code&gt; inside the method to which you passed the block.&#xA;On the other hand, when using &lt;code&gt;return&lt;/code&gt;, you will completely exit the method where the block was originally defined (due to Ruby&amp;rsquo;s lexical scoping).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
