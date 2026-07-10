@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:28:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 09:19:32 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bignum</title>
+      <link>https://yegorov.github.io/tags/bignum/</link>
+      <pubDate>Fri, 10 Jul 2026 09:19:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/bignum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Currency</title>
+      <link>https://yegorov.github.io/tags/currency/</link>
+      <pubDate>Fri, 10 Jul 2026 09:19:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/currency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decimal</title>
+      <link>https://yegorov.github.io/tags/decimal/</link>
+      <pubDate>Fri, 10 Jul 2026 09:19:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/decimal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fintech</title>
+      <link>https://yegorov.github.io/tags/fintech/</link>
+      <pubDate>Fri, 10 Jul 2026 09:19:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/fintech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Floa</title>
+      <link>https://yegorov.github.io/tags/floa/</link>
+      <pubDate>Fri, 10 Jul 2026 09:19:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/floa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://yegorov.github.io/tags/go/</link>
+      <pubDate>Fri, 10 Jul 2026 09:19:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Money</title>
+      <link>https://yegorov.github.io/tags/money/</link>
+      <pubDate>Fri, 10 Jul 2026 09:19:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/money/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Block</title>
       <link>https://yegorov.github.io/tags/block/</link>
@@ -237,13 +286,6 @@
       <link>https://yegorov.github.io/tags/tips/</link>
       <pubDate>Wed, 10 Jun 2026 09:43:23 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/tips/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>https://yegorov.github.io/tags/go/</link>
-      <pubDate>Fri, 05 Jun 2026 12:38:30 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/go/</guid>
       <description></description>
     </item>
     <item>

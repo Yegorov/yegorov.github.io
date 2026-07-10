@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-07-08T08:28:51+00:00</lastmod>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -13,6 +13,46 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://yegorov.github.io/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/bignum/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/currency/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/decimal/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/decimal-type-in-golang/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/fintech/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/floa/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/go/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/money/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2026-07-10T09:19:32+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
                 />
   </url><url>
     <loc>https://yegorov.github.io/tags/block/</loc>
@@ -33,27 +73,11 @@
     <loc>https://yegorov.github.io/tags/next/</loc>
     <lastmod>2026-07-08T08:28:51+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-07-08T08:28:51+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/tags/return/</loc>
     <lastmod>2026-07-08T08:28:51+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
     <lastmod>2026-07-08T08:28:51+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-07-08T08:28:51+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
   </url><url>
     <loc>https://yegorov.github.io/tags/throw/</loc>
     <lastmod>2026-07-08T08:28:51+00:00</lastmod>
@@ -144,9 +168,6 @@
   </url><url>
     <loc>https://yegorov.github.io/notes/use-ensure-for-cleanup-actions-in-your-ruby-methods/</loc>
     <lastmod>2026-06-10T09:43:23+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/go/</loc>
-    <lastmod>2026-06-05T12:38:30+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/gox/</loc>
     <lastmod>2026-06-05T12:38:30+00:00</lastmod>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decimal on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/decimal/</link>
+    <description>Recent content in Decimal on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Jul 2026 09:19:32 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/decimal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decimal type in Golang</title>
+      <link>https://yegorov.github.io/notes/decimal-type-in-golang/</link>
+      <pubDate>Fri, 10 Jul 2026 09:19:32 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/decimal-type-in-golang/</guid>
+      <description>&lt;p&gt;It is no secret that you shouldn&amp;rsquo;t use the float type when working with finances, as it&amp;rsquo;s crucial not to lose the ultimate precision of the amount during monetary operations.&#xA;But what surprises me most about Golang is that a language primarily used in fintech lacks a native &lt;a href=&#34;https://github.com/golang/go/issues/12127&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decimal type&lt;/a&gt;. To compensate for this, you have to opt for third-party solutions. As far as I understand, one of the most popular packages is &lt;a href=&#34;https://github.com/shopspring/decimal&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;decimal&lt;/code&gt;&lt;/a&gt;.&#xA;I am, of course, aware of &lt;code&gt;math/big&lt;/code&gt;, and in some of my simple pet projects, I might use &lt;a href=&#34;https://pkg.go.dev/math/big#Int&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;big.Int&lt;/code&gt;&lt;/a&gt;, even though it’s inconvenient. But for serious production stuff, you’d agree that it&amp;rsquo;s much better to rely on high-precision decimal numbers implemented in a built-in package rather than a third-party one.&#xA;And these excuses from the maintainers regarding adding this functionality to the Go standard library look very strange, considering that the decimal type is supported out of the box even in languages like &lt;a href=&#34;https://docs.python.org/3/library/decimal.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python&lt;/a&gt;, &lt;a href=&#34;https://github.com/ruby/bigdecimal&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ruby&lt;/a&gt;, and &lt;a href=&#34;https://docs.oracle.com/en/java/javase/26/docs/api/java.base/java/math/BigDecimal.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Java&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
