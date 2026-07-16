@@ -6,8 +6,15 @@
     <description>Recent content in Ruby on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:28:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 08:18:52 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lazy initialization in Ruby</title>
+      <link>https://yegorov.github.io/notes/lazy-initialization-in-ruby/</link>
+      <pubDate>Thu, 16 Jul 2026 08:18:52 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/lazy-initialization-in-ruby/</guid>
+      <description>&lt;p&gt;If you’ve been working with Ruby for a while, you’ve probably come across lazy initialization in your projects (it’s actually one of my favorite techniques in Ruby).&#xA;In most cases, this is a single-line call using the &lt;code&gt;||=&lt;/code&gt; operator, for example: &lt;code&gt;@value ||= some_method&lt;/code&gt;.&#xA;But what if you have a sequence of code that needs to run just once to compute and return the final value? In that case, you can wrap that logic in a begin&amp;hellip;end block.&#xA;Also, don&amp;rsquo;t forget that if the return value can be nil or false, a simple &lt;code&gt;||=&lt;/code&gt; will re-evaluate on every single call. To handle this, you need to add a guard clause using &lt;code&gt;defined?&lt;/code&gt;.&#xA;And of course, you can always use one of the dedicated gems for this: &lt;a href=&#34;https://github.com/matthewrudy/memoist&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;memoist&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://github.com/dkubb/memoizable&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;memoizable&lt;/code&gt;&lt;/a&gt;, or &lt;a href=&#34;https://github.com/panorama-ed/memo_wise&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;memo_wise&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Exiting a Block in Ruby</title>
       <link>https://yegorov.github.io/notes/exiting-block-in-ruby/</link>
