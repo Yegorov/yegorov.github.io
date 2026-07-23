@@ -6,8 +6,15 @@
     <description>Recent content in Ruby on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 08:18:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 09:05:23 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration block in Ruby</title>
+      <link>https://yegorov.github.io/notes/configuration-block-in-ruby/</link>
+      <pubDate>Thu, 23 Jul 2026 09:05:23 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/configuration-block-in-ruby/</guid>
+      <description>&lt;p&gt;When developing your own Ruby gem, at some point you might need to make some of the parameters configurable.&#xA;The most idiomatic and elegant way to achieve this in Ruby is global configuration using a block.&#xA;In my opinion, this approach is so simple that you likely won&amp;rsquo;t need any third-party gems for it.&#xA;However, there are a few important caveats to keep in mind:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Avoid referencing your config directly inside methods. Instead, use the configuration to set a default value for your method&amp;rsquo;s parameter (see the example image). Alternatively, add an optional config parameter to the method - this allows caller code to override the global configuration for a specific invocation.&lt;/li&gt;&#xA;&lt;li&gt;This pattern is not thread-safe. You should apply your configuration at boot time, before spawning any threads (this is especially crucial if your configuration class performs any side effects).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;How do you implement configuration in your own gems? What aspects should be considered?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lazy initialization in Ruby</title>
       <link>https://yegorov.github.io/notes/lazy-initialization-in-ruby/</link>
