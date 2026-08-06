@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-07-30T08:33:54+00:00</lastmod>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -14,6 +14,40 @@
                 hreflang="en"
                 href="https://yegorov.github.io/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/hash/</loc>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/hash-literals-in-ruby-3-1/</loc>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/literals/</loc>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/</loc>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/omit/</loc>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ruby/</loc>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/value/</loc>
+    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/default/</loc>
     <lastmod>2026-07-30T08:33:54+00:00</lastmod>
@@ -29,28 +63,6 @@
   </url><url>
     <loc>https://yegorov.github.io/tags/fetch/</loc>
     <lastmod>2026-07-30T08:33:54+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/hash/</loc>
-    <lastmod>2026-07-30T08:33:54+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-07-30T08:33:54+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-07-30T08:33:54+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-07-30T08:33:54+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
   </url><url>
     <loc>https://yegorov.github.io/tags/config/</loc>
     <lastmod>2026-07-23T09:05:23+00:00</lastmod>
