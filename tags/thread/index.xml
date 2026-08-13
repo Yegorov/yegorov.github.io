@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thread on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/thread/</link>
+    <description>Recent content in Thread on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Aug 2026 08:49:09 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/thread/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mutex vs Monitor in Ruby</title>
+      <link>https://yegorov.github.io/notes/mutex-vs-monitor-in-ruby/</link>
+      <pubDate>Thu, 13 Aug 2026 08:49:09 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/mutex-vs-monitor-in-ruby/</guid>
+      <description>&lt;p&gt;If you are developing a multithreaded application, you should be aware that access to shared resources must be protected by a lock.&#xA;In Ruby, this is most commonly handled using &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Thread/Mutex.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mutex&lt;/a&gt;, which creates an exclusive lock so that only one thread - the one that acquired the lock - can access the resource.&#xA;However, even with a mutex, you can still run into a deadlock - for instance, if you use recursion and attempt to re-acquire an already held lock within the same thread:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
