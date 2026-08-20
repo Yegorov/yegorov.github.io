@@ -6,8 +6,15 @@
     <description>Recent content on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 08:49:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 08:41:06 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Send email in Ruby</title>
+      <link>https://yegorov.github.io/notes/send-email-in-ruby/</link>
+      <pubDate>Thu, 20 Aug 2026 08:41:06 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/send-email-in-ruby/</guid>
+      <description>&lt;p&gt;Email exchange has remained quite popular for several decades now.&#xA;A few days ago, I was configuring Postfix for email delivery, and to verify everything was working correctly, I wanted to send a test email using the mail CLI utility. Unfortunately, every message sent this way ended up in spam and was naturally ignored.&#xA;In Ruby, you can use the standard &lt;a href=&#34;https://github.com/ruby/net-smtp&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;net-smtp&lt;/code&gt;&lt;/a&gt; client to send emails, or rely on a higher-level &lt;a href=&#34;https://github.com/mikel/mail&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;mail&lt;/code&gt;&lt;/a&gt; gem (which is also built on top of &lt;code&gt;net-smtp&lt;/code&gt;).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mutex vs Monitor in Ruby</title>
       <link>https://yegorov.github.io/notes/mutex-vs-monitor-in-ruby/</link>

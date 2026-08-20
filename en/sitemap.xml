@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-08-13T08:49:09+00:00</lastmod>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -13,6 +13,40 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://yegorov.github.io/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/email/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/mail/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/postfix/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ruby/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/send-email-in-ruby/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/smtp/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
                 />
   </url><url>
     <loc>https://yegorov.github.io/tags/exclusive/</loc>
@@ -30,27 +64,8 @@
     <loc>https://yegorov.github.io/notes/mutex-vs-monitor-in-ruby/</loc>
     <lastmod>2026-08-13T08:49:09+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-08-13T08:49:09+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-08-13T08:49:09+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/tags/sync/</loc>
     <lastmod>2026-08-13T08:49:09+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-08-13T08:49:09+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
   </url><url>
     <loc>https://yegorov.github.io/tags/thread/</loc>
     <lastmod>2026-08-13T08:49:09+00:00</lastmod>
@@ -839,9 +854,6 @@
     <lastmod>2020-04-21T22:45:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/posts/mailcatcher/</loc>
-    <lastmod>2020-04-21T22:45:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/mail/</loc>
     <lastmod>2020-04-21T22:45:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/mail/</loc>

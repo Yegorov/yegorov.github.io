@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 08:49:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 08:41:06 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Email</title>
+      <link>https://yegorov.github.io/tags/email/</link>
+      <pubDate>Thu, 20 Aug 2026 08:41:06 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/email/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mail</title>
+      <link>https://yegorov.github.io/tags/mail/</link>
+      <pubDate>Thu, 20 Aug 2026 08:41:06 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/mail/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postfix</title>
+      <link>https://yegorov.github.io/tags/postfix/</link>
+      <pubDate>Thu, 20 Aug 2026 08:41:06 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/postfix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Thu, 20 Aug 2026 08:41:06 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SMTP</title>
+      <link>https://yegorov.github.io/tags/smtp/</link>
+      <pubDate>Thu, 20 Aug 2026 08:41:06 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/smtp/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Exclusive</title>
       <link>https://yegorov.github.io/tags/exclusive/</link>
@@ -34,13 +69,6 @@
       <link>https://yegorov.github.io/tags/mutex/</link>
       <pubDate>Thu, 13 Aug 2026 08:49:09 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/mutex/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 13 Aug 2026 08:49:09 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -1399,13 +1427,6 @@
       <link>https://yegorov.github.io/tags/action_mailer/</link>
       <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
       <guid>https://yegorov.github.io/tags/action_mailer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mail</title>
-      <link>https://yegorov.github.io/tags/mail/</link>
-      <pubDate>Tue, 21 Apr 2020 22:45:00 +0300</pubDate>
-      <guid>https://yegorov.github.io/tags/mail/</guid>
       <description></description>
     </item>
     <item>
