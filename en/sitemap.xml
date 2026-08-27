@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -15,29 +15,23 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/email/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/assertpattern/</loc>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/mail/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/minitest/</loc>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/postfix/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/patternmatching/</loc>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/notes/send-email-in-ruby/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/smtp/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -48,6 +42,27 @@
                 hreflang="en"
                 href="https://yegorov.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/test/</loc>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/use-minitest-one-line-pattern-matching-assert-in-ruby/</loc>
+    <lastmod>2026-08-27T08:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/email/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/mail/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/postfix/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/send-email-in-ruby/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/smtp/</loc>
+    <lastmod>2026-08-20T08:41:06+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/exclusive/</loc>
     <lastmod>2026-08-13T08:49:09+00:00</lastmod>
@@ -515,9 +530,6 @@
     <lastmod>2026-03-23T13:55:33+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/donce/</loc>
-    <lastmod>2026-03-23T13:55:33+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/test/</loc>
     <lastmod>2026-03-23T13:55:33+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/use-docker-in-ruby-with-donce-docker-once-gem/</loc>

@@ -6,8 +6,15 @@
     <description>Recent content in Test on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Mar 2026 13:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 08:50:00 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Minitest one-line pattern matching assert in Ruby</title>
+      <link>https://yegorov.github.io/notes/use-minitest-one-line-pattern-matching-assert-in-ruby/</link>
+      <pubDate>Thu, 27 Aug 2026 08:50:00 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/use-minitest-one-line-pattern-matching-assert-in-ruby/</guid>
+      <description>&lt;p&gt;If you haven&amp;rsquo;t written Ruby tests using Minitest in a while, you might have missed the addition of the &lt;a href=&#34;https://minite.st/docs/Minitest/Assertions.html#method-i-assert_pattern&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;assert_pattern&lt;/code&gt;&lt;/a&gt; assertion (available in Ruby 3.0 and higher). Right now, it&amp;rsquo;s my absolute favorite assertion when I need to validate a complex object-like an array or a hash-in a single go.&#xA;Of course, there is one limitation when checking hashes: keys can only be symbols. So if you want to validate JSON, you&amp;rsquo;ll need to transform its keys from strings to symbols first.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Use Docker in Ruby with donce (docker once) gem</title>
       <link>https://yegorov.github.io/notes/use-docker-in-ruby-with-donce-docker-once-gem/</link>
