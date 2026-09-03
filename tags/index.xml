@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 08:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 10:15:19 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Composition</title>
+      <link>https://yegorov.github.io/tags/composition/</link>
+      <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/composition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mixin</title>
+      <link>https://yegorov.github.io/tags/mixin/</link>
+      <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/mixin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Module</title>
+      <link>https://yegorov.github.io/tags/module/</link>
+      <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/module/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plugin</title>
+      <link>https://yegorov.github.io/tags/plugin/</link>
+      <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/plugin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roda</title>
+      <link>https://yegorov.github.io/tags/roda/</link>
+      <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/roda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shrine</title>
+      <link>https://yegorov.github.io/tags/shrine/</link>
+      <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/shrine/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AssertPattern</title>
       <link>https://yegorov.github.io/tags/assertpattern/</link>
@@ -27,13 +76,6 @@
       <link>https://yegorov.github.io/tags/patternmatching/</link>
       <pubDate>Thu, 27 Aug 2026 08:50:00 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/patternmatching/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 27 Aug 2026 08:50:00 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>

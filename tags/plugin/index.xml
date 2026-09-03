@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plugin on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/plugin/</link>
+    <description>Recent content in Plugin on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Sep 2026 10:15:19 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Module-based composition in Rubyy</title>
+      <link>https://yegorov.github.io/notes/module-based-composition-in-ruby/</link>
+      <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/module-based-composition-in-ruby/</guid>
+      <description>&lt;p&gt;One of the coolest features of Ruby is that you can implement composition in several different ways. For instance, beyond the classic approach of chaining nested objects, Ruby also allows you to build composition using modules (mixins).&#xA;I realize that many developers might find this pattern controversial, but the fact that this exact concept powers the plugin architecture of gems like &lt;a href=&#34;https://github.com/jeremyevans/roda/blob/master/lib/roda/plugins.rb&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Roda&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/shrinerb/shrine/blob/master/lib/shrine/plugins.rb&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Shrine&lt;/code&gt;&lt;/a&gt; makes me pause and look at it in a different light.&#xA;And since &lt;code&gt;include&lt;/code&gt; is just a regular method, and Ruby objects possess their own singleton class (eigenclass), you can take it a step further and include a module for a specific instance:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
