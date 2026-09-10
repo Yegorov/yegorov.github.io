@@ -3,7 +3,7 @@
 
 <head>
   <title>
-  Module-based composition in Ruby · Artem Yegorov
+  Using Refinements in Ruby · Artem Yegorov
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,30 +13,29 @@
 
 
 <meta name="author" content="Artem Yegorov">
-<meta name="description" content="Module-based composition in Ruby">
+<meta name="description" content="Using Refinements in Ruby">
 <meta name="keywords" content="ruby,rails,blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Module-based composition in Ruby">
-  <meta name="twitter:description" content="Module-based composition in Ruby">
+  <meta name="twitter:title" content="Using Refinements in Ruby">
+  <meta name="twitter:description" content="Using Refinements in Ruby">
 
-<meta property="og:url" content="https://yegorov.github.io/notes/module-based-composition-in-ruby/">
+<meta property="og:url" content="https://yegorov.github.io/notes/using-refinements-in-ruby/">
   <meta property="og:site_name" content="Artem Yegorov">
-  <meta property="og:title" content="Module-based composition in Ruby">
-  <meta property="og:description" content="Module-based composition in Ruby">
+  <meta property="og:title" content="Using Refinements in Ruby">
+  <meta property="og:description" content="Using Refinements in Ruby">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="notes">
-    <meta property="article:published_time" content="2026-09-03T10:15:19+00:00">
-    <meta property="article:modified_time" content="2026-09-03T10:15:19+00:00">
+    <meta property="article:published_time" content="2026-09-10T08:58:31+00:00">
+    <meta property="article:modified_time" content="2026-09-10T08:58:31+00:00">
     <meta property="article:tag" content="Ruby">
-    <meta property="article:tag" content="Composition">
-    <meta property="article:tag" content="Module">
-    <meta property="article:tag" content="Mixin">
-    <meta property="article:tag" content="Plugin">
-    <meta property="article:tag" content="Roda">
+    <meta property="article:tag" content="Refinements">
+    <meta property="article:tag" content="MonkeyPatching">
+    <meta property="article:tag" content="String">
+    <meta property="article:tag" content="Methods">
 
 
 
@@ -62,7 +61,7 @@
 
 
 
-<link rel="canonical" href="https://yegorov.github.io/notes/module-based-composition-in-ruby/">
+<link rel="canonical" href="https://yegorov.github.io/notes/using-refinements-in-ruby/">
 
 
 <link rel="preload" href="https://yegorov.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -193,8 +192,8 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="https://yegorov.github.io/notes/module-based-composition-in-ruby/">
-              Module-based composition in Ruby
+            <a class="title-link" href="https://yegorov.github.io/notes/using-refinements-in-ruby/">
+              Using Refinements in Ruby
             </a>
           </h1>
         </div>
@@ -202,8 +201,8 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa-solid fa-calendar" aria-hidden="true"></i>
-              <time datetime="2026-09-03T10:15:19Z">
-                September 3, 2026
+              <time datetime="2026-09-10T08:58:31Z">
+                September 10, 2026
               </time>
             </span>
 
@@ -217,61 +216,53 @@
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="https://yegorov.github.io/tags/composition/">Composition</a>
+      <a href="https://yegorov.github.io/tags/refinements/">Refinements</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="https://yegorov.github.io/tags/module/">Module</a>
+      <a href="https://yegorov.github.io/tags/monkeypatching/">MonkeyPatching</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="https://yegorov.github.io/tags/mixin/">Mixin</a>
+      <a href="https://yegorov.github.io/tags/string/">String</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="https://yegorov.github.io/tags/plugin/">Plugin</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="https://yegorov.github.io/tags/roda/">Roda</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="https://yegorov.github.io/tags/shrine/">Shrine</a>
+      <a href="https://yegorov.github.io/tags/methods/">Methods</a>
     </span></div>
 
           <ul class="socials">
             
               <li>
-                <a class="linkedin" href="https://www.linkedin.com/posts/yegorov0725_ruby-composition-module-activity-7501221282252820480-jseo" target="_blank">
+                <a class="linkedin" href="https://www.linkedin.com/posts/yegorov0725_ruby-refinements-monkeypatching-activity-7503738670106120192-QZ8P" target="_blank">
                   <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
                 </a>
               </li>
             
             
               <li>
-                <a class="x" href="https://x.com/yegorov0725/status/2095456881154125845" target="_blank">
+                <a class="x" href="https://x.com/yegorov0725/status/2097974155140297040" target="_blank">
                   <i class="fa-brands fa-x-twitter fa-2x" aria-hidden="true"></i>
                 </a>
               </li>
             
             
               <li>
-                <a class="bsky" href="https://bsky.app/profile/yegorov.bsky.social/post/3mum7y3kr5c26" target="_blank">
+                <a class="bsky" href="https://bsky.app/profile/yegorov.bsky.social/post/3mv5ow24qq22b" target="_blank">
                   <i class="fa-brands fa-bluesky fa-2x" aria-hidden="true"></i>
                 </a>
               </li>
             
             
               <li>
-                <a class="mastodon" href="https://mastodon.social/@yegorov/117206614873514456" target="_blank">
+                <a class="mastodon" href="https://mastodon.social/@yegorov/117245960674886420" target="_blank">
                   <i class="fa-brands fa-mastodon fa-2x" aria-hidden="true"></i>
                 </a>
               </li>
             
             
               <li>
-                <a class="telegram" href="https://t.me/yegorov_notes/86" target="_blank">
+                <a class="telegram" href="https://t.me/yegorov_notes/88" target="_blank">
                   <i class="fa-brands fa-telegram fa-2x" aria-hidden="true"></i>
                 </a>
               </li>
@@ -282,43 +273,58 @@
 
       <div class="post-content">
         
-          <img src="https://yegorov.github.io/images/notes/20260903_module_based_composition_in_ruby.png" alt="Featured image"/>
+          <img src="https://yegorov.github.io/images/notes/20260910_using_refinements_in_ruby.png" alt="Featured image"/>
         
-        <p>One of the coolest features of Ruby is that you can implement composition in several different ways. For instance, beyond the classic approach of chaining nested objects, Ruby also allows you to build composition using modules (mixins).
-I realize that many developers might find this pattern controversial, but the fact that this exact concept powers the plugin architecture of gems like <a href="https://github.com/jeremyevans/roda/blob/master/lib/roda/plugins.rb"  class="external-link" target="_blank" rel="noopener"><code>Roda</code></a> and <a href="https://github.com/shrinerb/shrine/blob/master/lib/shrine/plugins.rb"  class="external-link" target="_blank" rel="noopener"><code>Shrine</code></a> makes me pause and look at it in a different light.
-And since <code>include</code> is just a regular method, and Ruby objects possess their own singleton class (eigenclass), you can take it a step further and include a module for a specific instance:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">Insurance</span>
-</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">price</span> <span class="o">=</span> <span class="k">super</span> <span class="o">+</span> <span class="p">(</span><span class="vi">@price</span> <span class="o">*</span> <span class="mi">0</span><span class="o">.</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">to_i</span>
+        <p>One of the most powerful and at the same time crazy ideas in Ruby is Monkey patching. However, its main drawback is that its effects apply globally across your entire project and all the gems you are currently using.
+The great advantage of Ruby, though, is that it allows for a compromise by scoping monkey patching to a limited context.
+To achieve this, you can use <a href="https://docs.ruby-lang.org/en/master/syntax/refinements_rdoc.html"  class="external-link" target="_blank" rel="noopener"><code>Refinements</code></a>: define methods in a module using the <code>refine Class do ... end</code> construct and activate it with <code>using</code>.
+Starting with Ruby 3.1, you can also import methods directly from a module using <a href="https://docs.ruby-lang.org/en/master/Refinement.html#method-i-import_methods"  class="external-link" target="_blank" rel="noopener"><code>import_methods</code></a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">StringExt</span>
+</span></span><span class="line"><span class="cl">  <span class="k">module</span> <span class="nn">Methods</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">blank?</span> <span class="o">=</span> <span class="nb">self</span><span class="o">.</span><span class="n">nil?</span> <span class="o">||</span> <span class="nb">self</span><span class="o">.</span><span class="n">empty?</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">present?</span> <span class="o">=</span> <span class="o">!</span><span class="n">blank?</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">refine</span> <span class="nb">String</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">import_methods</span> <span class="no">Methods</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
 </span></span><span class="line"><span class="cl"><span class="k">end</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">need_insurance</span> <span class="o">=</span> <span class="kp">true</span>
-</span></span><span class="line"><span class="cl"><span class="n">phone</span> <span class="o">=</span> <span class="no">Phone</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">1200</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">phone</span><span class="o">.</span><span class="n">singleton_class</span><span class="o">.</span><span class="n">include</span><span class="p">(</span><span class="no">Insurance</span><span class="p">)</span> <span class="k">if</span> <span class="n">need_insurance</span>
-</span></span><span class="line"><span class="cl"><span class="n">phone</span><span class="o">.</span><span class="n">price</span> <span class="c1"># =&gt; 1395</span>
-</span></span></code></pre></div><p>How do you implement composition in your projects? Do you know other approaches to achieve it?</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Product</span>
-</span></span><span class="line"><span class="cl">  <span class="kp">include</span><span class="p">(</span><span class="no">Base</span> <span class="o">=</span> <span class="no">Module</span><span class="o">.</span><span class="n">new</span> <span class="k">do</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">price</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">      <span class="vi">@price</span> <span class="o">=</span> <span class="n">price</span>
-</span></span><span class="line"><span class="cl">    <span class="k">end</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">price</span> <span class="o">=</span> <span class="vi">@price</span>
-</span></span><span class="line"><span class="cl">  <span class="k">end</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">SomeClass</span>
+</span></span><span class="line"><span class="cl">  <span class="n">using</span> <span class="no">StringExt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">some_method</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;</span><span class="o">.</span><span class="n">blank?</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
 </span></span><span class="line"><span class="cl"><span class="k">end</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">Delivery</span>
-</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">price</span> <span class="o">=</span> <span class="k">super</span> <span class="o">+</span> <span class="mi">70</span>
+</span></span><span class="line"><span class="cl"><span class="no">SomeClass</span><span class="o">.</span><span class="n">new</span><span class="o">.</span><span class="n">some_method</span> <span class="c1"># =&gt; true</span>
+</span></span></code></pre></div><p>Do you use Refinements in your projects? Or do you still patch classes globally?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="nb">String</span><span class="o">.</span><span class="n">class_eval</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">blank?</span> <span class="o">=</span> <span class="nb">self</span><span class="o">.</span><span class="n">nil?</span> <span class="o">||</span> <span class="nb">self</span><span class="o">.</span><span class="n">empty?</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">present?</span> <span class="o">=</span> <span class="o">!</span><span class="n">blank?</span>
 </span></span><span class="line"><span class="cl"><span class="k">end</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">Tax</span>
-</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">price</span> <span class="o">=</span> <span class="k">super</span> <span class="o">+</span> <span class="mi">5</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># The `blank?` and `present?` methods will be available</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># throughout the project and in other gems being used</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;hello&#34;</span><span class="o">.</span><span class="n">present?</span> <span class="c1"># =&gt; true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">StringExt</span>
+</span></span><span class="line"><span class="cl">  <span class="n">refine</span> <span class="nb">String</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">blank?</span> <span class="o">=</span> <span class="nb">self</span><span class="o">.</span><span class="n">nil?</span> <span class="o">||</span> <span class="nb">self</span><span class="o">.</span><span class="n">empty?</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">present?</span> <span class="o">=</span> <span class="o">!</span><span class="n">blank?</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
 </span></span><span class="line"><span class="cl"><span class="k">end</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="no">Phone</span> <span class="o">=</span> <span class="no">Class</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="no">Product</span><span class="p">)</span> <span class="k">do</span>
-</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">Delivery</span>
-</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">Tax</span>
+</span></span><span class="line"><span class="cl"><span class="k">module</span> <span class="nn">Validator</span>
+</span></span><span class="line"><span class="cl">  <span class="n">using</span> <span class="no">StringExt</span>
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">valid?</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">present?</span>
 </span></span><span class="line"><span class="cl"><span class="k">end</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="no">Phone</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span><span class="o">.</span><span class="n">price</span> <span class="c1"># =&gt; 1075</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># The `blank?` / `present?` methods will be available only in this module</span>
+</span></span><span class="line"><span class="cl"><span class="no">Validator</span><span class="o">.</span><span class="n">valid?</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="c1"># =&gt; false</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;</span><span class="o">.</span><span class="n">blank?</span> <span class="c1"># =&gt; undefined method &#39;blank?&#39; for an instance of String (NoMethodError)</span>
 </span></span></code></pre></div>
       </div>
 

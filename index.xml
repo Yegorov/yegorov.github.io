@@ -6,10 +6,17 @@
     <description>Recent content on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 10:15:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 08:58:31 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Module-based composition in Rubyy</title>
+      <title>Using Refinements in Ruby</title>
+      <link>https://yegorov.github.io/notes/using-refinements-in-ruby/</link>
+      <pubDate>Thu, 10 Sep 2026 08:58:31 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/using-refinements-in-ruby/</guid>
+      <description>&lt;p&gt;One of the most powerful and at the same time crazy ideas in Ruby is Monkey patching. However, its main drawback is that its effects apply globally across your entire project and all the gems you are currently using.&#xA;The great advantage of Ruby, though, is that it allows for a compromise by scoping monkey patching to a limited context.&#xA;To achieve this, you can use &lt;a href=&#34;https://docs.ruby-lang.org/en/master/syntax/refinements_rdoc.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Refinements&lt;/code&gt;&lt;/a&gt;: define methods in a module using the &lt;code&gt;refine Class do ... end&lt;/code&gt; construct and activate it with &lt;code&gt;using&lt;/code&gt;.&#xA;Starting with Ruby 3.1, you can also import methods directly from a module using &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Refinement.html#method-i-import_methods&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;import_methods&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Module-based composition in Ruby</title>
       <link>https://yegorov.github.io/notes/module-based-composition-in-ruby/</link>
       <pubDate>Thu, 03 Sep 2026 10:15:19 +0000</pubDate>
       <guid>https://yegorov.github.io/notes/module-based-composition-in-ruby/</guid>
