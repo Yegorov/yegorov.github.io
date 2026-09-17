@@ -6,8 +6,15 @@
     <description>Recent content on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 08:58:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 06:30:57 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sending an HTTP request via a TCP socket in Ruby</title>
+      <link>https://yegorov.github.io/notes/sending-http-request-via-tcp-socket-in-ruby/</link>
+      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/sending-http-request-via-tcp-socket-in-ruby/</guid>
+      <description>&lt;p&gt;What I enjoy most about programming in Ruby is how concisely and effortlessly you can manage low-level concepts like TCP sockets.&#xA;If you want to get a better grasp on how HTTP actually works under the hood, I highly recommend trying to build a simple GET request yourself without relying on any HTTP client (not even Net::HTTP) - just pure TCPSocket and IO. In short, all you need to do is construct the request headers correctly and stream the socket response into a buffer until you hit the EOF marker.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Using Refinements in Ruby</title>
       <link>https://yegorov.github.io/notes/using-refinements-in-ruby/</link>

@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 08:58:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 06:30:57 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GET</title>
+      <link>https://yegorov.github.io/tags/get/</link>
+      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/get/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTTP</title>
+      <link>https://yegorov.github.io/tags/http/</link>
+      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/http/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IO</title>
+      <link>https://yegorov.github.io/tags/io/</link>
+      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/io/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socket</title>
+      <link>https://yegorov.github.io/tags/socket/</link>
+      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/socket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TCP</title>
+      <link>https://yegorov.github.io/tags/tcp/</link>
+      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/tcp/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Methods</title>
       <link>https://yegorov.github.io/tags/methods/</link>
@@ -27,13 +69,6 @@
       <link>https://yegorov.github.io/tags/refinements/</link>
       <pubDate>Thu, 10 Sep 2026 08:58:31 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/refinements/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 10 Sep 2026 08:58:31 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -405,13 +440,6 @@
       <link>https://yegorov.github.io/tags/arguments/</link>
       <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/arguments/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IO</title>
-      <link>https://yegorov.github.io/tags/io/</link>
-      <pubDate>Wed, 01 Jul 2026 08:33:20 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/io/</guid>
       <description></description>
     </item>
     <item>
@@ -1098,20 +1126,6 @@
       <link>https://yegorov.github.io/tags/curl/</link>
       <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/curl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GET</title>
-      <link>https://yegorov.github.io/tags/get/</link>
-      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/get/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HTTP</title>
-      <link>https://yegorov.github.io/tags/http/</link>
-      <pubDate>Mon, 16 Mar 2026 13:19:24 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/http/</guid>
       <description></description>
     </item>
     <item>

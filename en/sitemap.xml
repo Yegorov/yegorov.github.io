@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -15,26 +15,29 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/methods/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/get/</loc>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/monkeypatching/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/http/</loc>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/io/</loc>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/refinements/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/string/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+    <loc>https://yegorov.github.io/notes/sending-http-request-via-tcp-socket-in-ruby/</loc>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/socket/</loc>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -45,6 +48,21 @@
                 hreflang="en"
                 href="https://yegorov.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/tcp/</loc>
+    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/methods/</loc>
+    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/monkeypatching/</loc>
+    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/refinements/</loc>
+    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/string/</loc>
+    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/using-refinements-in-ruby/</loc>
     <lastmod>2026-09-10T08:58:31+00:00</lastmod>
@@ -233,9 +251,6 @@
     <lastmod>2026-07-08T08:28:51+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/arguments/</loc>
-    <lastmod>2026-07-01T08:33:20+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/io/</loc>
     <lastmod>2026-07-01T08:33:20+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/method/</loc>
@@ -602,12 +617,6 @@
     <lastmod>2026-03-16T13:19:24+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/curl/</loc>
-    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/get/</loc>
-    <lastmod>2026-03-16T13:19:24+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/http/</loc>
     <lastmod>2026-03-16T13:19:24+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/httpie/</loc>
