@@ -1,0 +1,71 @@
++++
+draft = false
+date = 2026-09-24T08:31:46.175Z
+title = "Use OptionParser in Ruby"
+description = "Use OptionParser in Ruby"
+slug = "use-optionparser-in-ruby"
+authors = ["Artem Yegorov"]
+tags = ["Ruby", "OptionParser", "optparse", "CLI", "Command", "DSL"]
+featuredImage = "images/notes/20260924_use_optionparser_in_ruby.png"
+linkedin = "https://www.linkedin.com/posts/yegorov0725_ruby-optionparser-optparse-activity-7508805366273572864-KUGj"
+x = "https://x.com/yegorov0725/status/2103041125376270810"
+bsky = "https://bsky.app/profile/yegorov.bsky.social/post/3mwau3gus6s2y"
+mastodon = "https://mastodon.social/@yegorov/117325174734903777"
+telegram = "https://t.me/yegorov_notes/92"
++++
+
+If you need to build a command-line tool with flag parsing and can't decide on the right ecosystem, give Ruby a look.
+You don't even need to pull in third-party gems to get started - [OptionParser](https://docs.ruby-lang.org/en/master/OptionParser.html) is built right into the standard library. All it takes is defining your help message and declaring your flags with its expressive block syntax.
+Take a look at the snippet above - it's remarkable how clean and readable CLI flag declarations look using [OptionParser's DSL](https://docs.ruby-lang.org/en/master/optparse/tutorial_rdoc.html).
+
+How do you usually build CLI tools? Which languages and libraries do you reach for in your projects?
+
+```ruby
+require 'optparse'
+
+module Arithmetic
+  class CLI
+    OPS = { 'add' => :+, 'sub' => :-, 'mul' => :*, 'div' => :/ }.freeze
+    def initialize(args)
+      @args = args.dup
+      @options = {}
+    end
+    def run
+      parser = OptionParser.new do |opts|
+        opts.banner = 'Usage: ruby arithmetic.rb -n <numbers> -o <operation>'
+        opts.separator ''
+        opts.separator 'Example:'
+        opts.separator '  ruby arithmetic.rb -n 1,2,3 -o add'
+        opts.separator '  1+2+3=6'
+        opts.separator ''
+        opts.on(
+          '-n', '--numbers <1,2,3,...>', Array,
+          'Comma-separated list of integers'
+        ) do |nums|
+          raise OptionParser::InvalidArgument,
+            'must not be empty' if nums.empty?
+          @options[:nums] = nums.map(&:to_i)
+        end
+        opts.on(
+          '-o', '--operation <add|sub|mul|div>', String,
+          "Operation: #{OPS.keys.join(', ')}"
+        ) do |op|
+          raise OptionParser::InvalidArgument,
+            "must be one of: #{OPS.keys.join(', ')}" unless OPS.key?(op)
+          @options[:op] = op
+        end
+      end
+      parser.parse!(@args)
+      return puts(parser.help) unless @options[:nums] && @options[:op]
+      op = OPS[@options[:op]]
+      nums = @options[:nums]
+      puts "#{nums.join(op.to_s)}=#{nums.reduce(op)}"
+    end
+  end
+end
+Arithmetic::CLI.new(ARGV).run
+
+# Save to arithmetic.rb and run:
+# $ ruby arithmetic.rb -h
+# $ ruby arithmetic.rb -n 7,8,9 -o add
+```
