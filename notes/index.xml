@@ -6,8 +6,15 @@
     <description>Recent content in Notes on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 06:30:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 08:31:46 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use OptionParser in Ruby</title>
+      <link>https://yegorov.github.io/notes/use-optionparser-in-ruby/</link>
+      <pubDate>Thu, 24 Sep 2026 08:31:46 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/use-optionparser-in-ruby/</guid>
+      <description>&lt;p&gt;If you need to build a command-line tool with flag parsing and can&amp;rsquo;t decide on the right ecosystem, give Ruby a look.&#xA;You don&amp;rsquo;t even need to pull in third-party gems to get started - &lt;a href=&#34;https://docs.ruby-lang.org/en/master/OptionParser.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OptionParser&lt;/a&gt; is built right into the standard library. All it takes is defining your help message and declaring your flags with its expressive block syntax.&#xA;Take a look at the snippet above - it&amp;rsquo;s remarkable how clean and readable CLI flag declarations look using &lt;a href=&#34;https://docs.ruby-lang.org/en/master/optparse/tutorial_rdoc.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OptionParser&amp;rsquo;s DSL&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sending an HTTP request via a TCP socket in Ruby</title>
       <link>https://yegorov.github.io/notes/sending-http-request-via-tcp-socket-in-ruby/</link>

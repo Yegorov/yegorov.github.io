@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 06:30:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 08:31:46 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CLI</title>
+      <link>https://yegorov.github.io/tags/cli/</link>
+      <pubDate>Thu, 24 Sep 2026 08:31:46 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Command</title>
+      <link>https://yegorov.github.io/tags/command/</link>
+      <pubDate>Thu, 24 Sep 2026 08:31:46 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/command/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DSL</title>
+      <link>https://yegorov.github.io/tags/dsl/</link>
+      <pubDate>Thu, 24 Sep 2026 08:31:46 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/dsl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OptionParser</title>
+      <link>https://yegorov.github.io/tags/optionparser/</link>
+      <pubDate>Thu, 24 Sep 2026 08:31:46 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/optionparser/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optparse</title>
+      <link>https://yegorov.github.io/tags/optparse/</link>
+      <pubDate>Thu, 24 Sep 2026 08:31:46 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/optparse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Thu, 24 Sep 2026 08:31:46 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
     <item>
       <title>GET</title>
       <link>https://yegorov.github.io/tags/get/</link>
@@ -27,13 +69,6 @@
       <link>https://yegorov.github.io/tags/io/</link>
       <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/io/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
