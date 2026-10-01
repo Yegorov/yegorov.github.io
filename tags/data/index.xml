@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DATA on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/data/</link>
+    <description>Recent content in DATA on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Oct 2026 10:21:10 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text data section in Ruby</title>
+      <link>https://yegorov.github.io/notes/text-data-section-in-ruby/</link>
+      <pubDate>Thu, 01 Oct 2026 10:21:10 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/text-data-section-in-ruby/</guid>
+      <description>&lt;p&gt;If you code in Ruby, you can discover new features practically every day.&#xA;For instance, one of the coolest features I stumbled upon in the documentation just a few days ago (despite writing Ruby for over 10 years!) is that you can embed text data directly inside your source file.&#xA;All you need to do is place an &lt;code&gt;__END__&lt;/code&gt; marker at the bottom of the file. Anything you write after that line can be read right out of the &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Object.html#DATA&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;DATA&lt;/code&gt;&lt;/a&gt; object inside the same source file.&#xA;Under the hood, the &lt;code&gt;DATA&lt;/code&gt; constant is simply an open &lt;a href=&#34;https://docs.ruby-lang.org/en/master/File.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;file stream&lt;/a&gt; of your current file in read-only mode, with its pointer positioned immediately after the &lt;code&gt;__END__&lt;/code&gt; line.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
