@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>File on Artem Yegorov</title>
-    <link>https://yegorov.github.io/tags/file/</link>
-    <description>Recent content in File on Artem Yegorov</description>
+    <title>Tempfile on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/tempfile/</link>
+    <description>Recent content in Tempfile on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 08 Oct 2026 08:35:47 +0000</lastBuildDate>
-    <atom:link href="https://yegorov.github.io/tags/file/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yegorov.github.io/tags/tempfile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Temporary files and folders in Ruby</title>
       <link>https://yegorov.github.io/notes/temporary-files-and-folders-in-ruby/</link>
       <pubDate>Thu, 08 Oct 2026 08:35:47 +0000</pubDate>
       <guid>https://yegorov.github.io/notes/temporary-files-and-folders-in-ruby/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve been using Ruby for a while, you&amp;rsquo;ve likely come across &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Tempfile.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Tempfile&lt;/code&gt;&lt;/a&gt; in your projects. In short, it creates a temporary file in the system&amp;rsquo;s &lt;code&gt;/tmp&lt;/code&gt; directory. From there, you can pass it as an argument to other methods just like a regular file (I mostly see this used in image manipulation gems like &lt;a href=&#34;https://github.com/minimagick/minimagick/blob/master/lib/mini_magick/utilities.rb&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;mini_magick&lt;/code&gt;&lt;/a&gt;). If you pass a block, the file is automatically deleted after execution. If not, you&amp;rsquo;ll need to close and unlink it manually. Keep in mind that &lt;code&gt;Tempfile.create&lt;/code&gt; returns an instance of &lt;code&gt;File&lt;/code&gt;, not &lt;code&gt;Tempfile&lt;/code&gt;.&#xA;What you might have missed is that Ruby also provides &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Dir.html#method-c-mktmpdir&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Dir.mktmpdir&lt;/code&gt;&lt;/a&gt;, which creates a temporary directory (also in &lt;code&gt;/tmp&lt;/code&gt;). This is especially useful when writing integration tests where you need to generate multiple temporary files for downstream steps. &lt;code&gt;Dir.mktmpdir&lt;/code&gt; returns the path to the temporary folder, allowing you to create files inside it using standard methods like &lt;code&gt;File.write&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Text data section in Ruby</title>
-      <link>https://yegorov.github.io/notes/text-data-section-in-ruby/</link>
-      <pubDate>Thu, 01 Oct 2026 10:21:10 +0000</pubDate>
-      <guid>https://yegorov.github.io/notes/text-data-section-in-ruby/</guid>
-      <description>&lt;p&gt;If you code in Ruby, you can discover new features practically every day.&#xA;For instance, one of the coolest features I stumbled upon in the documentation just a few days ago (despite writing Ruby for over 10 years!) is that you can embed text data directly inside your source file.&#xA;All you need to do is place an &lt;code&gt;__END__&lt;/code&gt; marker at the bottom of the file. Anything you write after that line can be read right out of the &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Object.html#DATA&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;DATA&lt;/code&gt;&lt;/a&gt; object inside the same source file.&#xA;Under the hood, the &lt;code&gt;DATA&lt;/code&gt; constant is simply an open &lt;a href=&#34;https://docs.ruby-lang.org/en/master/File.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;file stream&lt;/a&gt; of your current (entrypoint) file in read-only mode, with its pointer positioned immediately after the &lt;code&gt;__END__&lt;/code&gt; line.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
