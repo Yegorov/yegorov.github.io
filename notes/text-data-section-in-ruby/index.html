@@ -278,7 +278,7 @@
         <p>If you code in Ruby, you can discover new features practically every day.
 For instance, one of the coolest features I stumbled upon in the documentation just a few days ago (despite writing Ruby for over 10 years!) is that you can embed text data directly inside your source file.
 All you need to do is place an <code>__END__</code> marker at the bottom of the file. Anything you write after that line can be read right out of the <a href="https://docs.ruby-lang.org/en/master/Object.html#DATA"  class="external-link" target="_blank" rel="noopener"><code>DATA</code></a> object inside the same source file.
-Under the hood, the <code>DATA</code> constant is simply an open <a href="https://docs.ruby-lang.org/en/master/File.html"  class="external-link" target="_blank" rel="noopener">file stream</a> of your current file in read-only mode, with its pointer positioned immediately after the <code>__END__</code> line.</p>
+Under the hood, the <code>DATA</code> constant is simply an open <a href="https://docs.ruby-lang.org/en/master/File.html"  class="external-link" target="_blank" rel="noopener">file stream</a> of your current (entrypoint) file in read-only mode, with its pointer positioned immediately after the <code>__END__</code> line.</p>
 <p>Have you ever used <code>__END__</code> and <code>DATA</code> in your projects, or is this new to you too?</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="ch">#!/bin/env ruby</span>
 </span></span><span class="line"><span class="cl">

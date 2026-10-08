@@ -1,0 +1,53 @@
++++
+draft = false
+date = 2026-10-08T08:35:47.338Z
+title = "Temporary files and folders in Ruby"
+description = "Temporary files and folders in Ruby"
+slug = "temporary-files-and-folders-in-ruby"
+authors = ["Artem Yegorov"]
+tags = ["Ruby", "Tempfile", "Tmpdir", "Temporary", "File", "Dir", "Folder"]
+featuredImage = "images/notes/20261008_temporary_files_and_folders_in_ruby.png"
+linkedin = "https://www.linkedin.com/posts/yegorov0725_ruby-tempfile-tmpdir-activity-7513879807898566658-AFNK"
+x = "https://x.com/yegorov0725/status/2108115907281305988"
+bsky = "https://bsky.app/profile/yegorov.bsky.social/post/3mxe2vlixds2g"
+mastodon = "https://mastodon.social/@yegorov/117404414340997009"
+telegram = "https://t.me/yegorov_notes/96"
++++
+
+If you've been using Ruby for a while, you've likely come across [`Tempfile`](https://docs.ruby-lang.org/en/master/Tempfile.html) in your projects. In short, it creates a temporary file in the system's `/tmp` directory. From there, you can pass it as an argument to other methods just like a regular file (I mostly see this used in image manipulation gems like [`mini_magick`](https://github.com/minimagick/minimagick/blob/master/lib/mini_magick/utilities.rb)). If you pass a block, the file is automatically deleted after execution. If not, you'll need to close and unlink it manually. Keep in mind that `Tempfile.create` returns an instance of `File`, not `Tempfile`.
+What you might have missed is that Ruby also provides [`Dir.mktmpdir`](https://docs.ruby-lang.org/en/master/Dir.html#method-c-mktmpdir), which creates a temporary directory (also in `/tmp`). This is especially useful when writing integration tests where you need to generate multiple temporary files for downstream steps. `Dir.mktmpdir` returns the path to the temporary folder, allowing you to create files inside it using standard methods like `File.write`.
+
+Do you use temporary files and directories in your projects? In what scenarios has this feature been most helpful?
+
+```ruby
+require 'tempfile'
+
+f = Tempfile.create
+f.write('Some text')
+f.flush
+f.path # "/tmp/20261007-238355-ug95xp"
+f.close
+File.unlink(f)
+
+Tempfile.create do |f|
+  f.sync = true
+  f.write('Some text')
+
+  # work with file
+end
+
+
+require 'tmpdir'
+
+dir = Dir.mktmpdir
+f = File.join(dir, 'f.txt') # /tmp/d20261007-457697-nj2gb8/f.txt
+File.write(f, 'Some data')
+FileUtils.remove_entry(dir)
+
+Dir.mktmpdir do |dir|
+  f = File.join(dir, 'f.txt')
+  File.write(f, 'Some data')
+
+  # work with file and folder
+end
+```
