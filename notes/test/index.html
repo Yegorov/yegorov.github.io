@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <title>
-   · Artem Yegorov
+  Check internet availability · Artem Yegorov
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +13,27 @@
 
 
 <meta name="author" content="Artem Yegorov">
-<meta name="description" content="Artem Yegorov&#39;s personal website">
+<meta name="description" content="How to check internet availability in you CI">
 <meta name="keywords" content="ruby,rails,blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Artem Yegorov">
-  <meta name="twitter:description" content="Artem Yegorov&#39;s personal website">
+  <meta name="twitter:title" content="Check internet availability">
+  <meta name="twitter:description" content="How to check internet availability in you CI">
 
-<meta property="og:url" content="http://localhost:1313/notes/2026-07-30-fallback-value-for-hash-in-ruby/">
+<meta property="og:url" content="https://yegorov.github.io/notes/test/">
   <meta property="og:site_name" content="Artem Yegorov">
-  <meta property="og:title" content="Artem Yegorov">
-  <meta property="og:description" content="Artem Yegorov&#39;s personal website">
+  <meta property="og:title" content="Check internet availability">
+  <meta property="og:description" content="How to check internet availability in you CI">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2025-12-10T13:00:32+00:00">
+    <meta property="article:modified_time" content="2025-12-10T13:00:32+00:00">
+    <meta property="article:tag" content="Ruby">
+    <meta property="article:tag" content="Rails">
+    <meta property="article:tag" content="CI">
 
 
 
@@ -54,17 +59,17 @@
 
 
 
-<link rel="canonical" href="http://localhost:1313/notes/2026-07-30-fallback-value-for-hash-in-ruby/">
+<link rel="canonical" href="https://yegorov.github.io/notes/test/">
 
 
-<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
 
   
   
-  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+  <link rel="stylesheet" href="https://yegorov.github.io/css/coder.min.c8e4eea149ae1dc7c61ba9b0781793711a4e657f7e07a4413f9abc46d52dffc4.css" integrity="sha256-yOTuoUmuHcfGG6mweBeTcRpOZX9&#43;B6RBP5q8RtUt/8Q=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -74,7 +79,7 @@
   
     
     
-    <link rel="stylesheet" href="http://localhost:1313/css/coder-dark.css" media="screen">
+    <link rel="stylesheet" href="https://yegorov.github.io/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -85,21 +90,20 @@
   
   
     
-    
-    <link rel="stylesheet" href="http://localhost:1313/css/notes.css" media="screen">
+    <link rel="stylesheet" href="https://yegorov.github.io/css/notes.min.3c5fbbf8b91f9800486f03e50e240e2c456919b401d560bc2d6a3c5bfb25425d.css" integrity="sha256-PF&#43;7&#43;LkfmABIbwPlDiQOLEVpGbQB1WC8LWo8W/slQl0=" crossorigin="anonymous" media="screen" />
   
 
 
 
-<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
-<link rel="icon" type="image/png" href="http://localhost:1313/img/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="http://localhost:1313/img/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/svg+xml" href="https://yegorov.github.io/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="https://yegorov.github.io/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://yegorov.github.io/img/favicon-16x16.png" sizes="16x16">
 
-<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="https://yegorov.github.io/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://yegorov.github.io/images/apple-touch-icon.png">
 
-<link rel="manifest" href="http://localhost:1313/site.webmanifest">
-<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="manifest" href="https://yegorov.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://yegorov.github.io/images/safari-pinned-tab.svg" color="#5bbad5">
 
 
 
@@ -129,7 +133,7 @@
     <nav class="navigation">
   <section class="container">
     
-    <a class="navigation-title" href="http://localhost:1313/">
+    <a class="navigation-title" href="https://yegorov.github.io/">
       Artem Yegorov
     </a>
     
@@ -142,15 +146,15 @@
         
           
             <li class="navigation-item">
-              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+              <a class="navigation-link " href="https://yegorov.github.io/about/">About</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="http://localhost:1313/posts/">Blog</a>
+              <a class="navigation-link " href="https://yegorov.github.io/posts/">Blog</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="http://localhost:1313/notes/">Notes</a>
+              <a class="navigation-link " href="https://yegorov.github.io/notes/">Notes</a>
             </li>
           
         
@@ -168,7 +172,7 @@
                 
               
               <li class="navigation-item">
-                <a href="http://localhost:1313/ru/">Russian</a>
+                <a href="https://yegorov.github.io/ru/">Russian</a>
               </li>
             
           
@@ -186,8 +190,8 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/notes/2026-07-30-fallback-value-for-hash-in-ruby/">
-              
+            <a class="title-link" href="https://yegorov.github.io/notes/test/">
+              Check internet availability
             </a>
           </h1>
         </div>
@@ -195,16 +199,35 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa-solid fa-calendar" aria-hidden="true"></i>
-              <time datetime="0001-01-01T00:00:00Z">
-                January 1, 0001
+              <time datetime="2025-12-10T13:00:32Z">
+                December 10, 2025
               </time>
             </span>
 
           </div>
           
           
-          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/ruby/">Ruby</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/rails/">Rails</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/ci/">CI</a>
+    </span></div>
+
           <ul class="socials">
+            
+              <li>
+                <a class="linkedin" href="https://www.linkedin.com/..." target="_blank">
+                  <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+              </li>
             
             
             
@@ -216,7 +239,26 @@
 
       <div class="post-content">
         
+          <img src="https://yegorov.github.io/images/notes/20260302_rv.png" alt="Featured image"/>
         
+        <!--
++++
+draft = false
+date = 2025-12-17T13:24:29.688Z / date -u --iso-8601=s
+title = "..."
+description = "..."
+slug = "..--.."
+authors = ["Artem Yegorov"]
+tags = ["Ruby", "Rails"]
+featuredImage = "images/notes/20260302_---.png"
+linkedin = "https://www.linkedin.com/posts/yegorov0725_...-7407048042820005888-Y-KJ"
+x = "https://x.com/yegorov0725/status/20544...."
+bsky = "https://bsky.app/profile/yegorov.bsky.social/post/3mlp...."
+mastodon = "https://mastodon.social/@yegorov/116566......."
+telegram = "https://t.me/yegorov_notes/4..."
++++
+-->
+
       </div>
 
     </article>
@@ -263,7 +305,7 @@
 
   
   
-  <script src="http://localhost:1313/js/coder.js"></script>
+  <script src="https://yegorov.github.io/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
   
 
   
