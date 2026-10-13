@@ -6,8 +6,64 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 08:35:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 09:26:41 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checksum</title>
+      <link>https://yegorov.github.io/tags/checksum/</link>
+      <pubDate>Tue, 13 Oct 2026 09:26:41 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/checksum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digest</title>
+      <link>https://yegorov.github.io/tags/digest/</link>
+      <pubDate>Tue, 13 Oct 2026 09:26:41 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/digest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>File</title>
+      <link>https://yegorov.github.io/tags/file/</link>
+      <pubDate>Tue, 13 Oct 2026 09:26:41 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/file/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hash</title>
+      <link>https://yegorov.github.io/tags/hash/</link>
+      <pubDate>Tue, 13 Oct 2026 09:26:41 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/hash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IO</title>
+      <link>https://yegorov.github.io/tags/io/</link>
+      <pubDate>Tue, 13 Oct 2026 09:26:41 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/io/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Tue, 13 Oct 2026 09:26:41 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SHA256</title>
+      <link>https://yegorov.github.io/tags/sha256/</link>
+      <pubDate>Tue, 13 Oct 2026 09:26:41 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/sha256/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stream</title>
+      <link>https://yegorov.github.io/tags/stream/</link>
+      <pubDate>Tue, 13 Oct 2026 09:26:41 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/stream/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dir</title>
       <link>https://yegorov.github.io/tags/dir/</link>
@@ -16,24 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>File</title>
-      <link>https://yegorov.github.io/tags/file/</link>
-      <pubDate>Thu, 08 Oct 2026 08:35:47 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/file/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Folder</title>
       <link>https://yegorov.github.io/tags/folder/</link>
       <pubDate>Thu, 08 Oct 2026 08:35:47 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/folder/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 08 Oct 2026 08:35:47 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -125,13 +167,6 @@
       <link>https://yegorov.github.io/tags/http/</link>
       <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/http/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IO</title>
-      <link>https://yegorov.github.io/tags/io/</link>
-      <pubDate>Thu, 17 Sep 2026 06:30:57 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/io/</guid>
       <description></description>
     </item>
     <item>
@@ -314,13 +349,6 @@
       <link>https://yegorov.github.io/tags/thread/</link>
       <pubDate>Thu, 13 Aug 2026 08:49:09 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/thread/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hash</title>
-      <link>https://yegorov.github.io/tags/hash/</link>
-      <pubDate>Thu, 06 Aug 2026 09:21:34 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/hash/</guid>
       <description></description>
     </item>
     <item>

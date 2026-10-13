@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -15,23 +15,38 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/dir/</loc>
-    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
+    <loc>https://yegorov.github.io/notes/calculate-checksum-in-ruby/</loc>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/checksum/</loc>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/digest/</loc>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/file/</loc>
-    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/folder/</loc>
-    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/hash/</loc>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/io/</loc>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/sha256/</loc>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/stream/</loc>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
+    <lastmod>2026-10-13T09:26:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -42,6 +57,12 @@
                 hreflang="en"
                 href="https://yegorov.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/dir/</loc>
+    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/folder/</loc>
+    <lastmod>2026-10-08T08:35:47+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/tempfile/</loc>
     <lastmod>2026-10-08T08:35:47+00:00</lastmod>
@@ -89,9 +110,6 @@
     <lastmod>2026-09-17T06:30:57+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/http/</loc>
-    <lastmod>2026-09-17T06:30:57+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/io/</loc>
     <lastmod>2026-09-17T06:30:57+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/sending-http-request-via-tcp-socket-in-ruby/</loc>
@@ -189,9 +207,6 @@
   </url><url>
     <loc>https://yegorov.github.io/tags/thread/</loc>
     <lastmod>2026-08-13T08:49:09+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/hash/</loc>
-    <lastmod>2026-08-06T09:21:34+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/hash-literals-in-ruby-3-1/</loc>
     <lastmod>2026-08-06T09:21:34+00:00</lastmod>
