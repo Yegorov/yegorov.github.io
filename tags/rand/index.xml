@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rand on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/rand/</link>
+    <description>Recent content in Rand on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Oct 2026 07:25:04 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/rand/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generating a random numeric code in Ruby</title>
+      <link>https://yegorov.github.io/notes/generating-random-numeric-code-in-ruby/</link>
+      <pubDate>Thu, 22 Oct 2026 07:25:04 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/generating-random-numeric-code-in-ruby/</guid>
+      <description>&lt;p&gt;If you work in web development, you&amp;rsquo;ve almost certainly had to generate random numeric codes like OTPs for logins or transaction verifications sent via SMS or email.&#xA;It seems like a straightforward task, and your first instinct might be to reach for &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Kernel.html#method-i-rand&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Kernel#rand&lt;/code&gt;&lt;/a&gt;. But that method isn&amp;rsquo;t designed for cryptographically secure random numbers, so the &lt;a href=&#34;https://docs.ruby-lang.org/en/master/Random.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation advises&lt;/a&gt; switching to a safer alternative: &lt;a href=&#34;https://docs.ruby-lang.org/en/master/SecureRandom.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;SecureRandom#rand&lt;/code&gt;&lt;/a&gt;.&#xA;Next comes requirements that can vary depending on the use case: do all ten digits need to be included in the code, do you need to exclude certain numbers, or do you need to mix in alphanumeric characters.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
