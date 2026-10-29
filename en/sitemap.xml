@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yegorov.github.io/tags/array/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-10-22T07:25:04+00:00</lastmod>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -15,13 +18,44 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
+    <loc>https://yegorov.github.io/tags/asterisk/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/concat/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/destruct/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ruby/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/splat/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/splat-operator-in-ruby/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
+                />
+  </url><url>
     <loc>https://yegorov.github.io/tags/code/</loc>
     <lastmod>2026-10-22T07:25:04+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/generating-random-numeric-code-in-ruby/</loc>
-    <lastmod>2026-10-22T07:25:04+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/notes/</loc>
     <lastmod>2026-10-22T07:25:04+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/numbers/</loc>
@@ -33,24 +67,8 @@
     <loc>https://yegorov.github.io/tags/rand/</loc>
     <lastmod>2026-10-22T07:25:04+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-10-22T07:25:04+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/tags/securerandom/</loc>
     <lastmod>2026-10-22T07:25:04+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-10-22T07:25:04+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
   </url><url>
     <loc>https://yegorov.github.io/notes/calculate-checksum-in-ruby/</loc>
     <lastmod>2026-10-13T09:26:41+00:00</lastmod>
@@ -617,9 +635,6 @@
     <lastmod>2026-04-07T07:38:38+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/spaceship/</loc>
-    <lastmod>2026-04-07T07:38:38+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/splat/</loc>
     <lastmod>2026-04-07T07:38:38+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/codeberg/</loc>

@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 07:25:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 08:44:56 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array</title>
+      <link>https://yegorov.github.io/tags/array/</link>
+      <pubDate>Thu, 29 Oct 2026 08:44:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asterisk</title>
+      <link>https://yegorov.github.io/tags/asterisk/</link>
+      <pubDate>Thu, 29 Oct 2026 08:44:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/asterisk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Concat</title>
+      <link>https://yegorov.github.io/tags/concat/</link>
+      <pubDate>Thu, 29 Oct 2026 08:44:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/concat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Destruct</title>
+      <link>https://yegorov.github.io/tags/destruct/</link>
+      <pubDate>Thu, 29 Oct 2026 08:44:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/destruct/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Thu, 29 Oct 2026 08:44:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Splat</title>
+      <link>https://yegorov.github.io/tags/splat/</link>
+      <pubDate>Thu, 29 Oct 2026 08:44:56 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/splat/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Code</title>
       <link>https://yegorov.github.io/tags/code/</link>
@@ -34,13 +76,6 @@
       <link>https://yegorov.github.io/tags/rand/</link>
       <pubDate>Thu, 22 Oct 2026 07:25:04 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/rand/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 22 Oct 2026 07:25:04 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -1126,13 +1161,6 @@
       <link>https://yegorov.github.io/tags/spaceship/</link>
       <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/spaceship/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Splat</title>
-      <link>https://yegorov.github.io/tags/splat/</link>
-      <pubDate>Tue, 07 Apr 2026 07:38:38 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/splat/</guid>
       <description></description>
     </item>
     <item>
