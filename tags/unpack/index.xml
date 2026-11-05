@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unpack on Artem Yegorov</title>
+    <link>https://yegorov.github.io/tags/unpack/</link>
+    <description>Recent content in Unpack on Artem Yegorov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Nov 2026 08:59:52 +0000</lastBuildDate>
+    <atom:link href="https://yegorov.github.io/tags/unpack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Packing and unpacking data in Ruby</title>
+      <link>https://yegorov.github.io/notes/packing-unpacking-data-in-ruby/</link>
+      <pubDate>Thu, 05 Nov 2026 08:59:52 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/packing-unpacking-data-in-ruby/</guid>
+      <description>&lt;p&gt;One of the coolest and most thoughtfully implemented features in Ruby is data packing and unpacking. I haven&amp;rsquo;t encountered such a simple API for working with binary data even in compiled languages like Go, Rust, or C++.&lt;/p&gt;&#xA;&lt;p&gt;For example, if you need to turn two bytes into a 16-bit integer, it looks like this:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;32&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;C*&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;unpack&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;S&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8447&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To make it clearer what&amp;rsquo;s happening, let&amp;rsquo;s add 1 byte to the result and unpack it back into an array of bytes:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

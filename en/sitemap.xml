@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/tags/array/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -18,29 +18,32 @@
                 href="https://yegorov.github.io/"
                 />
   </url><url>
-    <loc>https://yegorov.github.io/tags/asterisk/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/ascii/</loc>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/concat/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/binary/</loc>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/destruct/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/data/</loc>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/pack/</loc>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/packing-unpacking-data-in-ruby/</loc>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/ruby/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/splat/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/notes/splat-operator-in-ruby/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <loc>https://yegorov.github.io/tags/string/</loc>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -51,6 +54,24 @@
                 hreflang="en"
                 href="https://yegorov.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/unpack/</loc>
+    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/asterisk/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/concat/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/destruct/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/splat/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/splat-operator-in-ruby/</loc>
+    <lastmod>2026-10-29T08:44:56+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/code/</loc>
     <lastmod>2026-10-22T07:25:04+00:00</lastmod>
@@ -112,9 +133,6 @@
     <loc>https://yegorov.github.io/tags/tmpdir/</loc>
     <lastmod>2026-10-08T08:35:47+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/data/</loc>
-    <lastmod>2026-10-01T10:21:10+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/tags/embedded/</loc>
     <lastmod>2026-10-01T10:21:10+00:00</lastmod>
   </url><url>
@@ -164,9 +182,6 @@
     <lastmod>2026-09-10T08:58:31+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/refinements/</loc>
-    <lastmod>2026-09-10T08:58:31+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/string/</loc>
     <lastmod>2026-09-10T08:58:31+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/using-refinements-in-ruby/</loc>
