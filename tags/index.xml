@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 08:59:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 08:50:47 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make</title>
+      <link>https://yegorov.github.io/tags/make/</link>
+      <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/make/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rake</title>
+      <link>https://yegorov.github.io/tags/rake/</link>
+      <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rakefile</title>
+      <link>https://yegorov.github.io/tags/rakefile/</link>
+      <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/rakefile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Runner</title>
+      <link>https://yegorov.github.io/tags/runner/</link>
+      <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/runner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Task</title>
+      <link>https://yegorov.github.io/tags/task/</link>
+      <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/task/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Array</title>
       <link>https://yegorov.github.io/tags/array/</link>
@@ -41,13 +83,6 @@
       <link>https://yegorov.github.io/tags/pack/</link>
       <pubDate>Thu, 05 Nov 2026 08:59:52 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/pack/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 05 Nov 2026 08:59:52 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     <item>
@@ -898,13 +933,6 @@
       <description></description>
     </item>
     <item>
-      <title>Task</title>
-      <link>https://yegorov.github.io/tags/task/</link>
-      <pubDate>Tue, 02 Jun 2026 06:58:50 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/task/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Whenever</title>
       <link>https://yegorov.github.io/tags/whenever/</link>
       <pubDate>Tue, 02 Jun 2026 06:58:50 +0000</pubDate>
@@ -1014,13 +1042,6 @@
       <link>https://yegorov.github.io/tags/oss/</link>
       <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/oss/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rake</title>
-      <link>https://yegorov.github.io/tags/rake/</link>
-      <pubDate>Fri, 08 May 2026 07:14:38 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/rake/</guid>
       <description></description>
     </item>
     <item>
@@ -1644,13 +1665,6 @@
       <link>https://yegorov.github.io/tags/heredoc/</link>
       <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/heredoc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Runner</title>
-      <link>https://yegorov.github.io/tags/runner/</link>
-      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/runner/</guid>
       <description></description>
     </item>
     <item>

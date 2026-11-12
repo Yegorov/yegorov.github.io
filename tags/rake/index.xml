@@ -6,8 +6,15 @@
     <description>Recent content in Rake on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 07:14:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 08:50:47 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/rake/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rake build utility</title>
+      <link>https://yegorov.github.io/notes/rake-build-utility/</link>
+      <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/rake-build-utility/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ruby.github.io/rake/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rake&lt;/a&gt; is one of the best tools created in Ruby and widely used for running scripts. In my opinion, its beautiful DSL inspired the creation of other projects, like &lt;a href=&#34;https://capistranorb.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capistrano&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;While Rake is mostly used for running build scripts, code checks, and tests, I believe it can also be used to some extent for running business tasks related to your project.&lt;/p&gt;&#xA;&lt;p&gt;But there is one thing to keep in mind when writing your scripts: avoid exceeding 10-15 lines of code inside a task block. If your logic doesn&amp;rsquo;t fit within this limit, you can create a separate class to be used inside the task. Just make sure to place this class inside a namespace, because once loaded by the interpreter, it becomes globally available.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Contribution to Rake</title>
       <link>https://yegorov.github.io/notes/contribution-to-rake/</link>
