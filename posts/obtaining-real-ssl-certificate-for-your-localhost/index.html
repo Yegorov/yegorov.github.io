@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Obtaining a real SSL certificate for your localhost · Artem Yegorov
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Artem Yegorov">
+<meta name="description" content="An example of obtaining a real SSL certificate from Let&#39;s Encrypt for a local host using ACME clients via Docker, and configuring it for Nginx">
+<meta name="keywords" content="ruby,rails,blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Obtaining a real SSL certificate for your localhost">
+  <meta name="twitter:description" content="An example of obtaining a real SSL certificate from Let&#39;s Encrypt for a local host using ACME clients via Docker, and configuring it for Nginx">
+
+<meta property="og:url" content="http://localhost:1313/posts/obtaining-real-ssl-certificate-for-your-localhost/">
+  <meta property="og:site_name" content="Artem Yegorov">
+  <meta property="og:title" content="Obtaining a real SSL certificate for your localhost">
+  <meta property="og:description" content="An example of obtaining a real SSL certificate from Let&#39;s Encrypt for a local host using ACME clients via Docker, and configuring it for Nginx">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-11-16T12:00:00+03:00">
+    <meta property="article:modified_time" content="2026-11-16T12:00:00+03:00">
+    <meta property="article:tag" content="Ssl">
+    <meta property="article:tag" content="Tls">
+    <meta property="article:tag" content="Cert">
+    <meta property="article:tag" content="Letsencrypt">
+    <meta property="article:tag" content="Acme">
+    <meta property="article:tag" content="Lego">
+      <meta property="og:see_also" content="http://localhost:1313/posts/how-generate-self-signed-ssl-certificate/">
+
+
+
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(103288843, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+
+
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="5b83a64f-0460-4d25-9b6d-355e1eacd78c"></script>
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/obtaining-real-ssl-certificate-for-your-localhost/">
+
+
+<link rel="preload" href="http://localhost:1313/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="http://localhost:1313/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+  
+  
+    
+    
+    <link rel="stylesheet" href="http://localhost:1313/css/notes.css" media="screen">
+  
+
+
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="http://localhost:1313/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:1313/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+<link rel="mask-icon" href="http://localhost:1313/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Artem Yegorov
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="http://localhost:1313/notes/">Notes</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="http://localhost:1313/ru/">Russian</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/obtaining-real-ssl-certificate-for-your-localhost/">
+              Obtaining a real SSL certificate for your localhost
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-11-16T12:00:00&#43;03:00">
+                November 16, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="http://localhost:1313/categories/ssl/">Ssl</a>
+      <span class="separator">•</span>
+    <a href="http://localhost:1313/categories/cert/">Cert</a>
+      <span class="separator">•</span>
+    <a href="http://localhost:1313/categories/docker/">Docker</a>
+      <span class="separator">•</span>
+    <a href="http://localhost:1313/categories/nginx/">Nginx</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/ssl/">Ssl</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/tls/">Tls</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/cert/">Cert</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/letsencrypt/">Letsencrypt</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/acme/">Acme</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/lego/">Lego</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/certbot/">Certbot</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>When developing web services, you may sometimes need to test how things work with a real domain. In most cases, you can add domains to the <code>/etc/hosts</code> file; for example, it might look like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">127.0.0.1 site.localhost
+</span></span><span class="line"><span class="cl">127.0.0.1 admin.localhost
+</span></span><span class="line"><span class="cl">127.0.0.1 db.localhost
+</span></span></code></pre></div><p>You can also use one of the actual domains that has its DNS A-record set to 127.0.0.1, for example:</p>
+<ul>
+<li><a href="http://lvh.me/"  class="external-link" target="_blank" rel="noopener">lvh.me</a> - see <a href="https://coderwall.com/p/-neplg/use-lvh-me-for-local-subdomain-testing"  class="external-link" target="_blank" rel="noopener">here</a> for instructions on how to use it.</li>
+<li><a href="http://localtest.me/"  class="external-link" target="_blank" rel="noopener">localtest.me</a> - learn more <a href="https://pekalicious.github.io/til/2019/01/07/02-lvhme.html"  class="external-link" target="_blank" rel="noopener">here</a>.</li>
+<li><a href="http://127.0.0.1.nip.io/"  class="external-link" target="_blank" rel="noopener">127.0.0.1.nip.io</a> - a particularly useful service that also provides access to other IP addresses not routable on the public internet; find out more <a href="https://nip.io/"  class="external-link" target="_blank" rel="noopener">here</a>.</li>
+</ul>
+<p>But what if you need your service to use a secure connection on localhost - that is, to be accessible via HTTPS? One option is to use <a href="http://localhost:1313/posts/how-generate-self-signed-ssl-certificate/" >self-signed certificates</a> and add them to the system’s SSL/TLS certificate store (on Debian, for instance, you would place the certificate in the <code>/usr/local/share/ca-certificates/</code> directory and update the system certificate store by running the command <code>sudo update-ca-certificates</code>).</p>
+<p>Another option is to use your own domain. For example, if you own the domain <code>example.com</code>, you can add an A record pointing to the IP address <code>127.0.0.1</code> for the subdomain <code>localhost.example.com</code>, and then obtain a 90-day SSL certificate from Let&rsquo;s Encrypt using DNS-based validation.
+To do this, you need to follow these steps:</p>
+<ol>
+<li>Log in to the admin control panel for your domain (e.g., example.com) and add an A-record:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">Subdomain: localhost
+</span></span><span class="line"><span class="cl">IP: 127.0.0.1
+</span></span></code></pre></div><ol start="2">
+<li>Create a folder on your workstation to be mounted into the Docker container (this folder will store the certificates), and use the ACME client <a href="https://go-acme.github.io/lego/"  class="external-link" target="_blank" rel="noopener">&ldquo;lego&rdquo;</a> to manually request a certificate via DNS.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir lego-certs
+</span></span><span class="line"><span class="cl">docker run -it --rm -v <span class="s2">&#34;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">/lego-certs:/.lego&#34;</span> goacme/lego run <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -d <span class="s1">&#39;localhost.example.com&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --key-type EC256 <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --dns manual <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --accept-tos
+</span></span></code></pre></div><p>You can review the available flags <a href="https://go-acme.github.io/lego/references/ref-flags/#lego-run"  class="external-link" target="_blank" rel="noopener">here</a>.</p>
+<ol start="3">
+<li>Once these lines appear in the logs:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">2026-11-16T10:08:56.499002562Z INFO  Obtaining bundled SAN certificate. domains=localhost.example.com
+</span></span><span class="line"><span class="cl">2026-11-16T10:08:57.141449703Z INFO  Use solver. domain=localhost.example.com type=dns-01
+</span></span><span class="line"><span class="cl">2026-11-16T10:08:57.141510958Z INFO  dns01: preparing to solve the challenge. domain=localhost.example.com
+</span></span><span class="line"><span class="cl">lego: Please create the following TXT record in your example.com. zone:
+</span></span><span class="line"><span class="cl">_acme-challenge.localhost.example.com. 120 IN TXT &#34;z0zgBEhgp8EPQpjXWTLytErUfd6NiYs2hP___1N8g6w&#34;
+</span></span><span class="line"><span class="cl">lego: Press &#39;Enter&#39; when you are done
+</span></span></code></pre></div><p>In the DNS admin panel you need to create a TXT record with the following content:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">Subdomain: _acme-challenge.localhost
+</span></span><span class="line"><span class="cl">TXT: z0zgBEhgp8EPQpjXWTLytErUfd6NiYs2hP___1N8g6w
+</span></span></code></pre></div><p>Wait about 3–5 minutes for it to update; you can check as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dig TXT _acme-challenge.localhost.example.com +short
+</span></span></code></pre></div><p>And press Enter.</p>
+<ol start="4">
+<li>If everything has been done correctly and no further verification keys need to be added, the output will be as follows:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">2026-11-16T10:16:47.515048470Z INFO  dns01: trying to solve the challenge. domain=localhost.example.com
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:47.560410651Z INFO  dns01: waiting for record propagation timeout=1m0s interval=2s domain=localhost.example.com
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:57.424361762Z INFO  The server validated our request. domain=localhost.example.com
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:57.424414984Z INFO  dns01: cleaning DNS-01 challenge. domain=localhost.example.com
+</span></span><span class="line"><span class="cl">lego: You can now remove this TXT record from your example.com. zone:
+</span></span><span class="line"><span class="cl">_acme-challenge.localhost.example.com. 120 IN TXT &#34;...&#34;
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:57.428225575Z INFO  Validations succeeded; requesting certificates. domains=localhost.example.com
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:59.981495942Z INFO  Server responded with a certificate. domains=localhost.example.com
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:59.981887712Z INFO  Writing file. filepath=/.lego/certificates/localhost.example.com.crt
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:59.982131313Z INFO  Writing file. filepath=/.lego/certificates/localhost.example.com.issuer.crt
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:59.982350041Z INFO  Writing file. filepath=/.lego/certificates/localhost.example.com.key
+</span></span><span class="line"><span class="cl">2026-11-16T10:16:59.982663266Z INFO  Writing file. filepath=/.lego/certificates/localhost.example.com.json
+</span></span></code></pre></div><p>After this, the TXT record that was added (in step 3) can be removed from the DNS.</p>
+<p>The <code>lego-certs/certificates</code> folder will now contain the following files:</p>
+<ul>
+<li><code>localhost.example.com.crt</code> - the full certificate chain (from the leaf certificate up to the root).</li>
+<li><code>localhost.example.com.issuer.crt</code> - the certificate chain containing only the intermediate and root certificates (excluding the leaf certificate).</li>
+<li><code>localhost.example.com.json</code> - a file containing information about where and how the certificate was signed.</li>
+<li><code>localhost.example.com.key</code> - the private key.</li>
+</ul>
+<p>To display information about an issued certificate, you need to execute the following command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl x509 -in localhost.example.com.crt -text -noout
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Certificate:
+</span></span><span class="line"><span class="cl">    Data:
+</span></span><span class="line"><span class="cl">        Version: <span class="m">3</span> <span class="o">(</span>0x2<span class="o">)</span>
+</span></span><span class="line"><span class="cl">        Serial Number:
+</span></span><span class="line"><span class="cl">            05:32:dd:d1:c0:d6:a5:a2:76:28:ae:d2:2d:ca:c9:fb:ec:77
+</span></span><span class="line"><span class="cl">        Signature Algorithm: ecdsa-with-SHA384
+</span></span><span class="line"><span class="cl">        Issuer: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Let<span class="err">&#39;</span>s Encrypt, <span class="nv">CN</span> <span class="o">=</span> YE2
+</span></span><span class="line"><span class="cl">        Validity
+</span></span><span class="line"><span class="cl">            Not Before: Nov <span class="m">16</span> 09:18:45 <span class="m">2026</span> GMT
+</span></span><span class="line"><span class="cl">            Not After : Feb <span class="m">14</span> 09:18:44 <span class="m">2027</span> GMT
+</span></span><span class="line"><span class="cl">        Subject: <span class="nv">CN</span> <span class="o">=</span> localhost.example.com
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></div><p>To view information about all intermediate and root certificates, you need to run the following command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl storeutl -text -noout localhost.example.com.crt
+</span></span></code></pre></div><p>If you do not need the certificate chain, you can extract and save only your own certificate from the chain, as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl x509 -in localhost.example.com.crt -out localhost.example.com.single.crt
+</span></span><span class="line"><span class="cl">chmod <span class="m">600</span> localhost.example.com.single.crt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">openssl x509 -in localhost.example.com.single.crt -text -noout
+</span></span></code></pre></div><p>Now, all that remains is to copy the certificate and key to another location (ensuring that the owner is set to root and the correct permissions are applied) and add them to your Nginx configuration.
+You can do this as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p /etc/nginx/ssl
+</span></span><span class="line"><span class="cl">cp lego-certs/certificates/localhost.example.com.crt /etc/nginx/ssl/
+</span></span><span class="line"><span class="cl">cp lego-certs/certificates/localhost.example.com.key /etc/nginx/ssl/
+</span></span><span class="line"><span class="cl">chown root:root /etc/nginx/ssl/localhost.example.com.crt
+</span></span><span class="line"><span class="cl">chown root:root /etc/nginx/ssl/localhost.example.com.key
+</span></span><span class="line"><span class="cl">chmod <span class="m">644</span> /etc/nginx/ssl/localhost.example.com.crt
+</span></span><span class="line"><span class="cl">chmod <span class="m">600</span> /etc/nginx/ssl/localhost.example.com.key
+</span></span></code></pre></div><p>Create an Nginx configuration file (<code>/etc/nginx/conf.d/localhost.example.conf</code>):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="line"><span class="cl"><span class="k">server</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="mi">80</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="s">[::]:80</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">server_name</span> <span class="s">localhost.example.com</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kn">location</span> <span class="s">/</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">return</span> <span class="mi">301</span> <span class="s">https://</span><span class="nv">$host$request_uri</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">server</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="mi">443</span> <span class="s">ssl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="s">[::]:443</span> <span class="s">ssl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">server_name</span> <span class="s">localhost.example.com</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kn">ssl_certificate</span> <span class="s">/etc/nginx/ssl/localhost.example.com.crt</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">ssl_certificate_key</span> <span class="s">/etc/nginx/ssl/localhost.example.com.key</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kn">location</span> <span class="s">/</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">charset</span> <span class="s">utf-8</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">default_type</span> <span class="s">text/plain</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">return</span> <span class="mi">200</span> <span class="s">&#34;Hello</span> <span class="s">world&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Check the configuration and update the settings</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nginx -t <span class="o">&amp;&amp;</span> nginx -s reload
+</span></span></code></pre></div><p>Work verification:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -Iv https://localhost.example.com
+</span></span><span class="line"><span class="cl">*   Trying 127.0.0.1:443...
+</span></span><span class="line"><span class="cl">* Connected to localhost.example.com <span class="o">(</span>127.0.0.1<span class="o">)</span> port <span class="m">443</span> <span class="o">(</span><span class="c1">#0)</span>
+</span></span><span class="line"><span class="cl">* ALPN, offering h2
+</span></span><span class="line"><span class="cl">* ALPN, offering http/1.1
+</span></span><span class="line"><span class="cl">*  CAfile: /etc/ssl/certs/ca-certificates.crt
+</span></span><span class="line"><span class="cl">*  CApath: none
+</span></span><span class="line"><span class="cl">* TLSv1.3 <span class="o">(</span>OUT<span class="o">)</span>, TLS handshake, Client hello <span class="o">(</span>1<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* TLSv1.3 <span class="o">(</span>IN<span class="o">)</span>, TLS handshake, Server hello <span class="o">(</span>2<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* TLSv1.2 <span class="o">(</span>IN<span class="o">)</span>, TLS handshake, Certificate <span class="o">(</span>11<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* TLSv1.2 <span class="o">(</span>IN<span class="o">)</span>, TLS handshake, Server key exchange <span class="o">(</span>12<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* TLSv1.2 <span class="o">(</span>IN<span class="o">)</span>, TLS handshake, Server finished <span class="o">(</span>14<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* TLSv1.2 <span class="o">(</span>OUT<span class="o">)</span>, TLS handshake, Client key exchange <span class="o">(</span>16<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* TLSv1.2 <span class="o">(</span>OUT<span class="o">)</span>, TLS change cipher, Change cipher spec <span class="o">(</span>1<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* TLSv1.2 <span class="o">(</span>OUT<span class="o">)</span>, TLS handshake, Finished <span class="o">(</span>20<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* TLSv1.2 <span class="o">(</span>IN<span class="o">)</span>, TLS handshake, Finished <span class="o">(</span>20<span class="o">)</span>:
+</span></span><span class="line"><span class="cl">* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES256-GCM-SHA384
+</span></span><span class="line"><span class="cl">* ALPN, server accepted to use http/1.1
+</span></span><span class="line"><span class="cl">* Server certificate:
+</span></span><span class="line"><span class="cl">*  subject: <span class="nv">CN</span><span class="o">=</span>localhost.example.com
+</span></span><span class="line"><span class="cl">*  start date: Nov <span class="m">16</span> 09:18:45 <span class="m">2026</span> GMT
+</span></span><span class="line"><span class="cl">*  expire date: Feb <span class="m">14</span> 09:18:44 <span class="m">2027</span> GMT
+</span></span><span class="line"><span class="cl">*  subjectAltName: host <span class="s2">&#34;localhost.example.com&#34;</span> matched cert<span class="s1">&#39;s &#34;localhost.example.com&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s1">*  issuer: C=US; O=Let&#39;</span>s Encrypt<span class="p">;</span> <span class="nv">CN</span><span class="o">=</span>YE2
+</span></span><span class="line"><span class="cl">*  SSL certificate verify ok.
+</span></span><span class="line"><span class="cl">&gt; HEAD / HTTP/1.1
+</span></span><span class="line"><span class="cl">&gt; Host: localhost.example.com
+</span></span><span class="line"><span class="cl">&gt; User-Agent: curl/7.81.0
+</span></span><span class="line"><span class="cl">&gt; Accept: */*
+</span></span><span class="line"><span class="cl">&gt;
+</span></span><span class="line"><span class="cl">* Mark bundle as not supporting multiuse
+</span></span><span class="line"><span class="cl">&lt; HTTP/1.1 <span class="m">200</span> OK
+</span></span><span class="line"><span class="cl">HTTP/1.1 <span class="m">200</span> OK
+</span></span><span class="line"><span class="cl">&lt; Server: nginx/1.20.2
+</span></span><span class="line"><span class="cl">Server: nginx/1.20.2
+</span></span><span class="line"><span class="cl">&lt; Date: Wed, <span class="m">16</span> Nov <span class="m">2026</span> 11:14:27 GMT
+</span></span><span class="line"><span class="cl">Date: Wed, <span class="m">16</span> Nov <span class="m">2026</span> 11:14:27 GMT
+</span></span><span class="line"><span class="cl">&lt; Content-Type: text/plain<span class="p">;</span> <span class="nv">charset</span><span class="o">=</span>utf-8
+</span></span><span class="line"><span class="cl">Content-Type: text/plain<span class="p">;</span> <span class="nv">charset</span><span class="o">=</span>utf-8
+</span></span><span class="line"><span class="cl">&lt; Content-Length: <span class="m">11</span>
+</span></span><span class="line"><span class="cl">Content-Length: <span class="m">11</span>
+</span></span><span class="line"><span class="cl">&lt; Connection: keep-alive
+</span></span><span class="line"><span class="cl">Connection: keep-alive
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;
+</span></span><span class="line"><span class="cl">* Connection <span class="c1">#0 to host localhost.example.com left intact</span>
+</span></span></code></pre></div>
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3 id="see-also-in-ssl-cert">
+        See also in ssl-cert
+        <a class="heading-link" href="#see-also-in-ssl-cert">
+          <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+          <span class="sr-only">Link to heading</span>
+        </a>
+      </h3>
+      <nav>
+        <ul>
+        
+        
+          
+            <li>
+              <a href="http://localhost:1313/posts/how-generate-self-signed-ssl-certificate/">How generate self signed SSL certificate</a>
+            </li>
+          
+        
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yegorov" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2026
+     Artem Yegorov 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="http://localhost:1313/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1Y1DBTYTZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-S1Y1DBTYTZ');
+        }
+      </script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <noscript><div><img src="https://mc.yandex.ru/watch/103288843" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</body>
+</html>
