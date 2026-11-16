@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Nov 2025 22:25:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:00:00 +0300</lastBuildDate>
     <atom:link href="https://yegorov.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cert</title>
+      <link>https://yegorov.github.io/categories/cert/</link>
+      <pubDate>Mon, 16 Nov 2026 19:00:00 +0300</pubDate>
+      <guid>https://yegorov.github.io/categories/cert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openssl</title>
+      <link>https://yegorov.github.io/categories/openssl/</link>
+      <pubDate>Mon, 16 Nov 2026 19:00:00 +0300</pubDate>
+      <guid>https://yegorov.github.io/categories/openssl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selfsigned</title>
+      <link>https://yegorov.github.io/categories/selfsigned/</link>
+      <pubDate>Mon, 16 Nov 2026 19:00:00 +0300</pubDate>
+      <guid>https://yegorov.github.io/categories/selfsigned/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ssl</title>
+      <link>https://yegorov.github.io/categories/ssl/</link>
+      <pubDate>Mon, 16 Nov 2026 19:00:00 +0300</pubDate>
+      <guid>https://yegorov.github.io/categories/ssl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tls</title>
+      <link>https://yegorov.github.io/categories/tls/</link>
+      <pubDate>Mon, 16 Nov 2026 19:00:00 +0300</pubDate>
+      <guid>https://yegorov.github.io/categories/tls/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Git</title>
       <link>https://yegorov.github.io/categories/git/</link>

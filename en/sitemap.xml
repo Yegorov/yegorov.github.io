@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-11-16T11:40:20+03:00</lastmod>
+    <lastmod>2026-11-18T12:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -16,7 +16,82 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/posts/</loc>
-    <lastmod>2026-11-16T11:40:20+03:00</lastmod>
+    <lastmod>2026-11-18T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/categories/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/categories/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/cert/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/categories/cert/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/posts/how-generate-self-signed-ssl-certificate/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/openssl/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/categories/openssl/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/selfsigned/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/categories/selfsigned/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/series/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/series/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ssl/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/categories/ssl/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/series/ssl-cert/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/tls/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/categories/tls/</loc>
+    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/make/</loc>
     <lastmod>2026-11-12T08:50:47+00:00</lastmod>
@@ -38,19 +113,6 @@
   </url><url>
     <loc>https://yegorov.github.io/tags/runner/</loc>
     <lastmod>2026-11-12T08:50:47+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-11-12T08:50:47+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
   </url><url>
     <loc>https://yegorov.github.io/tags/task/</loc>
     <lastmod>2026-11-12T08:50:47+00:00</lastmod>
@@ -955,19 +1017,6 @@
     <loc>https://yegorov.github.io/notes/check-internet-availability/</loc>
     <lastmod>2025-12-10T13:00:32+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/categories/</loc>
-    <lastmod>2025-11-02T22:25:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/categories/"
-                />
-  </url><url>
     <loc>https://yegorov.github.io/categories/git/</loc>
     <lastmod>2025-11-02T22:25:00+03:00</lastmod>
   </url><url>
@@ -979,19 +1028,6 @@
   </url><url>
     <loc>https://yegorov.github.io/posts/how-continue-using-repo-after-cloning/</loc>
     <lastmod>2025-11-02T22:25:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/series/</loc>
-    <lastmod>2025-11-02T22:25:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/series/"
-                />
   </url><url>
     <loc>https://yegorov.github.io/posts/how-localy-merge-github-pull-request/</loc>
     <lastmod>2025-09-12T10:05:42+03:00</lastmod>

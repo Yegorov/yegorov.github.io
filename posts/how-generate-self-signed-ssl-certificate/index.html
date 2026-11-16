@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  How generate self signed SSL certificate · Artem Yegorov
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Artem Yegorov">
+<meta name="description" content="An example of how generate self signed SSL certificate">
+<meta name="keywords" content="ruby,rails,blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How generate self signed SSL certificate">
+  <meta name="twitter:description" content="An example of how generate self signed SSL certificate">
+
+<meta property="og:url" content="https://yegorov.github.io/posts/how-generate-self-signed-ssl-certificate/">
+  <meta property="og:site_name" content="Artem Yegorov">
+  <meta property="og:title" content="How generate self signed SSL certificate">
+  <meta property="og:description" content="An example of how generate self signed SSL certificate">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-11-16T19:00:00+03:00">
+    <meta property="article:modified_time" content="2026-11-16T19:00:00+03:00">
+    <meta property="article:tag" content="Ssl">
+    <meta property="article:tag" content="Tls">
+    <meta property="article:tag" content="Openssl">
+    <meta property="article:tag" content="Cert">
+    <meta property="article:tag" content="Selfsigned">
+
+
+
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(103288843, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+
+
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="5b83a64f-0460-4d25-9b6d-355e1eacd78c"></script>
+
+
+
+
+<link rel="canonical" href="https://yegorov.github.io/posts/how-generate-self-signed-ssl-certificate/">
+
+
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://yegorov.github.io/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="https://yegorov.github.io/css/coder.min.c8e4eea149ae1dc7c61ba9b0781793711a4e657f7e07a4413f9abc46d52dffc4.css" integrity="sha256-yOTuoUmuHcfGG6mweBeTcRpOZX9&#43;B6RBP5q8RtUt/8Q=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="https://yegorov.github.io/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+  
+  
+    
+    <link rel="stylesheet" href="https://yegorov.github.io/css/notes.min.3c5fbbf8b91f9800486f03e50e240e2c456919b401d560bc2d6a3c5bfb25425d.css" integrity="sha256-PF&#43;7&#43;LkfmABIbwPlDiQOLEVpGbQB1WC8LWo8W/slQl0=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+<link rel="icon" type="image/svg+xml" href="https://yegorov.github.io/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="https://yegorov.github.io/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://yegorov.github.io/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="https://yegorov.github.io/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://yegorov.github.io/images/apple-touch-icon.png">
+
+<link rel="manifest" href="https://yegorov.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://yegorov.github.io/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://yegorov.github.io/">
+      Artem Yegorov
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://yegorov.github.io/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://yegorov.github.io/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://yegorov.github.io/notes/">Notes</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="https://yegorov.github.io/ru/">Russian</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://yegorov.github.io/posts/how-generate-self-signed-ssl-certificate/">
+              How generate self signed SSL certificate
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-11-16T19:00:00&#43;03:00">
+                November 16, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="https://yegorov.github.io/categories/ssl/">Ssl</a>
+      <span class="separator">•</span>
+    <a href="https://yegorov.github.io/categories/tls/">Tls</a>
+      <span class="separator">•</span>
+    <a href="https://yegorov.github.io/categories/openssl/">Openssl</a>
+      <span class="separator">•</span>
+    <a href="https://yegorov.github.io/categories/cert/">Cert</a>
+      <span class="separator">•</span>
+    <a href="https://yegorov.github.io/categories/selfsigned/">Selfsigned</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/ssl/">Ssl</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/tls/">Tls</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/openssl/">Openssl</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/cert/">Cert</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="https://yegorov.github.io/tags/selfsigned/">Selfsigned</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Lately, I’ve frequently needed to create self-signed certificates. So, to avoid having to look up the process every single time, I’m posting the commands I use.</p>
+<h3 id="generate-rsa-certificate">
+  Generate RSA certificate
+  <a class="heading-link" href="#generate-rsa-certificate">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl genrsa -out example.com.rsa.key <span class="m">2048</span>
+</span></span><span class="line"><span class="cl">openssl req -x509 -new -nodes -key example.com.rsa.key -sha256 -days <span class="m">365</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -out example.com.rsa.crt <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -subj <span class="s2">&#34;/CN=example.com&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -addext <span class="s2">&#34;subjectAltName=DNS:example.com,DNS:*.example.com&#34;</span>
+</span></span></code></pre></div><p>or with a single command</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl req -x509 -newkey rsa:2048 -sha256 -days <span class="m">365</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -nodes -keyout example.com.rsa.key -out example.com.rsa.crt <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -subj <span class="s2">&#34;/CN=example.com&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -addext <span class="s2">&#34;subjectAltName=DNS:example.com,DNS:*.example.com&#34;</span>
+</span></span></code></pre></div><h3 id="generate-ecdsa-certificate">
+  Generate ECDSA certificate
+  <a class="heading-link" href="#generate-ecdsa-certificate">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl ecparam -name prime256v1 -genkey -noout -out example.com.ec.key
+</span></span><span class="line"><span class="cl">openssl req -x509 -key example.com.ec.key -sha256 -days <span class="m">365</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -nodes -keyout example.com.ec.key -out example.com.ec.crt <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -subj <span class="s2">&#34;/CN=example.com&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -addext <span class="s2">&#34;subjectAltName=DNS:example.com,DNS:*.example.com&#34;</span>
+</span></span></code></pre></div><p>or with a single command</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl req -x509 -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -sha256 -days <span class="m">365</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -nodes -keyout example.com.ec.key -out example.com.ec.crt <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -subj <span class="s2">&#34;/CN=example.com&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -addext <span class="s2">&#34;subjectAltName=DNS:example.com,DNS:*.example.com&#34;</span>
+</span></span></code></pre></div><h3 id="view-certificate-information">
+  View certificate information
+  <a class="heading-link" href="#view-certificate-information">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl x509 -in example.com.ec.crt -noout -text
+</span></span><span class="line"><span class="cl">openssl x509 -in example.com.rsa.crt -noout -text
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">openssl x509 -in example.com.rsa.crt -noout -dates -issuer -subject -fingerprint -sha256 -sigopt md
+</span></span><span class="line"><span class="cl">openssl x509 -in example.com.ec.crt -noout -dates -issuer -subject -fingerprint -sha256 -sigopt md
+</span></span></code></pre></div><p>or via an OpenSSL client</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl s_client -showcerts -connect example.com:443 &lt;/dev/null <span class="p">|</span> openssl x509 -text
+</span></span></code></pre></div><h3 id="nginx-config">
+  Nginx config
+  <a class="heading-link" href="#nginx-config">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="line"><span class="cl"><span class="k">server</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="mi">80</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="s">[::]:80</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">server_name</span> <span class="s">example.com</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kn">location</span> <span class="s">/</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kn">return</span> <span class="mi">301</span> <span class="s">https://</span><span class="nv">$host$request_uri</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">server</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="mi">443</span> <span class="s">ssl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">listen</span> <span class="s">[::]:443</span> <span class="s">ssl</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">server_name</span> <span class="s">example.com</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kn">ssl_certificate</span> <span class="s">/etc/nginx/ssl/example.com.ec.crt</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kn">ssl_certificate_key</span> <span class="s">/etc/nginx/ssl/example.com.ec.key</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span></code></pre></div>
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+  
+</section>
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yegorov" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2018 -
+    
+    2026
+     Artem Yegorov 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="https://yegorov.github.io/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1Y1DBTYTZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-S1Y1DBTYTZ');
+        }
+      </script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <noscript><div><img src="https://mc.yandex.ru/watch/103288843" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</body>
+</html>
