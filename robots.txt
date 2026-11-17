@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yegorov.github.io/sitemap.xml
