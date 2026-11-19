@@ -6,8 +6,15 @@
     <description>Recent content in Notes on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 08:50:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:34:07 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heredoc in Ruby</title>
+      <link>https://yegorov.github.io/notes/heredoc-in-ruby/</link>
+      <pubDate>Thu, 19 Nov 2026 09:34:07 +0000</pubDate>
+      <guid>https://yegorov.github.io/notes/heredoc-in-ruby/</guid>
+      <description>&lt;p&gt;Formatting multiline text in code using heredoc is far from unusual in scripting languages. Creating a separate variable just to pass it into a method is redundant in most cases. To avoid this in Ruby, you can use a heredoc directly inside a method call.&lt;/p&gt;&#xA;&lt;p&gt;You can check the &lt;a href=&#34;https://docs.ruby-lang.org/en/master/syntax/literals_rdoc.html#label-Here&amp;#43;Document&amp;#43;Literals&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; for all usage options. What I especially love about this approach is that you can chain formatting methods directly onto the heredoc and even pass multiple blocks sequentially.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rake build utility</title>
       <link>https://yegorov.github.io/notes/rake-build-utility/</link>

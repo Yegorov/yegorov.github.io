@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Artem Yegorov</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 19:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:34:07 +0000</lastBuildDate>
     <atom:link href="https://yegorov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash</title>
+      <link>https://yegorov.github.io/tags/bash/</link>
+      <pubDate>Thu, 19 Nov 2026 09:34:07 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Format</title>
+      <link>https://yegorov.github.io/tags/format/</link>
+      <pubDate>Thu, 19 Nov 2026 09:34:07 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/format/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heredoc</title>
+      <link>https://yegorov.github.io/tags/heredoc/</link>
+      <pubDate>Thu, 19 Nov 2026 09:34:07 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/heredoc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://yegorov.github.io/tags/ruby/</link>
+      <pubDate>Thu, 19 Nov 2026 09:34:07 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://yegorov.github.io/tags/string/</link>
+      <pubDate>Thu, 19 Nov 2026 09:34:07 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/string/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Text</title>
+      <link>https://yegorov.github.io/tags/text/</link>
+      <pubDate>Thu, 19 Nov 2026 09:34:07 +0000</pubDate>
+      <guid>https://yegorov.github.io/tags/text/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cert</title>
       <link>https://yegorov.github.io/tags/cert/</link>
@@ -65,13 +107,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ruby</title>
-      <link>https://yegorov.github.io/tags/ruby/</link>
-      <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/ruby/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Runner</title>
       <link>https://yegorov.github.io/tags/runner/</link>
       <pubDate>Thu, 12 Nov 2026 08:50:47 +0000</pubDate>
@@ -118,13 +153,6 @@
       <link>https://yegorov.github.io/tags/pack/</link>
       <pubDate>Thu, 05 Nov 2026 08:59:52 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/pack/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>https://yegorov.github.io/tags/string/</link>
-      <pubDate>Thu, 05 Nov 2026 08:59:52 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/string/</guid>
       <description></description>
     </item>
     <item>
@@ -1668,13 +1696,6 @@
       <description></description>
     </item>
     <item>
-      <title>Bash</title>
-      <link>https://yegorov.github.io/tags/bash/</link>
-      <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/bash/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Exec</title>
       <link>https://yegorov.github.io/tags/exec/</link>
       <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
@@ -1693,13 +1714,6 @@
       <link>https://yegorov.github.io/tags/stdout/</link>
       <pubDate>Tue, 03 Feb 2026 14:07:26 +0000</pubDate>
       <guid>https://yegorov.github.io/tags/stdout/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Heredoc</title>
-      <link>https://yegorov.github.io/tags/heredoc/</link>
-      <pubDate>Wed, 28 Jan 2026 05:15:01 +0000</pubDate>
-      <guid>https://yegorov.github.io/tags/heredoc/</guid>
       <description></description>
     </item>
     <item>

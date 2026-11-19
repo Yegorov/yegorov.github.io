@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yegorov.github.io/</loc>
-    <lastmod>2026-11-18T12:00:00+03:00</lastmod>
+    <lastmod>2026-11-20T12:00:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -16,7 +16,44 @@
                 />
   </url><url>
     <loc>https://yegorov.github.io/posts/</loc>
-    <lastmod>2026-11-18T12:00:00+03:00</lastmod>
+    <lastmod>2026-11-20T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/bash/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/format/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/heredoc/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/heredoc-in-ruby/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/notes/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/ruby/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/string/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
+  </url><url>
+    <loc>https://yegorov.github.io/tags/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://yegorov.github.io/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yegorov.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://yegorov.github.io/tags/text/</loc>
+    <lastmod>2026-11-19T09:34:07+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/categories/</loc>
     <lastmod>2026-11-16T19:00:00+03:00</lastmod>
@@ -74,19 +111,6 @@
     <loc>https://yegorov.github.io/series/ssl-cert/</loc>
     <lastmod>2026-11-16T19:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/</loc>
-    <lastmod>2026-11-16T19:00:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://yegorov.github.io/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yegorov.github.io/tags/"
-                />
-  </url><url>
     <loc>https://yegorov.github.io/tags/tls/</loc>
     <lastmod>2026-11-16T19:00:00+03:00</lastmod>
   </url><url>
@@ -96,9 +120,6 @@
     <loc>https://yegorov.github.io/tags/make/</loc>
     <lastmod>2026-11-12T08:50:47+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/notes/</loc>
-    <lastmod>2026-11-12T08:50:47+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/tags/rake/</loc>
     <lastmod>2026-11-12T08:50:47+00:00</lastmod>
   </url><url>
@@ -106,9 +127,6 @@
     <lastmod>2026-11-12T08:50:47+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/rakefile/</loc>
-    <lastmod>2026-11-12T08:50:47+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/ruby/</loc>
     <lastmod>2026-11-12T08:50:47+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/runner/</loc>
@@ -133,9 +151,6 @@
     <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/packing-unpacking-data-in-ruby/</loc>
-    <lastmod>2026-11-05T08:59:52+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/string/</loc>
     <lastmod>2026-11-05T08:59:52+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/tags/unpack/</loc>
@@ -948,9 +963,6 @@
     <loc>https://yegorov.github.io/tags/irb/</loc>
     <lastmod>2026-02-11T13:56:05+00:00</lastmod>
   </url><url>
-    <loc>https://yegorov.github.io/tags/bash/</loc>
-    <lastmod>2026-02-03T14:07:26+00:00</lastmod>
-  </url><url>
     <loc>https://yegorov.github.io/tags/exec/</loc>
     <lastmod>2026-02-03T14:07:26+00:00</lastmod>
   </url><url>
@@ -962,9 +974,6 @@
   </url><url>
     <loc>https://yegorov.github.io/tags/stdout/</loc>
     <lastmod>2026-02-03T14:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://yegorov.github.io/tags/heredoc/</loc>
-    <lastmod>2026-01-28T05:15:01+00:00</lastmod>
   </url><url>
     <loc>https://yegorov.github.io/notes/rails-runner-export-tables-row-count/</loc>
     <lastmod>2026-01-28T05:15:01+00:00</lastmod>
